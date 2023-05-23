@@ -1,0 +1,22 @@
+.word {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #999999;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.word-answer {
+  background-color: #ff8922;  
+}
+
+.word-expected {
+  background-color: #72a24d;  
+}
+
+.word-answer:hover {
+  color: blue;
+}

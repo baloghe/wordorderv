@@ -1,0 +1,21 @@
+.settings {
+  display: grid;
+}
+
+.chkbx{
+  border-radius: 5px;
+  background-color: #f1cca7;
+  color: #cc3300;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.startBtn {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #888888;
+}

@@ -1,0 +1,22 @@
+.results-overall {
+  display: grid;
+}
+
+.results {
+  border-radius: 5px;
+  background-color: #f1e6a8;
+  color: blue;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;  
+}
+
+.results-head {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+th.results {
+  font-weight: bold;
+}
