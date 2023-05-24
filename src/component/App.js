@@ -12,7 +12,9 @@ export default class App extends React.Component {
       actTopic: 0,
       actRandom: false,
       actPhase: "settings",
-      results: []
+      results: [],
+      qLang: props.qLang,
+      aLang: props.aLang
     };
   }
   
@@ -20,6 +22,33 @@ export default class App extends React.Component {
   	return inp.map(e=>{
     	return {title: e.title, cnt: (e.sentences ? e.sentences.length : 0)};
     })
+  }
+  
+  setLang = ([inQLang, inALang]) => {
+  	this.setState({
+    	qLang: inQLang,
+      aLang: inALang
+    });
+  }
+  
+  fileLoaded = (inFileData) => {
+  	let loadedTopics = inFileData.topics.map(e => {return {title: e.title, cnt: e.cnt};});
+    
+    this.state.qLang = inFileData.languages[0];
+    this.state.aLang = inFileData.languages[1];
+    
+    let loadedTests = inFileData.topics.map(e => {
+    	let ret = [];
+      for(let ch of e.sentences){
+        ret.push(ch);
+      }
+      return {sentences: ret};
+    });
+    
+    this.setState({
+    	topics: loadedTopics,
+      tests:  loadedTests
+    });
   }
   
   showResults = (res) => {
@@ -42,8 +71,7 @@ export default class App extends React.Component {
   
   getRandomizedSentences = (idx) => {
   	
-  	let arr = this.props.tests[idx].sentences.map(e=>{return {qSentence: e.qSentence, aSentence: e.aSentence};}
-    );
+  	let arr = this.props.tests[idx].sentences.map(e=>e);
     return shuffleArray(arr);
     
     //return this.props.tests[idx].sentences;
@@ -64,6 +92,10 @@ export default class App extends React.Component {
         startTest={this.startTest}
         activeTitle={this.state.actTopic}
         isRandOrder={this.state.actRandom}
+        fileLoaded={this.fileLoaded}
+        qLang={this.state.qLang}
+        aLang={this.state.aLang}
+        setLang={this.setLang}
         />
     );
   }
@@ -72,12 +104,17 @@ export default class App extends React.Component {
     let actSentences =(
       this.state.actRandom
       ? this.getRandomizedSentences(this.state.actTopic)
-      : this.props.tests[this.state.actTopic].sentences
-    );
+      : this.state.tests[this.state.actTopic].sentences
+    ).map(e => {
+    	return {
+      	qSentence: e[this.state.qLang],
+        aSentence: e[this.state.aLang]
+      };
+    });
     return (
       <TestContainer 
-        qLang={this.props.qLang}
-        aLang={this.props.aLang}
+        qLang={this.state.qLang}
+        aLang={this.state.aLang}
         tests={actSentences}
         wait={this.props.wait}
         dispatchResults={this.showResults}

@@ -10,30 +10,30 @@ import App from "./component/App";
 const mockTests = [
 {title: "Ağaç Nasil Oluşur?",
  sentences: [
-{ qSentence: "Do you recognize me?"
- ,aSentence: "Beni tanıdınız mı?"
-},{ qSentence: "Yes, I'm a tree."
- ,aSentence: "Evet, ben bir ağacım."
-},{ qSentence: "Now I will tell you the story of the tree."
- ,aSentence: "Şimdi sizlerle, ağacın hikayesini anlatacağım."
-},{ qSentence: "First, let me introduce myself to you more closely."
- ,aSentence: "Önce size kendimi daha yakından tanıtayım."
-},{ qSentence: "These are my leaves!"
- ,aSentence: "Bunlar yapraklarım!"
-},{ qSentence: "These are my nourishing roots beneath the soil."
- ,aSentence: "Bunlar, toprağın altındaki besleyici köklerim."
+{ EN: "Do you recognize me?"
+ ,TR: "Beni tanıdınız mı?"
+},{ EN: "Yes, I'm a tree."
+ ,TR: "Evet, ben bir ağacım."
+},{ EN: "Now I will tell you the story of the tree."
+ ,TR: "Şimdi sizlerle, ağacın hikayesini anlatacağım."
+},{ EN: "First, let me introduce myself to you more closely."
+ ,TR: "Önce size kendimi daha yakından tanıtayım."
+},{ EN: "These are my leaves!"
+ ,TR: "Bunlar yapraklarım!"
+},{ EN: "These are my nourishing roots beneath the soil."
+ ,TR: "Bunlar, toprağın altındaki besleyici köklerim."
 }
 ]},
 {title: "Arılar varsa, yarınlar var",
  sentences: [
- { qSentence: "Then let's go to the flowers together..."
- ,aSentence: "O zaman gelin hep birlikte çiçeklere doğru gidelim..."
-},{ qSentence: "Here is a worker bee."
- ,aSentence: "İşte bir işçi arı."
-},{ qSentence: "How quickly it passed."
- ,aSentence: "Nasıl da hızla geçip gitti."
-},{ qSentence: "Isn't it hard to believe that it was an egg 21 days ago?"
- ,aSentence: "Onun 21 gün önce bir yumurta olduğuna inanmak zor değil mi?"
+ { EN: "Then let's go to the flowers together..."
+ ,TR: "O zaman gelin hep birlikte çiçeklere doğru gidelim..."
+},{ EN: "Here is a worker bee."
+ ,TR: "İşte bir işçi arı."
+},{ EN: "How quickly it passed."
+ ,TR: "Nasıl da hızla geçip gitti."
+},{ EN: "Isn't it hard to believe that it was an egg 21 days ago?"
+ ,TR: "Onun 21 gün önce bir yumurta olduğuna inanmak zor değil mi?"
 }
  ]}
 ];
