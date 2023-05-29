@@ -9,6 +9,7 @@ export default class App extends React.Component {
   	super(props);
     this.state = {
     	topics: this.getTopics(props.tests),
+		tests: this.props.tests,
       actTopic: 0,
       actRandom: false,
       actPhase: "settings",
@@ -71,7 +72,7 @@ export default class App extends React.Component {
   
   getRandomizedSentences = (idx) => {
   	
-  	let arr = this.props.tests[idx].sentences.map(e=>e);
+  	let arr = this.state.tests[idx].sentences.map(e=>e);
     return shuffleArray(arr);
     
     //return this.props.tests[idx].sentences;
@@ -101,6 +102,7 @@ export default class App extends React.Component {
   }
     
   renderTestContainer = () => {
+	//console.log(`App :: actRandom=${this.state.actRandom}`);
     let actSentences =(
       this.state.actRandom
       ? this.getRandomizedSentences(this.state.actTopic)
