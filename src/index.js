@@ -10,7 +10,7 @@ import App from "./component/App";
 const mockTests = [
 {title: "Sabırsız Tırtıl 1-24",
  sentences: [
-{TR: "[/Hey/] ne yapıyorsunuz çocuklar?", EN: "Hey, what are you guys doing?"},
+{TR: "Hey ne yapıyorsunuz çocuklar?", EN: "Hey, what are you guys doing?"},
 {TR: "Metamorfoza uğrayacağız.", EN: "We will undergo metamorphose."},
 {TR: "Kime uğrayacaksınız?", EN: "What will you metamorphose into?"},
 {TR: "Yani kelebeğe dönüşeceğiz.", EN: "So we'll turn into butterflies."},
@@ -39,7 +39,7 @@ const mockTests = [
  sentences: [
 {TR: "Günün nasıl geçiyor? Bir de... artık kelebek oldum mu?",EN: "How's your day going? And... am I a butterfly now?"},
 {TR: "Hayır. Sabırlı ol!",EN: "No. Be patient."},
-{TR: "[/Şişşşşt/]! Burada metamorfoza uğramaya çalışıyoruz!",EN: "Shhht! We're trying to metamorphose here!"},
+{TR: "Şişşşşt! Burada metamorfoza uğramaya çalışıyoruz!",EN: "Shhht! We're trying to metamorphose here!"},
 {TR: "Bunun kaç gün süreceğini ben tabii ki biliyorum da... sen de biliyor musun acaba?",EN: "Of course I know how many days this will take... but I wonder if you know?"},
 {TR: "İki hafta.",EN: "Two weeks."},
 {TR: "Evet. Doğru. İki hafta.",EN: "Yeah. That's right. Two weeks."},
@@ -47,7 +47,7 @@ const mockTests = [
 {TR: "Of... İki hafta boyunca burada ne yapacağım ben?",EN: "What am I going to do here for two weeks?"},
 {TR: "Çizgi roman falan alabilir miyim acaba?",EN: "Can I get a comic book or something?"},
 {TR: "Ya canım bir şeyler atıştırmak isterse?...",EN: "What if I fancy a snack?"},
-{TR: "[/Merhaba/]. İki pizza lütfen. Adres mi? Kozadayım. [/Alo/]? [/Alooo/]?",EN: "Hello. Two pizzas, please. Address? I'm in the cocoon. Hallo? Hallo?"},
+{TR: "Merhaba. İki pizza lütfen. Adres mi? Kozadayım. Alo? Alooo?",EN: "Hello. Two pizzas, please. Address? I'm in the cocoon. Hallo? Hallo?"},
 {TR: "Ne kadar zamandır buradayım?",EN: "How long have I been here?"},
 {TR: "Ya tuvalete gitmek gerekirse?",EN: "What if you need to go to the loo?"},
 {TR: "Oyun oynamak isteyen var mı?",EN: "Anyone want to play games?"},
@@ -60,7 +60,7 @@ const mockTests = [
 {TR: "Nasıl görünüyorum?",EN: "How do I look?"},
 {TR: "Dönüşmüş müyüm?",EN: "Am I transformed?"},
 {TR: "Kanatlarımı açıp uçma vakti geldi!",EN: "It's time to spread my wings and fly!"},
-{TR: "Bir dakika! [/Pppp/]... Kanatlarım nerede?",EN: "Wait a minute! Pppp... Where are my wings?"}
+{TR: "Bir dakika! Pppp... Kanatlarım nerede?",EN: "Wait a minute! Pppp... Where are my wings?"}
  ]},
 {title: "Sabırsız Tırtıl 49-72",
  sentences: [
@@ -83,7 +83,7 @@ const mockTests = [
 {TR: "Başardım! Artık bir kelebeğim!", EN: "I've done it! I'm a butterfly now!"},
 {TR: "Biliyor musun, gerçekten de değiştiğimi hissediyorum!", EN: "You know, I really feel like I've changed!"},
 {TR: "Şu andan itibaren çok daha sabırlı olacağım.", EN: "From now on, I'll be much more patient."},
-{TR: "[/Hey/]! Hepiniz nereye gidiyorsunuz böyle?", EN: "Where are you all going?"},
+{TR: "Hey! Hepiniz nereye gidiyorsunuz böyle?", EN: "Where are you all going?"},
 {TR: "Göç ediyoruz.", EN: "We migrate."},
 {TR: "Göç. Evet. Doğru. Beni de bekleyin!", EN: "Migration. Yeah. That's right. Wait for me, too!"},
 {TR: "Geldik mi?", EN: "Are we here?"},
