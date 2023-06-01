@@ -112,6 +112,35 @@ sentences: [{TR: "Koca dediğiniz nedir ki, kızlar?", EN:"What's a husband, gir
 ,{TR: "Şimdi artık tavuklar eşelenir ibikler neşelenir.", EN:"Now the chickens are paired and the crests are cheering."}
 ,{TR: "Ne o öyle ikide bir harezlenmeler hışıl demeler bilmem neler.", EN:"What's all this harping and huffing and puffing and whatnot?"}
 ,{TR: "Allah allah! Boş olun lan eski herifler. Bize yeni herifler!", EN:"Oh my god! Fuck off, you old bastards. New blokes to us!"}
+]},
+{title: "Özdemir Erdoğan: Gurbet",
+sentences: [{TR: "Kime desem derdimi ben, bulutlar", EN:"To whom should I tell my sorrow, clouds?"}
+,{TR: "Bizi dost bildiklerimiz vurdular", EN:"Those regarded as friends hurt us"}
+,{TR: "Bir de gurbet yarası var hepsinden derin", EN:"And then there is homesickness, which hurts the most"}
+,{TR: "Söyleyin memleketten bir haber mi var?", EN:"Tell me, are there news from the homeland?"}
+,{TR: "Yoksa yârin gözyaşları mı bu yağmurlar?", EN:"Are these rains perhaps the tears of my beloved?"}
+,{TR: "İçerim yanıyor yar yar", EN:"I am burning inside"}
+,{TR: "Yaram pek derin", EN:"My wound is deep"}
+,{TR: "Bana nazlı yardan aman bir haber verin", EN:"Bring me somе good news from my delicate beloved"}
+,{TR: "Bulutlar yârime selam söyleyin", EN:"Clouds, say hello to my love"}
+,{TR: "Kavuşma günümüz yakınmış deyin", EN:"Tell her that the day of reunion is near"}
+,{TR: "Felek yardan ırak koyduysa bizi", EN:"If fate set me far away from my love"}
+,{TR: "Gurbet elde bir başıma neyleyim?", EN:"What can I do abroad all alone?"}
+,{TR: "Yârdan ırak yaşanır mı söyleyin", EN:"Tell me, is it possible to live far away from love?"}
+]},
+{title: "Esmeray Diriker: Unutama beni",
+sentences: [{TR: "Boğazında düğümlenen hıçkırık olayım", EN:"Let me be the sob which is stuck in your troat"}
+,{TR: "Gözünden damlayamayan gözyaşın olayım", EN:"Let me be the tear which can't weep from your eyes"}
+,{TR: "Unutma beni", EN:"Don't forget me"}
+,{TR: "Gölgen gibi adım adım", EN:"Like your shadow step step"}
+,{TR: "Her solukta benim adım", EN:"In every breath always my name"}
+,{TR: "Ben nasıl ki unutmadım", EN:"I didn't forget you"}
+,{TR: "Bitmek bilmez kapkaranlık geceler boyunca", EN:"During the endless, dark nights"}
+,{TR: "Ayrılığın acısını kalbinde duyunca", EN:"When you feel the bitter grief in your heart"}
+,{TR: "Sevişirken, Öpüşürken", EN:"While making love, while kissing"}
+,{TR: "Yapayalnız dolaşırken", EN:"While walking alone"}
+,{TR: "Unutmaya çalışırken", EN:"While trying to forget"}
+,{TR: "Sen de unutma beni", EN:"You also don't forget me"}
 ]}
 ];
 
