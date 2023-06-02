@@ -18,5 +18,10 @@
 }
 
 .word-answer:hover {
+  cursor: pointer;
+  border-color: red;
+}
+
+.word-answer-selected {
   color: blue;
 }
