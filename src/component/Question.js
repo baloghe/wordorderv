@@ -1,7 +1,11 @@
 import React from "react";
-import CardContainer from "./CardContainer.js";
+import CardContainer2 from "./CardContainer2.js";
 import "./Question.css";
 
+/**
+  switched to 'clickable' version (as opposed to 'draggable') by rendering CardContainer2
+  switch back: revert to CardContainer and comment out dragEnabled
+*/
 export default class Question extends React.Component{
   constructor(props){
   	super(props);
@@ -11,11 +15,12 @@ export default class Question extends React.Component{
   	return (
     <tr>
         <td><span className="lang">{this.props.aLang}</span></td>
-        <td><CardContainer 
+        <td><CardContainer2 
               wordClasses={`word word-answer`}
               arr={this.props.aArr} 
               handleWordDrag={inModifiable ? this.props.handleWordDrag : null} 
-              dragEnabled={inModifiable}
+              /*dragEnabled={inModifiable}*/
+              modifyEnabled={inModifiable}
               actNum={this.props.actNum}
               />
          </td>
@@ -27,11 +32,12 @@ export default class Question extends React.Component{
   	return (
     <tr>
         <td></td>
-        <td><CardContainer 
+        <td><CardContainer2 
               wordClasses={`word word-expected`}
               arr={this.props.eArr} 
               handleWordDrag={null} 
-              dragEnabled={false}
+              /*dragEnabled={false}*/
+              modifyEnabled={false}
               actNum={this.props.actNum}
               />
          </td>
