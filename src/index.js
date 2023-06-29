@@ -169,17 +169,16 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Ahmetciğim bu ikimizin başarısı. Bu hepimizin başarısı.", EN:"Ahmet, this is the success of both of us. This is our success."}
 ]},
 {title: "Emir kipi",
- sentences: [
-{TR: "O ne yapsın?", EN: "What should he do?"}
-{TR: "Derste telefonla konuşmayınız.", EN: "Do not talk on the phone in class."}
-{TR: "Lütfen kapalı alanda sigara içmeyiniz.", EN: "Please do not smoke indoors."}
-{TR: "Lütfen sessiz olunuz.", EN: "Please be quiet."}
-{TR: "Lütfen içeri girin.", EN: "Please come in."}
-{TR: "Sağlıklı olmak için yüzün.", EN: "Swim to be healthy."}
-{TR: "Çocuklara söylemeniz. Hastanede sessiz olsunuz.", EN: "Don't talk to the kids. Be quiet in the hospital."}
-{TR: "Çiçeklere her gün çok su vermeyiniz.", EN: "Do not give too much water to the flowers every day."}
-{TR: "Çok su veriyorsun, o zaman çiçekler ölüyor.", EN: "You give too much water, then the flowers die."}
-{TR: "Hava çok soğuk. Siz bugün dışarı çıkmayınız.", EN: "The weather is very cold. Do not go out today."}
+ sentences: [{TR: "O ne yapsın?", EN: "What should he do?"}
+,{TR: "Derste telefonla konuşmayınız.", EN: "Do not talk on the phone in class."}
+,{TR: "Lütfen kapalı alanda sigara içmeyiniz.", EN: "Please do not smoke indoors."}
+,{TR: "Lütfen sessiz olunuz.", EN: "Please be quiet."}
+,{TR: "Lütfen içeri girin.", EN: "Please come in."}
+,{TR: "Sağlıklı olmak için yüzün.", EN: "Swim to be healthy."}
+,{TR: "Çocuklara söylemeniz. Hastanede sessiz olsunuz.", EN: "Don't talk to the kids. Be quiet in the hospital."}
+,{TR: "Çiçeklere her gün çok su vermeyiniz.", EN: "Do not give too much water to the flowers every day."}
+,{TR: "Çok su veriyorsun, o zaman çiçekler ölüyor.", EN: "You give too much water, then the flowers die."}
+,{TR: "Hava çok soğuk. Siz bugün dışarı çıkmayınız.", EN: "The weather is very cold. Do not go out today."}
 ]}
 ];
 
