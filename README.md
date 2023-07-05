@@ -1,31 +1,19 @@
-# Create React App
+# Word Order (Vercel)
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Grammar excercises of 'Find the correct word order' type. Preset to a collection of translated Turkish excerpts collected and translated mostly from Youtube. Nevertheless anyone can upload his or her own set of tests in XML.
 
-## Deploy Your Own
+## Deployed on Vercel
 
-Deploy your own Create React App project with Vercel.
+Created by copying and modifying the 'Create React App project' on Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+Also deployed on Vercel: [https://wordorderv.vercel.app/](App link)
 
-_Live Example: https://create-react-template.vercel.app/_
+## Play aroun with the Preset
 
-## Available Scripts
+Simply hit START. Mixed-up sentences (along with their English translation) are provided one by one.
+Swap two words by simply clicking on them one after the other.
+Hit Next when you think the word order is correct.
 
-In the project directory, you can run:
+## Upload your own test set
 
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+A valid XML document is required:
