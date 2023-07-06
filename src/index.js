@@ -179,6 +179,31 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Çiçeklere her gün çok su vermeyiniz.", EN: "Do not give too much water to the flowers every day."}
 ,{TR: "Çok su veriyorsun, o zaman çiçekler ölüyor.", EN: "You give too much water, then the flowers die."}
 ,{TR: "Hava çok soğuk. Siz bugün dışarı çıkmayınız.", EN: "The weather is very cold. Do not go out today."}
+]},
+{title: "Belirli geçmiş zaman",
+ sentences: [{TR: "Ben dün akşam kafeye gittim ve kahve içtim.", EN:"I went to the cafe last night and drank coffee."}
+,{TR: "Sen kardeşinin doğum günü için hediye aldın mı?", EN:"Did you buy a present for your brother's birthday?"}
+,{TR: "Ayşe dün ev temizledi mi?", EN:"Did Ayşe clean the house yesterday?"}
+,{TR: "Siz dün gece saat kaçta geldiniz?", EN:"What time did you come last night?"}
+,{TR: "Sen anneni çok kırdın. Hemen özür dile.", EN:"You hurt your mother so much. Apologize now."}
+,{TR: "Sevgi ve ben dün akşam dışarıda yemek yedik.", EN:"Sevgi and I had dinner out last night."}
+,{TR: "Onlar geçen hafta partide eğlendiler mi?", EN:"Did they have fun at the party last week?"}
+,{TR: "Baban eve saat kaçta geldi?", EN:"What time did your father come home?"}
+,{TR: "Ali ve sen geçen yıl burada çalıştınız mı?", EN:"Did you and Ali work here last year?"}
+,{TR: "Öğrenciler ödev yaptı mı?", EN:"Did the students do their homework?"}
+,{TR: "Ben dün akşam çok çalıştım. Dün akşam çok yorgundum.", EN:"I worked hard last night. I was very tired last night."}
+,{TR: "Biz eskiden bu üniversitede öğrenciydik. 4 yıl burada okuduk.", EN:"We used to be students at this university. We studied here for 4 years."}
+,{TR: "Siz dün okulda çok mutluydunuz. Çok eğlendiniz.", EN:"You were very happy at school yesterday. You had so much fun."}
+,{TR: "Dün gece partide yemekler çok lezzetliydi. Ben çok yedim.", EN:"The food at the party last night was delicious. I ate a lot."}
+,{TR: "Geçen hafta pazar çok ucuzdu. Biz çok alışveriş yaptık.", EN:"Last week the market was very cheap. We did a lot of shopping."}
+,{TR: "Sen dün sabah toplantıda mıydın?", EN:"Were you at the meeting yesterday morning?"}
+,{TR: "Hayır, değildim. Dışarıdaydım.", EN:"No, I wasn't. I was outside."}
+,{TR: "Siz dün gece neredeydiniz?", EN:"Where were you last night?"}
+,{TR: "Biz dün gece yoldaydık.", EN:"We were on the road last night."}
+,{TR: "Onlar geçen hafta okulda değillerdi. Ben görmedim.", EN:"They weren't at school last week. I have not seen."}
+,{TR: "Öğrenciler 2 saat önce sınıfta mıydı?", EN:"Were the students in class 2 hours ago?"}
+,{TR: "Hayır, değillerdi. Bahçedelerdi.", EN:"No, they weren't. They were in the garden."}
+,{TR: "Hasta dün gece daha iyi miydi?", EN:"Was the patient better last night?"}
 ]}
 ];
 
