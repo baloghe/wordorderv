@@ -204,6 +204,28 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Öğrenciler 2 saat önce sınıfta mıydı?", EN:"Were the students in class 2 hours ago?"}
 ,{TR: "Hayır, değillerdi. Bahçedelerdi.", EN:"No, they weren't. They were in the garden."}
 ,{TR: "Hasta dün gece daha iyi miydi?", EN:"Was the patient better last night?"}
+]},
+{title: "Belirli geçmiş zaman 2",
+ sentences: [{TR: "The dog was barking all night.", EN:"Köpek bütün gece havlıyordu."}
+,{TR: "He was not speaking a single word for days.", EN:"Günlerdir tek kelime konuşmuyordu."}
+,{TR: "Was she looking at us all this time?", EN:"Bunca zaman bize mi baktı?"}
+,{TR: "Irish had lived in this part of the world.", EN:"İrlandalılar dünyanın bu bölgesinde yaşamıştı."}
+,{TR: "I had not eaten yet.", EN:"Henüz yememiştim."}
+,{TR: "Had they never singed before?", EN:"Daha önce imzalamamışlar mıydı?"}
+,{TR: "Did you play football last day?", EN:"Geçen gün futbol oynadın mı?"}
+,{TR: "Did he clean his home?", EN:"Evini temizledi mi?"}
+,{TR: "Did you go to the party last night?", EN:"Dün gece partiye mi gittiniz?"}
+,{TR: "Where did they go on Saturday?", EN:"Cumartesi nereye gittiler?"}
+,{TR: "Did you drink coffee yesterday?", EN:"Dün kahve içtin mi?"}
+,{TR: "Did you hear this sound?", EN:"Bu sesi duydunuz mu?"}
+,{TR: "Evet bu sesi duydum.", EN:"Yes, I heard this sound."}
+,{TR: "No, I didn’t hear that sound.", EN:"Hayır o sesi duymadım."}
+,{TR: "Yesterday I studied for more than four hours.", EN:"Dün 4 saatten fazla çalıştım."}
+,{TR: "We didn’t see the Eiffel Tower.", EN:"Eyfel Kulesi’ni görmedik."}
+,{TR: "Did you play football last day?", EN:"Geçen gün futbol oynadın mı?"}
+,{TR: "Did you go to the party last night?", EN:"Dün gece partiye mi gittiniz?"}
+,{TR: "Where did they go on Saturday?", EN:"Cumartesi nereye gittiler?"}
+,{TR: "Did you drink coffee yesterday?", EN:"Dün kahve içtin mi?"}
 ]}
 ];
 
