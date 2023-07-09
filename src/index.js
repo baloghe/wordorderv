@@ -206,26 +206,26 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Hasta dün gece daha iyi miydi?", EN:"Was the patient better last night?"}
 ]},
 {title: "Belirli geçmiş zaman 2",
- sentences: [{TR: "The dog was barking all night.", EN:"Köpek bütün gece havlıyordu."}
-,{TR: "He was not speaking a single word for days.", EN:"Günlerdir tek kelime konuşmuyordu."}
-,{TR: "Was she looking at us all this time?", EN:"Bunca zaman bize mi baktı?"}
-,{TR: "Irish had lived in this part of the world.", EN:"İrlandalılar dünyanın bu bölgesinde yaşamıştı."}
-,{TR: "I had not eaten yet.", EN:"Henüz yememiştim."}
-,{TR: "Had they never singed before?", EN:"Daha önce imzalamamışlar mıydı?"}
-,{TR: "Did you play football last day?", EN:"Geçen gün futbol oynadın mı?"}
-,{TR: "Did he clean his home?", EN:"Evini temizledi mi?"}
-,{TR: "Did you go to the party last night?", EN:"Dün gece partiye mi gittiniz?"}
-,{TR: "Where did they go on Saturday?", EN:"Cumartesi nereye gittiler?"}
-,{TR: "Did you drink coffee yesterday?", EN:"Dün kahve içtin mi?"}
-,{TR: "Did you hear this sound?", EN:"Bu sesi duydunuz mu?"}
-,{TR: "Evet bu sesi duydum.", EN:"Yes, I heard this sound."}
-,{TR: "No, I didn’t hear that sound.", EN:"Hayır o sesi duymadım."}
-,{TR: "Yesterday I studied for more than four hours.", EN:"Dün 4 saatten fazla çalıştım."}
-,{TR: "We didn’t see the Eiffel Tower.", EN:"Eyfel Kulesi’ni görmedik."}
-,{TR: "Did you play football last day?", EN:"Geçen gün futbol oynadın mı?"}
-,{TR: "Did you go to the party last night?", EN:"Dün gece partiye mi gittiniz?"}
-,{TR: "Where did they go on Saturday?", EN:"Cumartesi nereye gittiler?"}
-,{TR: "Did you drink coffee yesterday?", EN:"Dün kahve içtin mi?"}
+ sentences: [{EN: "The dog was barking all night.", TR:"Köpek bütün gece havlıyordu."}
+,{EN: "He was not speaking a single word for days.", TR:"Günlerdir tek kelime konuşmuyordu."}
+,{EN: "Was she looking at us all this time?", TR:"Bunca zaman bize mi baktı?"}
+,{EN: "Irish had lived in this part of the world.", TR:"İrlandalılar dünyanın bu bölgesinde yaşamıştı."}
+,{EN: "I had not eaten yet.", TR:"Henüz yememiştim."}
+,{EN: "Had they never singed before?", TR:"Daha önce imzalamamışlar mıydı?"}
+,{EN: "Did you play football last day?", TR:"Geçen gün futbol oynadın mı?"}
+,{EN: "Did he clean his home?", TR:"Evini temizledi mi?"}
+,{EN: "Did you go to the party last night?", TR:"Dün gece partiye mi gittiniz?"}
+,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
+,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
+,{EN: "Did you hear this sound?", TR:"Bu sesi duydunuz mu?"}
+,{EN: "Evet bu sesi duydum.", TR:"Yes, I heard this sound."}
+,{EN: "No, I didn’t hear that sound.", TR:"Hayır o sesi duymadım."}
+,{EN: "Yesterday I studied for more than four hours.", TR:"Dün 4 saatten fazla çalıştım."}
+,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}
+,{EN: "Did you play football last day?", TR:"Geçen gün futbol oynadın mı?"}
+,{EN: "Did you go to the party last night?", TR:"Dün gece partiye mi gittiniz?"}
+,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
+,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
 ]}
 ];
 
