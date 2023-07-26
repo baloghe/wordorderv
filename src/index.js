@@ -189,7 +189,7 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Sevgi ve ben dün akşam dışarıda yemek yedik.", EN:"Sevgi and I had dinner out last night."}
 ,{TR: "Onlar geçen hafta partide eğlendiler mi?", EN:"Did they have fun at the party last week?"}
 ,{TR: "Baban eve saat kaçta geldi?", EN:"What time did your father come home?"}
-,{TR: "Ali ve sen geçen yıl burada çalıştınız mı?", EN:"Did you and Ali work here last year?"}
+,{TR: "Ali ve sen geçen yıl burada çalıştınız mı?", EN:"Did Ali and you work here last year?"}
 ,{TR: "Öğrenciler ödev yaptı mı?", EN:"Did the students do their homework?"}
 ,{TR: "Ben dün akşam çok çalıştım. Dün akşam çok yorgundum.", EN:"I worked hard last night. I was very tired last night."}
 ,{TR: "Biz eskiden bu üniversitede öğrenciydik. 4 yıl burada okuduk.", EN:"We used to be students at this university. We studied here for 4 years."}
@@ -221,11 +221,13 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{EN: "Evet bu sesi duydum.", TR:"Yes, I heard this sound."}
 ,{EN: "No, I didn’t hear that sound.", TR:"Hayır o sesi duymadım."}
 ,{EN: "Yesterday I studied for more than four hours.", TR:"Dün 4 saatten fazla çalıştım."}
-,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}
-,{EN: "Did you play football last day?", TR:"Geçen gün futbol oynadın mı?"}
-,{EN: "Did you go to the party last night?", TR:"Dün gece partiye mi gittiniz?"}
-,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
-,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
+,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}	     
+,{EN: "Have you ever been to the zoo?", TR:"Sen hiç hayvanat bahçesine gittin mi?"}
+,{EN: "Didn't you get the tickets?", TR:"Biletleri almadın mı?"}
+,{EN: "I bought a hot bagel, can we eat it?", TR:"Sıcak simit aldım, yer miyiz?"}
+,{EN: "I was late for class because I missed the morning service.", TR:"Sabah servisi kaçırınca derse geç kaldım."}
+,{EN: "Did you make this wonderful painting?", TR:"Bu harika resmi siz mi yaptınız?"}
+,{EN: "I got wet because I didn't have an umbrella.", TR:"Şemsiyem olmadığı için ıslandım."}
 ]}
 ];
 
