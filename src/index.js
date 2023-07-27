@@ -218,7 +218,7 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
 ,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
 ,{EN: "Did you hear this sound?", TR:"Bu sesi duydunuz mu?"}
-,{EN: "Evet bu sesi duydum.", TR:"Yes, I heard this sound."}
+,{EN: "Yes, I heard this sound.", TR:"Evet bu sesi duydum."}
 ,{EN: "No, I didn’t hear that sound.", TR:"Hayır o sesi duymadım."}
 ,{EN: "Yesterday I studied for more than four hours.", TR:"Dün 4 saatten fazla çalıştım."}
 ,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}	     
@@ -228,6 +228,26 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{EN: "I was late for class because I missed the morning service.", TR:"Sabah servisi kaçırınca derse geç kaldım."}
 ,{EN: "Did you make this wonderful painting?", TR:"Bu harika resmi siz mi yaptınız?"}
 ,{EN: "I got wet because I didn't have an umbrella.", TR:"Şemsiyem olmadığı için ıslandım."}
+]},
+{title: "Bases de données",
+ sentences: [{EN: "Business Intelligence", TR: "La Business Intelligence s’intéresse à l’exploitation des données pour les transformer en information qui permettront la prise de décision."}
+,{EN: "Modéliser", TR: "Modéliser consiste à définir un monde abstrait qui coïncide avec les manifestations apparentes du monde réel."}
+,{EN: "Modéliser", TR: "Il s’agit donc de déterminer l’ensemble des attributs, des relations et des contraintes qui constitueront le modèle."}
+,{EN: "Anomalie de modification", TR: "Une modification sur une ligne peut nécessiter des modifications sur d’autres lignes."}
+,{EN: "Anomalie de suppression", TR: "Certaines informations dépendent de l’existence d’autres informations."}
+,{EN: "Anomalie d’insertion", TR: "La possibilité d’enregistrer un tuple implique la connaissance de toutes les informations qui lui sont liées : problème de valeurs manquantes."}
+,{EN: "Dépendance fonctionnelle", TR: "Une dépendance fonctionnelle est une contrainte entre deux ensembles d’attributs dans une relation d’une base de données."}
+,{EN: "Super clé", TR: "Un ensemble d’attributs dont un sous-ensemble est clé"}
+,{EN: "Clé primaire", TR: "C’est le choix d’une clé parmi les candidates"}
+,{EN: "Système d’Armstrong", TR: "Règle d’inférence applicable aux dépendances fonctionnelles"}
+,{EN: "Première forme normale", TR: "Une relation est en première forme normale si tous les attributs possèdent tous une valeur sémantiquement atomique."}
+,{EN: "Deuxième forme normale", TR: "Une relation respecte la deuxième forme normale, si elle respecte la première forme normale…"}
+,{EN: "Deuxième forme normale cont…", TR: "...et tout attribut non-clé ne peut pas dépendre d’un sous-ensemble strict des attribut clés."}
+,{EN: "Troisième forme normale", TR: "Une relation respecte la troisième forme normale, si elle respecte la deuxième forme normale…"}
+,{EN: "Troisième forme normale cont…", TR: "… et tout attribut n’appartenant pas à une clé ne dépend pas d’un autre attribut non clé."}
+,{EN: "Forme Normale Boyce-Codd", TR: "Une relation respecte FNBC, si elle respecte la troisième forme normale…"}
+,{EN: "Forme Normale Boyce-Codd cont…", TR: "… et aucun attribut clé ne dépende pas d’un sous-ensemble strict d’un autre clé"}
+,{EN: "L’entrepôt de données", TR: "Le DW est une collection de données orientées sujet, intégrées, non volatiles et historisées, organisées pour le support d’un processus d’aide à la décision."}
 ]}
 ];
 
