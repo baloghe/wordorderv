@@ -29,7 +29,7 @@ const mockTests = [
 ,{TR: "Ama şöyle bir şey yapabiliriz.", EN:"Here's what we can do."}
 ,{TR: "Çünkü seni kırmak hiç istemiyorum.", EN:"Because I don't want to disappoint you."}
 ,{TR: "Şöyle ufak, beyaz bir detay.", EN:"A small white detail."}
-,{TR: "Oldu mu? Tamam mıyız?", EN:"Gidelim mi? Is this okay? All good now? Should we go?"}
+,{TR: "Oldu mu? Tamam mıyız? Gidelim mi?", EN:"Is this okay? All good now? Should we go?"}
 ,{TR: "Nereye gidiyoruz diye sormayacak mısın?", EN:"You don't even ask where we go?"}
 ,{TR: "Açıkçası... sikimde değil.", EN:"Frankly, I don't fucking care."}
 ,{TR: "Nereye götürürsen oraya.", EN:"I'll go wherever you take me."}
@@ -37,11 +37,11 @@ const mockTests = [
 {title: "Terzi - Düğüne varış",
  sentences: [{TR: "Hayda! Şaka yapıyorsun herhâlde!", EN:"Come on! You've got to be kidding me!"}
 ,{TR: "Seni bir konuda uyarmam gerekiyor.", EN:"I have to warn you about something."}
-,{TR: "Ben düğünlere çağrılmaması istenen kızımdır.", EN:"I'm the girl people don't want at their wedding."}
+,{TR: "Ben düğünlere çağrılmaması istenen o kızımdır.", EN:"I'm the girl people don't want at their wedding."}
 ,{TR: "Rolüm ne peki?", EN:"What's my role, then?"}
 ,{TR: "Yani beni buraya çağırdığına göre birilerine bir şey anlatmaya çalışıyorsun.", EN:"Since you invited me here, you must be trying to make a statement."}
 ,{TR: "Ne diye tanıtacaksın beni?", EN:"What are you introducing me as?"}
-,{TR: "Hayır, yani sevgilin olabilirim, uzaktan bir kuzenin olabilirim, çalışanın olabilirim.", EN:"I mean, I could be your girlfriend, a distant cousin, or an employee."}
+,{TR: "Hayır, yani sevgilin olabilirim, uzaktan bir kuzenin olabilirim, bir çalışanın olabilirim.", EN:"I mean, I could be your girlfriend, a distant cousin, or an employee."}
 ,{TR: "Ne istiyorsun?", EN:"What will it be?"}
 ,{TR: "Kendin ol yeter.", EN:"Just be yourself."}
 ,{TR: "Emin misin?", EN:"Are you sure?"}
@@ -55,7 +55,7 @@ const mockTests = [
 ,{TR: "Sana ayıptır Peyami.", EN:"Shame on you, Peyami."}
 ,{TR: "Kan kardeşinin düğününe kız arkadaşını getiriyorsun ama tanıştırmıyorsun bile.", EN:"You bring your girlfriend to your blood brother's wedding, and you don't even introduce us."}
 ,{TR: "Üstündekiyle dikkatimi çekmese hiç haberimiz bile olmayacak belki.", EN:"If she hadn't drawn my attention with her dress I might have never known."}
-,{TR: "Yalnız biz konukları beyaz giymeleri konusunda uyarmıştık diye hatırlıyorum.", EN:"But I remember asking our guests to dress in all white."}
+,{TR: "Yalnız biz konukları beyaz giymeyi konusunda uyarmıştık diye hatırlıyorum.", EN:"But I remember asking our guests to dress in all white."}
 ,{TR: "Ya, o konuda… evet, haberim var ama ben maalesef beyaz giyemiyorum.", EN:"Yes, I'm aware of that, but I'm afraid I can't wear white."}
 ,{TR: "Niçin? Basıyor bana.", EN:"Why not? It's depressing."}
 ,{TR: "Ya, ne bileyim işte, ölüm, kefen…", EN:"I don't know. Death, shrouds…"}
