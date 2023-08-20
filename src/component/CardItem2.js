@@ -23,7 +23,7 @@ export default class CardItem2 extends React.Component {
           data-itemkey={this.props.listitemkey}
           onClick={this.cardClicked}
         >
-        {this.props.word}
+        {this.props.word.length > 1 ? this.props.word : ` ${this.props.word} `}
       </div>
       );
   };
