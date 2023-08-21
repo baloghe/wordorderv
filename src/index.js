@@ -8,86 +8,60 @@ import App from "./component/App";
 -------------------------------*/
 
 const mockTests = [
-{title: "Sabırsız Tırtıl 1-24",
- sentences: [
-{TR: "Hey ne yapıyorsunuz çocuklar?", EN: "Hey, what are you guys doing?"},
-{TR: "Metamorfoza uğrayacağız.", EN: "We will undergo metamorphose."},
-{TR: "Kime uğrayacaksınız?", EN: "What will you metamorphose into?"},
-{TR: "Yani kelebeğe dönüşeceğiz.", EN: "So we'll turn into butterflies."},
-{TR: "Evet. Doğru. Biliyordum zaten.", EN: "Yeah. That's right, yeah. I knew it."},
-{TR: "Bir dakika! Yani şimdi sen bana kelebek olabileceğimi söylüyorsun?", EN: "Wait a minute! So now you're telling me I can be a butterfly?"},
-{TR: "Kanatlı falan?", EN: "With wings and stuff?"},
-{TR: "Beni de bekleyin!", EN: "Wait for me, too!"},
-{TR: "Şimdi ne yapıyoruz?", EN: "What are we doing now?"},
-{TR: "Kozanı ör.", EN: "Knit the cocoon."},
-{TR: "Koza. Evet. Doğru. Biliyordum zaten.", EN: "Cocoon. Yeah. That's right, yeah. I knew it."},
-{TR: "Ne! Bunu nasıl yaptın?", EN: "What! How did you do that?"},
-{TR: "Bir kez dönmek yeterli mi?", EN: "Is it enough to turn round once?"},
-{TR: "Yoksa fırıl fırıl döneyim mi?", EN: "Or should I spin round and round?"},
-{TR: "Kelebek oldum mu?", EN: "Did I become a butterfly?"},
-{TR: "Şimdi ne yapıyoruz?", EN: "What are we doing now?"},
-{TR: "Sabırlı ol ve akışına bırak.", EN: "Be patient and go with the flow."},
-{TR: "Sabır. Doğru. Tamam, anladım.", EN: "Patience. Right. Okay, I got it."},
-{TR: "Kelebek oldum mu?", EN: "Have I become a butterfly?"},
-{TR: "Hayır. Sabırlı ol.", EN: "No. Be patient."},
-{TR: "Bir sorum var.", EN: "I have a question."},
-{TR: "Daha değil!", EN: "Not yet!"},
-{TR: "Ne soracağağımı bile bilmiyorsun.", EN: "You don't even know what I'm gonna ask."},
-{TR: "Peki. Sor bakalım.", EN: "All right, then. Go ahead."}
+{title: "Terzi - Otoparkta",
+ sentences: [{TR: "Biraz daha uzağa park etseydin keşke.", EN:"I wish you parked a little further away."}
+,{TR: "Bir an tanıyamıyordum seni.", EN:"I didn't recognize you for a moment."}
+,{TR: "Dün bayağı sarhoştun.", EN:"You were pretty drunk yesterday."}
+,{TR: "Şimdi ayık kafayla görünce normal.", EN:"Now you're sober, it's understandable."}
+,{TR: "Ayık kafa olduğumu kim söylüyor?", EN:"Who says I'm sober?"}
+,{TR: "Burada mı kalıyorsun?", EN:"Are you staying here?"}
+,{TR: "Evet, şimdilik öyle.", EN:"Yes, for now."}
+,{TR: "Oteller güzel ya.", EN:"Hotels are nice."}
+,{TR: "Hiç sessiz olmuyor.", EN:"It never gets quiet."}
+,{TR: "Sürekli insanlar geliyor. Giriyorlar, çıkıyorlar.", EN:"People arrive all the time. They come in, they go out."}
+,{TR: "Beyaz giymen gerekli demiştim.", EN:"I told you to wear white."}
+,{TR: "Evet, doğru. O konuyla ilgili şöyle bir şey var.", EN:"Right, you did. The thing about that..."}
+,{TR: "Beyaz hiç benim olayım değil. İçimi karartıyor.", EN:"White isn't for me. I find it depressing."}
+,{TR: "Ya, nedir beyaz giyinmek ya?", EN:"Why would anyone wear white?"}
+,{TR: "Ölünce filan giyiyor insanlar.", EN:"People wear it when they're dead."}
+,{TR: "Hiç hoşlanmıyorum.", EN:"I hate it."}
+,{TR: "Al, kötü mü olmuş bu?", EN:"Is this so bad?"}
+,{TR: "Ama şöyle bir şey yapabiliriz.", EN:"Here's what we can do."}
+,{TR: "Çünkü seni kırmak hiç istemiyorum.", EN:"Because I don't want to disappoint you."}
+,{TR: "Şöyle ufak, beyaz bir detay.", EN:"A small white detail."}
+,{TR: "Oldu mu? Tamam mıyız? Gidelim mi?", EN:"Is this okay? All good now? Should we go?"}
+,{TR: "Nereye gidiyoruz diye sormayacak mısın?", EN:"You don't even ask where we go?"}
+,{TR: "Açıkçası... sikimde değil.", EN:"Frankly, I don't fucking care."}
+,{TR: "Nereye götürürsen oraya.", EN:"I'll go wherever you take me."}
 ]},
-{title: "Sabırsız Tırtıl 25-48",
- sentences: [
-{TR: "Günün nasıl geçiyor? Bir de... artık kelebek oldum mu?",EN: "How's your day going? And... am I a butterfly now?"},
-{TR: "Hayır. Sabırlı ol!",EN: "No. Be patient."},
-{TR: "Şişşşşt! Burada metamorfoza uğramaya çalışıyoruz!",EN: "Shhht! We're trying to metamorphose here!"},
-{TR: "Bunun kaç gün süreceğini ben tabii ki biliyorum da... sen de biliyor musun acaba?",EN: "Of course I know how many days this will take... but I wonder if you know?"},
-{TR: "İki hafta.",EN: "Two weeks."},
-{TR: "Evet. Doğru. İki hafta.",EN: "Yeah. That's right. Two weeks."},
-{TR: "İki hafta mı?",EN: "Two weeks?"},
-{TR: "Of... İki hafta boyunca burada ne yapacağım ben?",EN: "What am I going to do here for two weeks?"},
-{TR: "Çizgi roman falan alabilir miyim acaba?",EN: "Can I get a comic book or something?"},
-{TR: "Ya canım bir şeyler atıştırmak isterse?...",EN: "What if I fancy a snack?"},
-{TR: "Merhaba. İki pizza lütfen. Adres mi? Kozadayım. Alo? Alooo?",EN: "Hello. Two pizzas, please. Address? I'm in the cocoon. Hallo? Hallo?"},
-{TR: "Ne kadar zamandır buradayım?",EN: "How long have I been here?"},
-{TR: "Ya tuvalete gitmek gerekirse?",EN: "What if you need to go to the loo?"},
-{TR: "Oyun oynamak isteyen var mı?",EN: "Anyone want to play games?"},
-{TR: "Daha birinci günde miyiz? Ama uzun sürüyormuş!",EN: "It's only day one? It's taking so long!"},
-{TR: "Bu kadar yeter.",EN: "That's enough."},
-{TR: "Yeterince metamorfoza uğramışım gibi geliyor bana.",EN: "I feel like I've been metamorphosed enough."},
-{TR: "Merhaba dünya.",EN: "Hello World!"},
-{TR: "Bakın da gözleriniz bayram etsin.",EN: "Let your eyes feast."},
-{TR: "İşte karşınızda güzeller güzeli bir kelebek!",EN: "Here is the most beautiful butterfly in front of you!"},
-{TR: "Nasıl görünüyorum?",EN: "How do I look?"},
-{TR: "Dönüşmüş müyüm?",EN: "Am I transformed?"},
-{TR: "Kanatlarımı açıp uçma vakti geldi!",EN: "It's time to spread my wings and fly!"},
-{TR: "Bir dakika! Pppp... Kanatlarım nerede?",EN: "Wait a minute! Pppp... Where are my wings?"}
+{title: "Terzi - Düğüne varış",
+ sentences: [{TR: "Hayda! Şaka yapıyorsun herhâlde!", EN:"Come on! You've got to be kidding me!"}
+,{TR: "Seni bir konuda uyarmam gerekiyor.", EN:"I have to warn you about something."}
+,{TR: "Ben düğünlere çağrılmaması istenen o kızımdır.", EN:"I'm the girl people don't want at their wedding."}
+,{TR: "Rolüm ne peki?", EN:"What's my role, then?"}
+,{TR: "Yani beni buraya çağırdığına göre birilerine bir şey anlatmaya çalışıyorsun.", EN:"Since you invited me here, you must be trying to make a statement."}
+,{TR: "Ne diye tanıtacaksın beni?", EN:"What are you introducing me as?"}
+,{TR: "Hayır, yani sevgilin olabilirim, uzaktan bir kuzenin olabilirim, bir çalışanın olabilirim.", EN:"I mean, I could be your girlfriend, a distant cousin, or an employee."}
+,{TR: "Ne istiyorsun?", EN:"What will it be?"}
+,{TR: "Kendin ol yeter.", EN:"Just be yourself."}
+,{TR: "Emin misin?", EN:"Are you sure?"}
  ]},
-{title: "Sabırsız Tırtıl 49-72",
- sentences: [
- {TR: "Yeni bir yöntem denesem iyi olacak.", EN: "I'd better try a new method."},
-{TR: "Başarabilirsin küçük tırtıl.", EN: "You can do it, little caterpillar."},
-{TR: "Başaramazsın küçük tırtıl.", EN: "You won't make it, little caterpillar."},
-{TR: "Tamam. Bunu yapabilirsin. Sabırlı olabilirsin.", EN: "Okay. You can do this. You can be patient."},
-{TR: "Ah, kimi kandırıyorum ki? Ben sabırlı olamam!", EN: "Oh, who am I kidding? I can't be patient!"},
-{TR: "Yapabilirsin! Yapamam.", EN: "You can do it! I can't."},
-{TR: "Kendini topla! Bunu yapabilirsin!", EN: "Pull yourself together! You can do this!"},
-{TR: "Yapamam! Yapamam!", EN: "I can't! I can't!"},
-{TR: "Sabırlı olabilirim.", EN: "I can be patient."},
-{TR: "Sabır zihinde başlar.", EN: "Patience begins in the mind."},
-{TR: "Kozayla bütünleş.", EN: "Become one with the cocoon."},
-{TR: "Derin derin nefes al... ve ver.", EN: "Take a deep breath... and out."},
-{TR: "Başarmak üzereyim!", EN: "I'm about to make it!"},
-{TR: "Sabırlı ol yeter.", EN: "Just be patient."},
-{TR: "Sadece sabırlı ol.", EN: "Only be patient."},
-{TR: "İki hafta sonra...", EN: "Two weeks later..."},
-{TR: "Başardım! Artık bir kelebeğim!", EN: "I've done it! I'm a butterfly now!"},
-{TR: "Biliyor musun, gerçekten de değiştiğimi hissediyorum!", EN: "You know, I really feel like I've changed!"},
-{TR: "Şu andan itibaren çok daha sabırlı olacağım.", EN: "From now on, I'll be much more patient."},
-{TR: "Hey! Hepiniz nereye gidiyorsunuz böyle?", EN: "Where are you all going?"},
-{TR: "Göç ediyoruz.", EN: "We migrate."},
-{TR: "Göç. Evet. Doğru. Beni de bekleyin!", EN: "Migration. Yeah. That's right. Wait for me, too!"},
-{TR: "Geldik mi?", EN: "Are we here?"},
-{TR: "Yine başlıyoruz.", EN: "Here we go again."}
+{title: "Terzi - Cemre ve Dimitri",
+ sentences: [{TR: "Selam. Cemre ben.", EN:"Hi. I'm Cemre."}
+,{TR: "Evet Dimitri, Cemre arkadaşım.", EN:"Yes, Dimitri. Cemre is my friend."}
+,{TR: "Tamam, arkadaş da nasıl arkadaş?", EN:"Okay, but what kind of friend?"}
+,{TR: "Yani normal arkadaş, özel arkadaş?", EN:"A regular friend or a special one?"}
+,{TR: "Anlaşıldı, özel arkadaş. Ne zamandan beri?", EN:"Got it. Special friend. Since when?"}
+,{TR: "Sana ayıptır Peyami.", EN:"Shame on you, Peyami."}
+,{TR: "Kan kardeşinin düğününe kız arkadaşını getiriyorsun ama tanıştırmıyorsun bile.", EN:"You bring your girlfriend to your blood brother's wedding, and you don't even introduce us."}
+,{TR: "Üstündekiyle dikkatimi çekmese hiç haberimiz bile olmayacak belki.", EN:"If she hadn't drawn my attention with her dress I might have never known."}
+,{TR: "Yalnız biz konukları beyaz giymeyi konusunda uyarmıştık diye hatırlıyorum.", EN:"But I remember asking our guests to dress in all white."}
+,{TR: "Ya, o konuda… evet, haberim var ama ben maalesef beyaz giyemiyorum.", EN:"Yes, I'm aware of that, but I'm afraid I can't wear white."}
+,{TR: "Niçin? Basıyor bana.", EN:"Why not? It's depressing."}
+,{TR: "Ya, ne bileyim işte, ölüm, kefen…", EN:"I don't know. Death, shrouds…"}
+,{TR: "Ben çok sevdim bu kızı.", EN:"I really like this girl."}
+,{TR: "Yani böyle çok güzel kafası.", EN:"She's absolutely hilarious."}
+,{TR: "Tebrikler bu arada.", EN:"Congrats, by the way."}
  ]},
 {title: "Yedi kocalı Hürmüz açılış sahnesi",
 sentences: [{TR: "Koca dediğiniz nedir ki, kızlar?", EN:"What's a husband, girls?"}
@@ -101,12 +75,12 @@ sentences: [{TR: "Koca dediğiniz nedir ki, kızlar?", EN:"What's a husband, gir
 ,{TR: "Ne oldu? Zaman değıştır.", EN:"What happened? Time changes."}
 ,{TR: "Herifleri küçüldü, karılara bir heybet geldi.", EN:"The blokes got smaller, the wives got bigger."}
 ,{TR: "Haliyle bir karının işini dört herif göremez hale geldi.", EN:"As it stands, four guys can't do the work of a wife."}
-,{TR: "Şimdiki zamanın kocaları et diye sütlüye karışmaz, alacağını alır vereceğini verir erkenden ölür gölge etmez.", EN:"Today's husbands keep their nose clean, they take what they get and give what they give, they die early and do not cast a shadow."}
+,{TR: "Şimdiki zamanın kocaları etliye sütlüye karışmaz, alacağını alır vereceğini verir erkenden ölür gölge etmez.", EN:"Today's husbands keep their nose clean, they take what they get and give what they give, they die early and do not cast a shadow."}
 ,{TR: "Bakın bu Hürmüz'ün rahmetlik kocası, bu koskoca konağın sahibi Fettah Paşa.", EN:"Look, this is Hürmüz's late husband, Fettah Pasha, the owner of this huge mansion."}
 ,{TR: "'Hürmüüüz' diye bağırır.", EN:"He shouts 'Hürmüüüz'."}
 ,{TR: "Hürmüz yanına gidince de 'Bak bakalım vaziyet nedir' derdi.", EN:"When Hürmüz went to him, he said, 'See what the situation is'."}
 ,{TR: "Hürmüz bunun üzerine adamın sağını solunu yoklar, 'Ay Paşa hazretleri zümrüdü anka kuşunuz bugün de görünürlerde yok' deyince.", EN:"Hürmüz then looked around the man and said, 'Your Highness, your Emerald Phoenix is nowhere to be seen today either'."}
-,{TR: "İlk fırsatta seni bırakıp gidecek bir kuştur.", EN:"It's a bird that will leave you the first chance it gets."}
+,{TR: "Herif dediğiniz ilk fırsatta seni bırakıp gidecek bir kuştur.", EN:"A guy is a bird that will leave you the first chance it gets."}
 ,{TR: "Sen onu yakalıp yuvaya bağlayacaksın.", EN:"You're going to catch him and tie him to the nest."}
 ,{TR: "Nasıl? Şefkat göstereceksın ya: fazla sıkarsan - hop - kaçar.", EN:"How? You have to show affection: if you squeeze it too tightly - hop - it runs away."}
 ,{TR: "Sırtını sıvazlarsan 'İyidin, aslanım' dersen, aynı yapar...", EN:"If you pat his back and say 'You were fine, my lion', they'll do the same."}
@@ -167,6 +141,87 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Kolonlar görünmez olduğu, masa bütünleşti.", EN:"Columns are invisible, the table is unified."}
 ,{TR: "Böylece kodadı baby operasyonumuz başarıyla tamamlanmış oldu.", EN:"Thus, our codename 'Baby Operation' was successfully completed."}
 ,{TR: "Ahmetciğim bu ikimizin başarısı. Bu hepimizin başarısı.", EN:"Ahmet, this is the success of both of us. This is our success."}
+]},
+{title: "Emir kipi",
+ sentences: [{TR: "O ne yapsın?", EN: "What should he do?"}
+,{TR: "Derste telefonla konuşmayınız.", EN: "Do not talk on the phone in class."}
+,{TR: "Lütfen kapalı alanda sigara içmeyiniz.", EN: "Please do not smoke indoors."}
+,{TR: "Lütfen sessiz olunuz.", EN: "Please be quiet."}
+,{TR: "Lütfen içeri girin.", EN: "Please come in."}
+,{TR: "Sağlıklı olmak için yüzün.", EN: "Swim to be healthy."}
+,{TR: "Çocuklara söylemeniz. Hastanede sessiz olsunuz.", EN: "Don't talk to the kids. Be quiet in the hospital."}
+,{TR: "Çiçeklere her gün çok su vermeyiniz.", EN: "Do not give too much water to the flowers every day."}
+,{TR: "Çok su veriyorsun, o zaman çiçekler ölüyor.", EN: "You give too much water, then the flowers die."}
+,{TR: "Hava çok soğuk. Siz bugün dışarı çıkmayınız.", EN: "The weather is very cold. Do not go out today."}
+]},
+{title: "Belirli geçmiş zaman",
+ sentences: [{TR: "Ben dün akşam kafeye gittim ve kahve içtim.", EN:"I went to the cafe last night and drank coffee."}
+,{TR: "Sen kardeşinin doğum günü için hediye aldın mı?", EN:"Did you buy a present for your brother's birthday?"}
+,{TR: "Ayşe dün ev temizledi mi?", EN:"Did Ayşe clean the house yesterday?"}
+,{TR: "Siz dün gece saat kaçta geldiniz?", EN:"What time did you come last night?"}
+,{TR: "Sen anneni çok kırdın. Hemen özür dile.", EN:"You hurt your mother so much. Apologize now."}
+,{TR: "Sevgi ve ben dün akşam dışarıda yemek yedik.", EN:"Sevgi and I had dinner out last night."}
+,{TR: "Onlar geçen hafta partide eğlendiler mi?", EN:"Did they have fun at the party last week?"}
+,{TR: "Baban eve saat kaçta geldi?", EN:"What time did your father come home?"}
+,{TR: "Ali ve sen geçen yıl burada çalıştınız mı?", EN:"Did Ali and you work here last year?"}
+,{TR: "Öğrenciler ödev yaptı mı?", EN:"Did the students do their homework?"}
+,{TR: "Ben dün akşam çok çalıştım. Dün akşam çok yorgundum.", EN:"I worked hard last night. I was very tired last night."}
+,{TR: "Biz eskiden bu üniversitede öğrenciydik. 4 yıl burada okuduk.", EN:"We used to be students at this university. We studied here for 4 years."}
+,{TR: "Siz dün okulda çok mutluydunuz. Çok eğlendiniz.", EN:"You were very happy at school yesterday. You had so much fun."}
+,{TR: "Dün gece partide yemekler çok lezzetliydi. Ben çok yedim.", EN:"The food at the party last night was delicious. I ate a lot."}
+,{TR: "Geçen hafta pazar çok ucuzdu. Biz çok alışveriş yaptık.", EN:"Last week the market was very cheap. We did a lot of shopping."}
+,{TR: "Sen dün sabah toplantıda mıydın?", EN:"Were you at the meeting yesterday morning?"}
+,{TR: "Hayır, değildim. Dışarıdaydım.", EN:"No, I wasn't. I was outside."}
+,{TR: "Siz dün gece neredeydiniz?", EN:"Where were you last night?"}
+,{TR: "Biz dün gece yoldaydık.", EN:"We were on the road last night."}
+,{TR: "Onlar geçen hafta okulda değillerdi. Ben görmedim.", EN:"They weren't at school last week. I have not seen."}
+,{TR: "Öğrenciler 2 saat önce sınıfta mıydı?", EN:"Were the students in class 2 hours ago?"}
+,{TR: "Hayır, değillerdi. Bahçedelerdi.", EN:"No, they weren't. They were in the garden."}
+,{TR: "Hasta dün gece daha iyi miydi?", EN:"Was the patient better last night?"}
+]},
+{title: "Belirli geçmiş zaman 2",
+ sentences: [{EN: "The dog was barking all night.", TR:"Köpek bütün gece havlıyordu."}
+,{EN: "He was not speaking a single word for days.", TR:"Günlerdir tek kelime konuşmuyordu."}
+,{EN: "Was she looking at us all this time?", TR:"Bunca zaman bize mi baktı?"}
+,{EN: "Irish had lived in this part of the world.", TR:"İrlandalılar dünyanın bu bölgesinde yaşamıştı."}
+,{EN: "I had not eaten yet.", TR:"Henüz yememiştim."}
+,{EN: "Had they never singed before?", TR:"Daha önce imzalamamışlar mıydı?"}
+,{EN: "Did you play football last day?", TR:"Geçen gün futbol oynadın mı?"}
+,{EN: "Did he clean his home?", TR:"Evini temizledi mi?"}
+,{EN: "Did you go to the party last night?", TR:"Dün gece partiye mi gittiniz?"}
+,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
+,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
+,{EN: "Did you hear this sound?", TR:"Bu sesi duydunuz mu?"}
+,{EN: "Yes, I heard this sound.", TR:"Evet bu sesi duydum."}
+,{EN: "No, I didn’t hear that sound.", TR:"Hayır o sesi duymadım."}
+,{EN: "Yesterday I studied for more than four hours.", TR:"Dün 4 saatten fazla çalıştım."}
+,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}	     
+,{EN: "Have you ever been to the zoo?", TR:"Sen hiç hayvanat bahçesine gittin mi?"}
+,{EN: "Didn't you get the tickets?", TR:"Biletleri almadın mı?"}
+,{EN: "I bought a hot bagel, can we eat it?", TR:"Sıcak simit aldım, yer miyiz?"}
+,{EN: "I was late for class because I missed the morning service.", TR:"Sabah servisi kaçırınca derse geç kaldım."}
+,{EN: "Did you make this wonderful painting?", TR:"Bu harika resmi siz mi yaptınız?"}
+,{EN: "I got wet because I didn't have an umbrella.", TR:"Şemsiyem olmadığı için ıslandım."}
+]},
+{title: "Bases de données",
+ sentences: [{EN: "Business Intelligence", TR: "La Business Intelligence s’intéresse à l’exploitation des données pour les transformer en information qui permettront la prise de décision."}
+,{EN: "Modéliser", TR: "Modéliser consiste à définir un monde abstrait qui coïncide avec les manifestations apparentes du monde réel."}
+,{EN: "Modéliser", TR: "Il s’agit donc de déterminer l’ensemble des attributs, des relations et des contraintes qui constitueront le modèle."}
+,{EN: "Anomalie de modification", TR: "Une modification sur une ligne peut nécessiter des modifications sur d’autres lignes."}
+,{EN: "Anomalie de suppression", TR: "Certaines informations dépendent de l’existence d’autres informations."}
+,{EN: "Anomalie d’insertion", TR: "La possibilité d’enregistrer un tuple implique la connaissance de toutes les informations qui lui sont liées : problème de valeurs manquantes."}
+,{EN: "Dépendance fonctionnelle", TR: "Une dépendance fonctionnelle est une contrainte entre deux ensembles d’attributs dans une relation d’une base de données."}
+,{EN: "Super clé", TR: "Un ensemble d’attributs dont un sous-ensemble est clé"}
+,{EN: "Clé primaire", TR: "C’est le choix d’une clé parmi les candidates"}
+,{EN: "Système d’Armstrong", TR: "Règle d’inférence applicable aux dépendances fonctionnelles"}
+,{EN: "Première forme normale", TR: "Une relation est en première forme normale si tous les attributs possèdent tous une valeur sémantiquement atomique."}
+,{EN: "Deuxième forme normale", TR: "Une relation respecte la deuxième forme normale, si elle respecte la première forme normale…"}
+,{EN: "Deuxième forme normale cont…", TR: "...et tout attribut non-clé ne peut pas dépendre d’un sous-ensemble strict des attribut clés."}
+,{EN: "Troisième forme normale", TR: "Une relation respecte la troisième forme normale, si elle respecte la deuxième forme normale…"}
+,{EN: "Troisième forme normale cont…", TR: "… et tout attribut n’appartenant pas à une clé ne dépend pas d’un autre attribut non clé."}
+,{EN: "Forme Normale Boyce-Codd", TR: "Une relation respecte FNBC, si elle respecte la troisième forme normale…"}
+,{EN: "Forme Normale Boyce-Codd cont…", TR: "… et aucun attribut clé ne dépende pas d’un sous-ensemble strict d’un autre clé"}
+,{EN: "L’entrepôt de données", TR: "Le DW est une collection de données orientées sujet, intégrées, non volatiles et historisées, organisées pour le support d’un processus d’aide à la décision."}
 ]}
 ];
 
