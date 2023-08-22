@@ -17,13 +17,17 @@ export default class CardItem2 extends React.Component {
   }
   
 	render() {
+	let actClasses = this.props.wordClasses;
+	if(this.props.word.length==1){
+		actClasses = actClasses + " card-padded";
+	}
   	return (
-      <div className={this.props.wordClasses}
+      <div className={actClasses}
           key={this.props.listitemkey}
           data-itemkey={this.props.listitemkey}
           onClick={this.cardClicked}
         >
-        {this.props.word.length > 1 ? this.props.word : ` ${this.props.word} `}
+	{this.props.word}
       </div>
       );
   };
