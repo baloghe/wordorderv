@@ -117,6 +117,18 @@ sentences: [{TR: "Boğazında düğümlenen hıçkırık olayım", EN:"Let me be
 ,{TR: "Unutmaya çalışırken", EN:"While trying to forget"}
 ,{TR: "Sen de unutma beni", EN:"You also don't forget me"}
 ]},
+{title: "Ajda Pekkan - Boşvermişim Dünyaya",
+ sentences: [{TR: "Temmuz, Ağustos, Eylül her mevsimde durma gül", EN: "July, August, September, keep laughing in all seasons"}
+,{TR: "Hayat inan çok kısa belki çıkmayız yaza", EN: "Remember, life is short, we may not leave summer"}
+,{TR: "Boşvermişim, boşvermişim, boşvermişim dünyaya", EN: "I don't care about the world"}
+,{TR: "Ağlamak istemiyorsan sen de boşver dünyaya", EN: "If you don't want to cry, take no care either"}
+,{TR: "Ahmet, Mehmet, Süreyya hepsi boş hepsi hülya", EN: "Ahmet, Mehmet, Süreyya - all empty dreams"}
+,{TR: "Bir gün hayat bitecek dersin görmüşüm rüya", EN: "One day life is over, I've only seen a dream"}
+,{TR: "Aldatırlar aç gözünü unut artık geçmiş dünü", EN: "They cheat, open your eyes, forget the past"}
+,{TR: "Her akşam ayrı güzelle sen de geçir her gününü", EN: "A different beaty every night, spend the days like that"}
+,{TR: "Boşvermişim, boşvermişim dünyaya ben boşvermiş", EN: "I don't care about the world"}
+,{TR: "Vallahi aldırmıyorum elalem ne söylermiş", EN: "I swear I ignore what people say"}
+]},
 {title: "Meyhanenin Sesi - Kalamar",
 sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of the Tavern."}
 ,{TR: "Bugün sizlere, kalabalık bir masaya en son gelmenin bedeli isimli prezentasyonun yapacak.", EN:"Today, he will make a presentation called the price of being the last to come to a crowded table."}
@@ -203,25 +215,32 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{EN: "Did you make this wonderful painting?", TR:"Bu harika resmi siz mi yaptınız?"}
 ,{EN: "I got wet because I didn't have an umbrella.", TR:"Şemsiyem olmadığı için ıslandım."}
 ]},
-{title: "Bases de données",
- sentences: [{EN: "Business Intelligence", TR: "La Business Intelligence s’intéresse à l’exploitation des données pour les transformer en information qui permettront la prise de décision."}
-,{EN: "Modéliser", TR: "Modéliser consiste à définir un monde abstrait qui coïncide avec les manifestations apparentes du monde réel."}
-,{EN: "Modéliser", TR: "Il s’agit donc de déterminer l’ensemble des attributs, des relations et des contraintes qui constitueront le modèle."}
-,{EN: "Anomalie de modification", TR: "Une modification sur une ligne peut nécessiter des modifications sur d’autres lignes."}
-,{EN: "Anomalie de suppression", TR: "Certaines informations dépendent de l’existence d’autres informations."}
-,{EN: "Anomalie d’insertion", TR: "La possibilité d’enregistrer un tuple implique la connaissance de toutes les informations qui lui sont liées : problème de valeurs manquantes."}
-,{EN: "Dépendance fonctionnelle", TR: "Une dépendance fonctionnelle est une contrainte entre deux ensembles d’attributs dans une relation d’une base de données."}
-,{EN: "Super clé", TR: "Un ensemble d’attributs dont un sous-ensemble est clé"}
-,{EN: "Clé primaire", TR: "C’est le choix d’une clé parmi les candidates"}
-,{EN: "Système d’Armstrong", TR: "Règle d’inférence applicable aux dépendances fonctionnelles"}
-,{EN: "Première forme normale", TR: "Une relation est en première forme normale si tous les attributs possèdent tous une valeur sémantiquement atomique."}
-,{EN: "Deuxième forme normale", TR: "Une relation respecte la deuxième forme normale, si elle respecte la première forme normale…"}
-,{EN: "Deuxième forme normale cont…", TR: "...et tout attribut non-clé ne peut pas dépendre d’un sous-ensemble strict des attribut clés."}
-,{EN: "Troisième forme normale", TR: "Une relation respecte la troisième forme normale, si elle respecte la deuxième forme normale…"}
-,{EN: "Troisième forme normale cont…", TR: "… et tout attribut n’appartenant pas à une clé ne dépend pas d’un autre attribut non clé."}
-,{EN: "Forme Normale Boyce-Codd", TR: "Une relation respecte FNBC, si elle respecte la troisième forme normale…"}
-,{EN: "Forme Normale Boyce-Codd cont…", TR: "… et aucun attribut clé ne dépende pas d’un sous-ensemble strict d’un autre clé"}
-,{EN: "L’entrepôt de données", TR: "Le DW est une collection de données orientées sujet, intégrées, non volatiles et historisées, organisées pour le support d’un processus d’aide à la décision."}
+{title: "Özel Ders - Hande ve Azra",
+ sentences: [{TR: "Vay be, gerçekten çalışıyormuş.", EN: "Wow, she does work a lot."}
+,{TR: "Bu mesleğin bir adı falan var mı?", EN: "Does this profession have a name?"}
+,{TR: "İyi para vardır bu işte.", EN: "I bet you make a lot."}
+,{TR: "Hande! Seni hiç ilgilendirmez.", EN: "Hande! It's none of your business."}
+,{TR: "Niye böyle bir meslek yapar ki insan?", EN: "Why would one choose such a career?"}
+,{TR: "Senin travman falan mı var?", EN: "Are you traumatized or something?"}
+,{TR: "Sana müşteri geldi Azra!", EN: "You have a customer, Azra!"}
+,{TR: "Ya sınır nedir bilmez misin sen?", EN: "Don't you know what the limit is?"}
+,{TR: "Demek böyle buluyorlar seni.", EN: "So that's how they find you."}
+,{TR: "Söyleseydin ben de mesaj atardım ya.", EN: "I could've sent a message if I'd known."}
+,{TR: "Amma tantana yaptın yani.", EN: "You made such a fuss."}
+,{TR: "Öyle kolay zannediyorsun tabii.", EN: "You think it's so easy."}
+,{TR: "Referans nereden bulacaktın?", EN: "How would you find a reference?"}
+,{TR: "Teyzem referans olurdu bence bana.", EN: "I think my aunt would vouch for me."}
+,{TR: "Hatta… Neydi, dur, kızın adı? Dur. Sakın söyleme.", EN: "Or even… What was her name? Don't tell me."}
+,{TR: "Melisa da referans olurdu bence.", EN: "Melisa would vouch for me too."}
+,{TR: "Hani velisi gibi aradığın var ya?", EN: "You pretended to be her parent, remember?"}
+,{TR: "Tamam, anlaşıldı. Senden kurtuluş yok.", EN: "OK, got it. There is no escape from you."}
+,{TR: "Bu akşam Utku'nun evinde bir parti var.", EN: "Utku's having a party tonight."}
+,{TR: "Bilmiyorum haberin var mı.", EN: "I'm not sure if you're aware."}
+,{TR: "Onunla başlayım bakalım.", EN: "Let's start with that."}
+,{TR: "Kural bir. Söylediklerime harfiyen uyacaksın.", EN: "Rule number one. You're going to do what I tell you."}
+,{TR: "Tamam, söz.", EN: "Okay, I promise."}
+,{TR: "Hayatı kitaplardan öğrenemezsin.", EN: "You can't learn life from books."}
+,{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. Remove that bullshit."}
 ]}
 ];
 
