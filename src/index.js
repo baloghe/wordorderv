@@ -160,7 +160,7 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Liste uzun, hayat kısa.", EN: "The list is long, life is short."}
 ,{TR: "Yetişkin olmak, yetişmekten geliyordur belki.", EN: "Being an adult may be all about development."}
 ,{TR: "Peki ya hayat dersleri?", EN: "What about life lessons?"}
-,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum. That's where I step in and become the person the clients need the most.", EN: ""}
+,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum.", EN: "That's where I step in and become the person the clients need the most.", EN: ""}
  ]},
  {title: "Özel ders - 02",
  sentences: [{TR: "Bir de sen vardın, doğru ya.", EN: "There was also you, right."}
