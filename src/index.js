@@ -154,67 +154,29 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Böylece kodadı baby operasyonumuz başarıyla tamamlanmış oldu.", EN:"Thus, our codename 'Baby Operation' was successfully completed."}
 ,{TR: "Ahmetciğim bu ikimizin başarısı. Bu hepimizin başarısı.", EN:"Ahmet, this is the success of both of us. This is our success."}
 ]},
-{title: "Emir kipi",
- sentences: [{TR: "O ne yapsın?", EN: "What should he do?"}
-,{TR: "Derste telefonla konuşmayınız.", EN: "Do not talk on the phone in class."}
-,{TR: "Lütfen kapalı alanda sigara içmeyiniz.", EN: "Please do not smoke indoors."}
-,{TR: "Lütfen sessiz olunuz.", EN: "Please be quiet."}
-,{TR: "Lütfen içeri girin.", EN: "Please come in."}
-,{TR: "Sağlıklı olmak için yüzün.", EN: "Swim to be healthy."}
-,{TR: "Çocuklara söylemeniz. Hastanede sessiz olsunuz.", EN: "Don't talk to the kids. Be quiet in the hospital."}
-,{TR: "Çiçeklere her gün çok su vermeyiniz.", EN: "Do not give too much water to the flowers every day."}
-,{TR: "Çok su veriyorsun, o zaman çiçekler ölüyor.", EN: "You give too much water, then the flowers die."}
-,{TR: "Hava çok soğuk. Siz bugün dışarı çıkmayınız.", EN: "The weather is very cold. Do not go out today."}
-]},
-{title: "Belirli geçmiş zaman",
- sentences: [{TR: "Ben dün akşam kafeye gittim ve kahve içtim.", EN:"I went to the cafe last night and drank coffee."}
-,{TR: "Sen kardeşinin doğum günü için hediye aldın mı?", EN:"Did you buy a present for your brother's birthday?"}
-,{TR: "Ayşe dün ev temizledi mi?", EN:"Did Ayşe clean the house yesterday?"}
-,{TR: "Siz dün gece saat kaçta geldiniz?", EN:"What time did you come last night?"}
-,{TR: "Sen anneni çok kırdın. Hemen özür dile.", EN:"You hurt your mother so much. Apologize now."}
-,{TR: "Sevgi ve ben dün akşam dışarıda yemek yedik.", EN:"Sevgi and I had dinner out last night."}
-,{TR: "Onlar geçen hafta partide eğlendiler mi?", EN:"Did they have fun at the party last week?"}
-,{TR: "Baban eve saat kaçta geldi?", EN:"What time did your father come home?"}
-,{TR: "Ali ve sen geçen yıl burada çalıştınız mı?", EN:"Did Ali and you work here last year?"}
-,{TR: "Öğrenciler ödev yaptı mı?", EN:"Did the students do their homework?"}
-,{TR: "Ben dün akşam çok çalıştım. Dün akşam çok yorgundum.", EN:"I worked hard last night. I was very tired last night."}
-,{TR: "Biz eskiden bu üniversitede öğrenciydik. 4 yıl burada okuduk.", EN:"We used to be students at this university. We studied here for 4 years."}
-,{TR: "Siz dün okulda çok mutluydunuz. Çok eğlendiniz.", EN:"You were very happy at school yesterday. You had so much fun."}
-,{TR: "Dün gece partide yemekler çok lezzetliydi. Ben çok yedim.", EN:"The food at the party last night was delicious. I ate a lot."}
-,{TR: "Geçen hafta pazar çok ucuzdu. Biz çok alışveriş yaptık.", EN:"Last week the market was very cheap. We did a lot of shopping."}
-,{TR: "Sen dün sabah toplantıda mıydın?", EN:"Were you at the meeting yesterday morning?"}
-,{TR: "Hayır, değildim. Dışarıdaydım.", EN:"No, I wasn't. I was outside."}
-,{TR: "Siz dün gece neredeydiniz?", EN:"Where were you last night?"}
-,{TR: "Biz dün gece yoldaydık.", EN:"We were on the road last night."}
-,{TR: "Onlar geçen hafta okulda değillerdi. Ben görmedim.", EN:"They weren't at school last week. I have not seen."}
-,{TR: "Öğrenciler 2 saat önce sınıfta mıydı?", EN:"Were the students in class 2 hours ago?"}
-,{TR: "Hayır, değillerdi. Bahçedelerdi.", EN:"No, they weren't. They were in the garden."}
-,{TR: "Hasta dün gece daha iyi miydi?", EN:"Was the patient better last night?"}
-]},
-{title: "Belirli geçmiş zaman 2",
- sentences: [{EN: "The dog was barking all night.", TR:"Köpek bütün gece havlıyordu."}
-,{EN: "He was not speaking a single word for days.", TR:"Günlerdir tek kelime konuşmuyordu."}
-,{EN: "Was she looking at us all this time?", TR:"Bunca zaman bize mi baktı?"}
-,{EN: "Irish had lived in this part of the world.", TR:"İrlandalılar dünyanın bu bölgesinde yaşamıştı."}
-,{EN: "I had not eaten yet.", TR:"Henüz yememiştim."}
-,{EN: "Had they never singed before?", TR:"Daha önce imzalamamışlar mıydı?"}
-,{EN: "Did you play football last day?", TR:"Geçen gün futbol oynadın mı?"}
-,{EN: "Did he clean his home?", TR:"Evini temizledi mi?"}
-,{EN: "Did you go to the party last night?", TR:"Dün gece partiye mi gittiniz?"}
-,{EN: "Where did they go on Saturday?", TR:"Cumartesi nereye gittiler?"}
-,{EN: "Did you drink coffee yesterday?", TR:"Dün kahve içtin mi?"}
-,{EN: "Did you hear this sound?", TR:"Bu sesi duydunuz mu?"}
-,{EN: "Yes, I heard this sound.", TR:"Evet bu sesi duydum."}
-,{EN: "No, I didn’t hear that sound.", TR:"Hayır o sesi duymadım."}
-,{EN: "Yesterday I studied for more than four hours.", TR:"Dün 4 saatten fazla çalıştım."}
-,{EN: "We didn’t see the Eiffel Tower.", TR:"Eyfel Kulesi’ni görmedik."}	     
-,{EN: "Have you ever been to the zoo?", TR:"Sen hiç hayvanat bahçesine gittin mi?"}
-,{EN: "Didn't you get the tickets?", TR:"Biletleri almadın mı?"}
-,{EN: "I bought a hot bagel, can we eat it?", TR:"Sıcak simit aldım, yer miyiz?"}
-,{EN: "I was late for class because I missed the morning service.", TR:"Sabah servisi kaçırınca derse geç kaldım."}
-,{EN: "Did you make this wonderful painting?", TR:"Bu harika resmi siz mi yaptınız?"}
-,{EN: "I got wet because I didn't have an umbrella.", TR:"Şemsiyem olmadığı için ıslandım."}
-]},
+{title: "Özel ders - 01",
+ sentences: [{TR: "Hepimiz sürekli bir şeylere yetişmeye çalışıyoruz.", EN: "We're always trying to keep up with stuff."}
+,{TR: "Okul, aşk, arkadaşlar, aile, dersler…", EN: "Studies, love, friends, family, classes..."}
+,{TR: "Liste uzun, hayat kısa.", EN: "The list is long, life is short."}
+,{TR: "Yetişkin olmak, yetişmekten geliyordur belki.", EN: "Being an adult may be all about development."}
+,{TR: "Peki ya hayat dersleri?", EN: "What about life lessons?"}
+,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum. That's where I step in and become the person the clients need the most.", EN: ""}
+ ]},
+ {title: "Özel ders - 02",
+ sentences: [{TR: "Bir de sen vardın, doğru ya.", EN: "There was also you, right."}
+,{TR: "Ne Merkür retrosuymuş arkadaş!", EN: "What a Mercury retrograde!"}
+,{TR: "Daha çok göktaşı sanki!", EN: "More like a meteorite!"}
+,{TR: "Efendim? Düştün resme. Sorry? You crashed into my life.", EN: ""}
+,{TR: "Anlamıyorum dediklerini.", EN: "I don't get it."}
+,{TR: "Ben de onu diyorum. Bir de özel ders istiyorsun.", EN: "That's what I'm talking about. Yet you want tutoring."}
+,{TR: "Ha yok, ben derslerde çok iyiyimdir.", EN: "I excel at classes, though."}
+,{TR: "Hatta şöyle gelmeden önce ufak da bir araştırma yaptım.", EN: "I even did a little research before I came here."}
+,{TR: "Bayağı ufak olmuş.", EN: "A little, sure."}
+,{TR: "Gerçi tabii çok da değişip değişmemekle ilgili değil olay…", EN: "Although, of course, changing is not the key…"}
+,{TR: "Yavaş. Sakin. Kahve? Yok, ben kahve içemem.", EN: "Easy. Calm down. Coffee? I don't take coffee."}
+,{TR: "Kahve içersem hareketlenirim, çok konuşurum.", EN: "Coffee makes me all energetic and talkative."}
+,{TR: "Stimülatörler bende öyle… Tamam. Papatya çayı.", EN: "Stimulants have the same effect on me… OK. Chamomile tea."}
+ ]},
 {title: "Özel Ders - Hande ve Azra",
  sentences: [{TR: "Vay be, gerçekten çalışıyormuş.", EN: "Wow, she does work a lot."}
 ,{TR: "Bu mesleğin bir adı falan var mı?", EN: "Does this profession have a name?"}
@@ -241,7 +203,15 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Tamam, söz.", EN: "Okay, I promise."}
 ,{TR: "Hayatı kitaplardan öğrenemezsin.", EN: "You can't learn life from books."}
 ,{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. Remove that bullshit."}
-]}
+]},
+{title: "Serge Gainsbourg - Laetitia",
+ sentences: [{TR: "Sur ma Remington portative j'ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
+,{TR: "Lætitia les jours qui se suivent hélas ne se ressemblent pas", EN: "Laetitia, recent days are not the same"}
+,{TR: "C'est ma douleur que je cultive en frappant ces huit lettres-là", EN: "That's my pain I develop while I'm typing those eight very letters"}
+,{TR: "C'est une fleur bien maladive je la touche du bout des doigts", EN: "This is a quite sickly flower I touch her with my fingertips"}
+,{TR: "S'il faut aller à la dérive je veux bien y aller pour toi", EN: "If it must be going to drift, I am glad to go for you"}
+,{TR: "Ma raison en définitive se perd dans ces huit lettres-là", EN: "My reason ultimately loses itself in those eight very letters"}
+ ]}
 ];
 
 ReactDOM.createRoot( 
