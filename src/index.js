@@ -160,13 +160,13 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Liste uzun, hayat kısa.", EN: "The list is long, life is short."}
 ,{TR: "Yetişkin olmak, yetişmekten geliyordur belki.", EN: "Being an adult may be all about development."}
 ,{TR: "Peki ya hayat dersleri?", EN: "What about life lessons?"}
-,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum.", EN: "That's where I step in and become the person the clients need the most.", EN: ""}
+,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum.", EN: "That's where I step in and become the person the clients need the most."}
  ]},
  {title: "Özel ders - 02",
  sentences: [{TR: "Bir de sen vardın, doğru ya.", EN: "There was also you, right."}
 ,{TR: "Ne Merkür retrosuymuş arkadaş!", EN: "What a Mercury retrograde!"}
 ,{TR: "Daha çok göktaşı sanki!", EN: "More like a meteorite!"}
-,{TR: "Efendim? Düştün resme. Sorry? You crashed into my life.", EN: ""}
+,{TR: "Efendim? Düştün resme.", EN: "Sorry? You crashed into my life."}
 ,{TR: "Anlamıyorum dediklerini.", EN: "I don't get it."}
 ,{TR: "Ben de onu diyorum. Bir de özel ders istiyorsun.", EN: "That's what I'm talking about. Yet you want tutoring."}
 ,{TR: "Ha yok, ben derslerde çok iyiyimdir.", EN: "I excel at classes, though."}
