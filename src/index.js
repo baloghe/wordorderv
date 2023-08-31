@@ -177,7 +177,75 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Kahve içersem hareketlenirim, çok konuşurum.", EN: "Coffee makes me all energetic and talkative."}
 ,{TR: "Stimülatörler bende öyle… Tamam. Papatya çayı.", EN: "Stimulants have the same effect on me… OK. Chamomile tea."}
  ]},
-{title: "Özel Ders - Hande ve Azra",
+{title: "Özel ders - 03",
+ sentences: [{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. And remove that bullshit."}
+,{TR: "Teyzen eve gelmez, değil mi?", EN: "Your aunt won't come home, will she?"}
+,{TR: "Yakalanmayalım. Bu saatte hayatta gelmez.", EN: "Let's not get caught. He won't come alive at this hour."}
+,{TR: "Ay Burak, bütün gece beni yordun. Mahvoldum.", EN: "Ay Burak, you exhausted me all night. I'm ruined."}
+,{TR: "Olur mu öyle şey canım?", EN: "Is such a thing possible, dear?"}
+,{TR: "Bana haftaya programını söyle. Ona göre randevulaşırız.", EN: "Tell me your schedule for next week. We make an appointment accordingly."}
+,{TR: "Yalnız bu dolap hâlâ burada!", EN: "Only this closet is still here!"}
+,{TR: "Oo, Üç Numara. Günaydın. Ben unutmuşum dolabı tamamen. Kusura bakma.", EN: "Oh, Number Three. Good morning. I forgot the closet completely. Sorry."}
+,{TR: "Apartmandan birileri bıt bıt bıt kamyonla alakalı söylenmişler.", EN: "Someone from the apartment said blah blah blah about the truck."}
+,{TR: "Ben de erken yolladım arkadaşları.", EN: "I also sent them early."}
+,{TR: "Ha, özrün kabahatinden büyük yani.", EN: "Oh, that's your big apology for your fault."}
+,{TR: "Bak, görüyorsun, çok fazla işim var.", EN: "Look, you see, I have a lot of work."}
+,{TR: "İşim bitsin aldırırım ben. Görüşürüz.", EN: "I'll take care of it when I'm done. See you later."}
+,{TR: "İş diyor ya! Yok artık!", EN: "Work, he says! No way!"}
+,{TR: "Sanat eseri bence.", EN: "I think it's a work of art."}
+,{TR: "Evet, aynı sen.", EN: "Yes, like you."}
+,{TR: "Sabah sabah da insanın bu kadar üstüne gelinmez ki!", EN: "In the morning, you can't come over a person like that!"}
+,{TR: "Sana ne oluyor ya?", EN: "What's happening to you?"}
+,{TR: "Ya iki gram umudum vardı, o da bitti gitti.", EN: "I had two grams of hope, and it's gone."}
+,{TR: "Utku niye beni beğensin ki?", EN: "Why would Utku like me?"}
+,{TR: "Bunlar kadınsa ben... başka bir cinsim.", EN: "If these are women, I am... another breed."}
+,{TR: "Yok, sen sadece cinssin.", EN: "No, you're just the breed."}
+,{TR: "O ayrı konuda gördüğünü de anlamıyorsun belli ki.", EN: "Regarding the other issue, you obviously don't understand what you see."}
+ ]},
+ {title: "Özel ders - 04",
+ sentences: [{TR: "Kahve sade mi olsun sütlü mü? Komşuluk ölmemiş.", EN: "You want milk in your coffee? Neighborhood is not dead."}
+,{TR: "Katiyen olmaz! Eve erkek alamam.", EN: "Absolutely not, I say! I cannot let men in."}
+,{TR: "Çok rica ediyorum, bari bir buse kondurmama müsaade buyurunuz.", EN: "I implore you, milady, please allow me to steal all but one kiss."}
+,{TR: "Taş devrinde değiliz artık küçük bey.", EN: "We're not cavemen, mister."}
+,{TR: "Niyetiniz ciddiyse ailenizle gelir, ister, öpersiniz.", EN: "If you do mean it, bring your family, get mine's blessing, and then kiss me."}
+,{TR: "1800'lü yıllarda böyle şeyler hoş karşılanmaz.", EN: "Such shenanigans are frowned upon in the 19th century."}
+,{TR: "Gel. Ya bunlar sanıyor ki kadın erkek bir eve girdiği anda sevişmeye başlıyor.", EN: "Come here. I swear they think men and women start having sex the minute they're alone."}
+,{TR: "Seninle ben arkadaş olamaz mıyız? Maybe we're just friends?", EN: ""}
+,{TR: "Değil mi? Ayrıca komşuyuz kardeş.  Aren't we? Plus, we're neighbors, bro.", EN: ""}
+,{TR: "Geç istersen. Daha rahat.", EN: "Make yourself comfortable."}
+,{TR: "Salonun falan bayağı ferahmış. Duvarı yıkmışsınız.", EN: "Your living room is spacious. You tore down the wall."}
+,{TR: "Yani mesela… Lütfen sakın yanlış anlama.", EN: "I mean, for instance... Please don't get me wrong."}
+,{TR: "Neyi yanlış anlamayayım?", EN: "Why would I?"}
+,{TR: "Yani mesela geçen gün senin eve gelen misafirlerle alakalı öyle düşünse hadi neyse, ama…", EN: "For instance, I'd get it if she thought that way about your guests the other day, but..."}
+,{TR: "Tamam tamam. Sen orada kalmışsın hâlâ.", EN: " I see. You're still hung up on that."}
+,{TR: "Bence içinde bastırılmış bir Makbule var.", EN: "You're repressing your inner Makbule."}
+,{TR: "Niye öyle dedin ki şimdi?", EN: "Why would you say that?"}
+,{TR: "Seviştiğimizi düşünmüşsün.", EN: "You assumed I had sex with them."}
+,{TR: "Ha yok, ben öyle düşünmedim.", EN: "No, I didn't. Not me."}
+,{TR: "Yani Makbule öyle düşünür diye düşündüm.", EN: "I just thought Makbule would think that."}
+,{TR: "Yoksa ben niye öyle düşüneyim?", EN: "Why would I think that?"}
+,{TR: "Saçma bir yere gidiyor konu.", EN: "This is getting ridiculous."}
+,{TR: "Ben de artık konunun devamını Makbule'nin kendisine anlatırım.", EN: "Now I will tell the rest of the matter to Makbule herself."}
+,{TR: "Ha, bir cevabı var yani?", EN: "So there is an explanation?"}
+,{TR: "Sen kostümleri o gece merak etmişsin.", EN: "So, you were curious about the costumes."}
+,{TR: "Yani merak etmemişsin, merakından çatlamışsın da yine de sormamışsın.", EN: "Not just curious, you were dying to know, yet you didn't ask."}
+,{TR: "Nasıl bir kadınsın sen?", EN: "What kind of woman are you?"}
+,{TR: "Madem anladın merak ettiğimi, niye söylemedin?", EN: "If you knew, why didn't you explain?"}
+,{TR: "Çünkü sormadın.", EN: "Because you didn't ask."}
+,{TR: "Çünkü senin özel hayatın. Fantezi dünyan beni ilgilendirmez.", EN: "Because it's your private life. It's your fantasy, after all."}
+ ]},
+ {title: "Özel ders - 05",
+ sentences: [{TR: "Bir eşeklik ettim. Beni affeder misin?", EN: "I was an ass. Will you forgive me?"}
+,{TR: "Çok komik görünüyorsun. Çıkar şunu, gerek yok.", EN: "You look hilarious. Just take it off. It's fine."}
+,{TR: "Ayrıca bunları ne ara yaptın ya?", EN: "When did you do all this?"}
+,{TR: "Bu kadar şeye gerek yoktu.", EN: "You shouldn't have."}
+,{TR: "Azra, ben seni sonradan anladım.", EN: "Azra, I didn't get it at first."}
+,{TR: "Hiçbir şey bilmiyormuşum ki seninle alakalı.", EN: "I didn't know anything about you."}
+,{TR: "Bundan sonra da sonuna kadar yanındayım.", EN: "I'll be on your side forever."}
+,{TR: "Ya Burak, ne olur kusura bakma.", EN: "Burak, I'm so sorry."}
+,{TR: "Ama çok önemli, bunu açmam gerekiyor.", EN: "But I really have to take this."}
+ ]},
+{title: "Özel Ders - 06 Hande ve Azra",
  sentences: [{TR: "Vay be, gerçekten çalışıyormuş.", EN: "Wow, she does work a lot."}
 ,{TR: "Bu mesleğin bir adı falan var mı?", EN: "Does this profession have a name?"}
 ,{TR: "İyi para vardır bu işte.", EN: "I bet you make a lot."}
@@ -204,6 +272,74 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Hayatı kitaplardan öğrenemezsin.", EN: "You can't learn life from books."}
 ,{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. Remove that bullshit."}
 ]},
+{title: "Karakomik - Ayzek ve Kaptan",
+ sentences: [{TR: "Ben bir şey olacağını sanmıyorum.", EN: "I don't think anything will happen."}
+,{TR: "Mülakat dediği, böyle formaliteden bir görüşme olur, onu halledersiniz.", EN: "The interview is a formal meeting like this, you handle it."}
+,{TR: "Yani ben, dişlerimi yaptıracağım için kaptanım, yani, ne bileyim, sorun çıkmaz, değil mi?", EN: "You know, captain, I'll get my teeth fixed, it won't be a problem, will it?"}
+,{TR: "Kaç sene oldu senin?", EN: "How long have you been here?"}
+,{TR: "14 sene, yani bir diş yüzünden...", EN: "For 14 years, just because of the teeth..."}
+,{TR: "Bir şey olmaz ondan, bir şey olmaz.", EN: "That won't be a problem, don't worry."}
+,{TR: "Hepiniz işinize aynen devam edersiniz.", EN: "All of you will keep your jobs."}
+,{TR: "Ya şimdi, her yerde, afişlerde şey olunca", EN: "Yeah, but you know there is..."}
+,{TR: "Olmaz ondan bir şey! Bak neşene, hadi.", EN: "It's all right! Chin up, go on."}
+,{TR: "Sağ olun.", EN: "Thanks"}
+ ]},
+{title: "Karakomik - Güven ve Kadın",
+ sentences: [{TR: "Ya siz ne yapıyorsunuz Allah aşkına?", EN: "What are you doing, for God's sake?"}
+,{TR: "Özür dilerim.", EN: "I'm sorry."}
+,{TR: "Bir şey demeyeyim diyorum ama dayanamıyorum artık.", EN: "I want to say nothing, but I can't stand it anymore."}
+,{TR: "Her gün, her yerdesiniz be kardeşim. Hayır, tanışıyor muyuz? Yok.", EN: "You're everywhere, every day, bro. Do we know each other? No."}
+,{TR: "Ya, bu nedir böyle sokakta yürüyen her kadına?", EN: "What is this to the women walking down the street like that?"}
+,{TR: "Şey, ben orada, sakız vermek anlamında değil de...", EN: "Well, I was there, but not to give chewing gum..."}
+,{TR: "Yani böyle bir vesile olsun", EN: "To have such an occasion"}
+,{TR: "Bir konuşma gibi bir şey, yani.", EN: "Something like a conversation."}
+,{TR: "Bak kardeşim, kadınla erkekle bir alakası yok bunun.", EN: "Look bro, this has nothing to do with men or women."}
+,{TR: "Yani, bir insan hiç tanımadığı birine merhaba der, selam der, ben bunu anlarım.", EN: "I mean you say hello or hi to someone you don't know."}
+,{TR: "Yani bir de koskoca adamsınız.", EN: "You're a grown-up!"}
+,{TR: "Siz böyle hangi filmde, hangi dizide görüyorsunuz bunları?", EN: "In which move, which series have you seen that?"}
+,{TR: "Yok, ben dizi izlemiyorum.", EN: "I don't watch series."}
+,{TR: "Saçmaladım da yani, terbiyesizlik yapmak anlamında bir şey yapmak istemedim.", EN: "I was silly, I didn't want to do anything rude."}
+,{TR: "Hayır, nedir yani, iş o noktaya gelir diye illa böyle tedbirli mi gezelim, bu mu?", EN: "No, what is it, should we walk around cautiously, just in case it gets to that point, with this?"}
+,{TR: "Yok, gaza gerek yok ya, öyle bir şeye gerek yok yani.", EN: "No, don't need spray, no such thing is needed at all."}
+,{TR: "Gerek var diye demiyorum zaten, sakız arıyorum çantamda.", EN: "I'm not saying it's necessary anyway, I'm looking for a chewing gum in my bag."}
+,{TR: "Alabilir miyim onu?", EN: "Can I have it?"}
+,{TR: "Tamam, ben bunu hak ettim. Tamam.", EN: "OK, I deserved it. OK."}
+,{TR: "Ama siz, ne olur sakızı kabul edin.", EN: "But you, please accept the chewing gum."}
+,{TR: "Alabilir miyim lütfen?", EN: "Can I have it please?"}
+,{TR: "O zaman ismini söyle vereyim.", EN: "Then tell me your name and I'll give it."}
+,{TR: "Ya, ne yapıyorsun sen ya? Ver şunu bana!", EN: "What are you doing? Give it to me!"}
+,{TR: "İyi misiniz? Ya, ne yaptın kardeşim ya?", EN: "Are you okay? What did you do bro?"}
+,{TR: "Dur, dur. İyiyim. Bir şeyim yok. Ben hak ettim ama.", EN: "Stop, stop. I am okay. Everything's fine. I deserved it though."}
+,{TR: "İyi misin, görebiliyor musun beni?", EN: "Are you okay, can you see me?"}
+,{TR: "Çok az görüyorum.", EN: "I see very little."}
+,{TR: "Çok az görüyorum, yani daha fazla görüşsek?", EN: "I see very little, I mean what if we could see each other more often?"}
+,{TR: "Bir yüzünü falan yıkaman lazım senin.", EN: "You have to wash your face or something."}
+,{TR: "Tamam, affettin mi ama?", EN: "OK, did you forgive me?"}
+,{TR: "Ben gidiyorum, geç kaldım bak.", EN: "I move on, look, I'm late."}
+ ]},
+{title: "Karakomik - Lokantada",
+ sentences: [{TR: "Taksi sizin mi, dışarıdaki?", EN: "Is it your taxi outside?"}
+,{TR: "Çalışmıyorum abi ben.", EN: "I don't work."}
+,{TR: "Öyle mi? Böyle durumlarda hemen güvenlik birimlerine haber vermek lazım.", EN: "Really? In such cases, it is necessary to notify the security units immediately."}
+,{TR: "Alo, 155 mi? Bir saniye Memur Bey.", EN: "Hello, 155? Wait a second, Officer."}
+,{TR: "Neresi oğlum burası?", EN: "Where are we, my son?"}
+,{TR: "İyi nöbetler efendim.", EN: "Good watch sir."}
+,{TR: "Taksici bir esnafımız burada yol beğenmiyor, müşteri seçiyor.", EN: "The taxi driver doesn't like the road here, cherry-picks his customers."}
+,{TR: "Nasıl yardımcı olabilirsiniz?", EN: "How can you help?"}
+,{TR: "Ben Tuncay Uğurlu, Dışişleri'nden.", EN: "I'm Tuncay Uğurlu from the Foreign Office."}
+,{TR: "Paris Büyükelçisi Fuat Uğurlu'nun kardeşiyim. Ortanca, evet.", EN: "I am the brother of Paris Ambassador Fuat Uğurlu. The middle one, yes."}
+,{TR: "Tamam, siz memur gönderin ben bekliyorum.", EN: "Okay, send some officers, I'm waiting."}
+,{TR: "Adresi verseydim.", EN: "I could have given the address."}
+,{TR: "Uydudan bulurlar. Sen dalga mı geçiyorsun yavrum?", EN: "They find it by satellite. Are you kidding my dear?"}
+,{TR: "Şu aleti her yerden okuyorlar. Tuncay Uğurlu, tak bitti.", EN: "They read this instrument from everywhere. Tuncay Uğurlu, the plug is over."}
+,{TR: "Polisi karıştırmak istemezdim ama gelsinler işlem yapılsın, her şey ortaya çıksın.", EN: "I wouldn't want to mix the police in, but let them come and take action, let everything come out."}
+,{TR: "Siz nereye gideceksiniz abi?", EN: "Where will you go, man?"}
+,{TR: "Hah, şöyle ya.", EN: "Oh, that's it."}
+,{TR: "Valla nereye gideceğiz yavrum, tek yön var, aşağıya doğru gideceğiz işte.", EN: "Well, where are we going, boy? there is only one way, we will go down."}
+,{TR: "Çayı şuradan alıver yavrum.", EN: "Take the tea from there, son."}
+,{TR: "Abi, çorbaların parası?", EN: "The money for the soups?"}
+,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
+ ]},
 {title: "Serge Gainsbourg - Laetitia",
  sentences: [{TR: "Sur ma Remington portative j'ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
 ,{TR: "Lætitia les jours qui se suivent hélas ne se ressemblent pas", EN: "Laetitia, recent days are not the same"}
