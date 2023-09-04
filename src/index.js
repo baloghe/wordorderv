@@ -210,7 +210,7 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Niyetiniz ciddiyse ailenizle gelir, ister, öpersiniz.", EN: "If you do mean it, bring your family, get mine's blessing, and then kiss me."}
 ,{TR: "1800'lü yıllarda böyle şeyler hoş karşılanmaz.", EN: "Such shenanigans are frowned upon in the 19th century."}
 ,{TR: "Gel. Ya bunlar sanıyor ki kadın erkek bir eve girdiği anda sevişmeye başlıyor.", EN: "Come here. I swear they think men and women start having sex the minute they're alone."}
-,{TR: "Seninle ben arkadaş olamaz mıyız?, EN: "Maybe we're just friends?"}
+,{TR: "Seninle ben arkadaş olamaz mıyız?", EN: "Maybe we're just friends?"}
 ,{TR: "Değil mi? Ayrıca komşuyuz kardeş.", EN: "Aren't we? Plus, we're neighbors, bro."}
 ,{TR: "Geç istersen. Daha rahat.", EN: "Make yourself comfortable."}
 ,{TR: "Salonun falan bayağı ferahmış. Duvarı yıkmışsınız.", EN: "Your living room is spacious. You tore down the wall."}
