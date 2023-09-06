@@ -35,6 +35,7 @@ export default class Test extends React.Component {
       eArr={this.props.expResult}
       dragEnabled={this.props.dragEnabled}
       handleWordDrag={this.onWordDragged}
+      retryTest={this.props.retryTest}
       />
   </div>);
   }
