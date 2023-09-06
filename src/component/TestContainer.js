@@ -46,6 +46,8 @@ export default class TestContainer extends React.Component {
   	this.state.tests[this.state.actTestNum].aSentence = ansArr;
     //console.log(`updateUserAnswer: ${this.state.tests[this.state.actTestNum].aSentence.join('|')}`);
   }
+
+  st1 = null;
   
   containerNextTest = (e) => {
   	//console.log(`TestContainer.nextTest entered...`);
@@ -56,7 +58,7 @@ export default class TestContainer extends React.Component {
 	  
     this.showExpectedResult(tstResult);
 	
-    const st1 = setTimeout(() => {
+    this.st1 = setTimeout(() => {
     	
       let tstSecSpent = (new Date() - this.state.tests[this.state.actTestNum].tsActStart)/1000;
       
@@ -83,8 +85,17 @@ export default class TestContainer extends React.Component {
           this.exitTest();
         }
         
-      clearTimeout(st1);
+      clearTimeout(this.st1);
     }, tstResult ? this.props.wait : this.props.wait * 2);
+  };
+  
+  retryTest = () => {
+	  shuffleArray(this.state.tests[this.state.actTestNum].aSentence);
+	  this.setState({
+            tsActStart: new Date(),
+            dragEnabled: true
+          });
+	  clearTimeout(this.st1);
   };
   
   exitTest = (e) => {
@@ -144,6 +155,7 @@ export default class TestContainer extends React.Component {
         wait={this.props.wait}
         dragEnabled={this.state.dragEnabled}
         updateContainer={this.updateUserAnswer}
+        retryTest={this.retryTest} 
 />
     {this.state.dragEnabled ? this.renderButtons() : null}
     {this.state.dragEnabled ? null : this.renderActResults()}
