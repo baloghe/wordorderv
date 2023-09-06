@@ -28,6 +28,15 @@ export default class Question extends React.Component{
     );
   }
   
+  renderRetryButton = () => {
+  	return (
+	  <tr>
+		<td></td>
+		<td><TestButton callBack={this.props.retryTest} caption="Retry" /></td>
+	  </tr>
+    );
+  }
+  
   renderExpectedAnswerContainer = () => {
   	return (
     <tr>
@@ -54,6 +63,7 @@ export default class Question extends React.Component{
         <td><span className="question">{this.props.qSentence}</span></td>
       </tr>
       {this.renderUserAnswerContainer(this.props.dragEnabled)}
+      {this.props.dragEnabled ? null : this.renderRetryButton()}
       {this.props.dragEnabled ? null : this.renderExpectedAnswerContainer()}
       </tbody></table>
     );
