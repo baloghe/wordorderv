@@ -272,51 +272,6 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Hayatı kitaplardan öğrenemezsin.", EN: "You can't learn life from books."}
 ,{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. Remove that bullshit."}
 ]},
-{title: "Karakomik - Ayzek ve Kaptan",
- sentences: [{TR: "Ben bir şey olacağını sanmıyorum.", EN: "I don't think anything will happen."}
-,{TR: "Mülakat dediği, böyle formaliteden bir görüşme olur, onu halledersiniz.", EN: "The interview is a formal meeting like this, you handle it."}
-,{TR: "Yani ben, dişlerimi yaptıracağım için kaptanım, yani, ne bileyim, sorun çıkmaz, değil mi?", EN: "You know, captain, I'll get my teeth fixed, it won't be a problem, will it?"}
-,{TR: "Kaç sene oldu senin?", EN: "How long have you been here?"}
-,{TR: "14 sene, yani bir diş yüzünden...", EN: "For 14 years, just because of the teeth..."}
-,{TR: "Bir şey olmaz ondan, bir şey olmaz.", EN: "That won't be a problem, don't worry."}
-,{TR: "Hepiniz işinize aynen devam edersiniz.", EN: "All of you will keep your jobs."}
-,{TR: "Ya şimdi, her yerde, afişlerde şey olunca", EN: "Yeah, but you know there is..."}
-,{TR: "Olmaz ondan bir şey! Bak neşene, hadi.", EN: "It's all right! Chin up, go on."}
-,{TR: "Sağ olun.", EN: "Thanks"}
- ]},
-{title: "Karakomik - Güven ve Kadın",
- sentences: [{TR: "Ya siz ne yapıyorsunuz Allah aşkına?", EN: "What are you doing, for God's sake?"}
-,{TR: "Özür dilerim.", EN: "I'm sorry."}
-,{TR: "Bir şey demeyeyim diyorum ama dayanamıyorum artık.", EN: "I want to say nothing, but I can't stand it anymore."}
-,{TR: "Her gün, her yerdesiniz be kardeşim. Hayır, tanışıyor muyuz? Yok.", EN: "You're everywhere, every day, bro. Do we know each other? No."}
-,{TR: "Ya, bu nedir böyle sokakta yürüyen her kadına?", EN: "What is this to the women walking down the street like that?"}
-,{TR: "Şey, ben orada, sakız vermek anlamında değil de...", EN: "Well, I was there, but not to give chewing gum..."}
-,{TR: "Yani böyle bir vesile olsun", EN: "To have such an occasion"}
-,{TR: "Bir konuşma gibi bir şey, yani.", EN: "Something like a conversation."}
-,{TR: "Bak kardeşim, kadınla erkekle bir alakası yok bunun.", EN: "Look bro, this has nothing to do with men or women."}
-,{TR: "Yani, bir insan hiç tanımadığı birine merhaba der, selam der, ben bunu anlarım.", EN: "I mean you say hello or hi to someone you don't know."}
-,{TR: "Yani bir de koskoca adamsınız.", EN: "You're a grown-up!"}
-,{TR: "Siz böyle hangi filmde, hangi dizide görüyorsunuz bunları?", EN: "In which move, which series have you seen that?"}
-,{TR: "Yok, ben dizi izlemiyorum.", EN: "I don't watch series."}
-,{TR: "Saçmaladım da yani, terbiyesizlik yapmak anlamında bir şey yapmak istemedim.", EN: "I was silly, I didn't want to do anything rude."}
-,{TR: "Hayır, nedir yani, iş o noktaya gelir diye illa böyle tedbirli mi gezelim, bu mu?", EN: "No, what is it, should we walk around cautiously, just in case it gets to that point, with this?"}
-,{TR: "Yok, gaza gerek yok ya, öyle bir şeye gerek yok yani.", EN: "No, don't need spray, no such thing is needed at all."}
-,{TR: "Gerek var diye demiyorum zaten, sakız arıyorum çantamda.", EN: "I'm not saying it's necessary anyway, I'm looking for a chewing gum in my bag."}
-,{TR: "Alabilir miyim onu?", EN: "Can I have it?"}
-,{TR: "Tamam, ben bunu hak ettim. Tamam.", EN: "OK, I deserved it. OK."}
-,{TR: "Ama siz, ne olur sakızı kabul edin.", EN: "But you, please accept the chewing gum."}
-,{TR: "Alabilir miyim lütfen?", EN: "Can I have it please?"}
-,{TR: "O zaman ismini söyle vereyim.", EN: "Then tell me your name and I'll give it."}
-,{TR: "Ya, ne yapıyorsun sen ya? Ver şunu bana!", EN: "What are you doing? Give it to me!"}
-,{TR: "İyi misiniz? Ya, ne yaptın kardeşim ya?", EN: "Are you okay? What did you do bro?"}
-,{TR: "Dur, dur. İyiyim. Bir şeyim yok. Ben hak ettim ama.", EN: "Stop, stop. I am okay. Everything's fine. I deserved it though."}
-,{TR: "İyi misin, görebiliyor musun beni?", EN: "Are you okay, can you see me?"}
-,{TR: "Çok az görüyorum.", EN: "I see very little."}
-,{TR: "Çok az görüyorum, yani daha fazla görüşsek?", EN: "I see very little, I mean what if we could see each other more often?"}
-,{TR: "Bir yüzünü falan yıkaman lazım senin.", EN: "You have to wash your face or something."}
-,{TR: "Tamam, affettin mi ama?", EN: "OK, did you forgive me?"}
-,{TR: "Ben gidiyorum, geç kaldım bak.", EN: "I move on, look, I'm late."}
- ]},
 {title: "Karakomik - Lokantada",
  sentences: [{TR: "Taksi sizin mi, dışarıdaki?", EN: "Is it your taxi outside?"}
 ,{TR: "Çalışmıyorum abi ben.", EN: "I don't work."}
@@ -340,6 +295,29 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Abi, çorbaların parası?", EN: "The money for the soups?"}
 ,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
  ]},
+{title: "Asuman Tatlısının Hikayesi",
+sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I was born in Çorum in 1985."}
+,{TR: "Ya üniversite için geldim ben İstanbul'la ama cocukluğumun önemli bir kısmı da Almanya'da geçti.", EN:"Well, I came to Istanbul for university, but I spent a significant part of my childhood in Germany."}
+,{TR: "Marmara Üniversitesi'nde İşletme bölümünü okudum.", EN:"I studied Business Administration at Marmara University."}
+,{TR: "Bilgi Üniversitesi'nde pazarlama iletişimi master'ı yaptım.", EN:"I completed my master's degree in marketing communications at Bilgi University."}
+,{TR: "Ondan sonra da pazar araştırmacılığı ve reklamcılık yaptım.", EN:"After that, I did market research and advertising."}
+,{TR: "En son da cıkolatacı oldum.", EN:"Finally, I became a chocolate maker."}
+,{TR: "Aslında keyifli işlerdi ama çok da benlik değildi.", EN:"Actually, it was fun work, but it wasn't very personal."}
+,{TR: "Çok bana gerçek gibi gelmiyordu.", EN:"It didn't seem real to me."}
+,{TR: "Daha gerçek bir dünyanın işini yapıyormuşum gibi gelmiyordu.", EN:"It didn't feel like I was doing the work of a real world yet."}
+,{TR: "Hafta sonunu finanse etmek için sabah 9'dan akşam 6'ya kadar çalışma fikri benim çok barışabileceğim bir fikri değildi.", EN:"The idea of working from 9 a.m. to 6 p.m. to fund the weekend was not something I could quite reconcile with."}
+,{TR: "Biraz daha gerçek bir hayat istedim.", EN:"I wanted a more real life."}
+,{TR: "Biraz daha sokakta bir hayat istedim.", EN:"I wanted a little more life on the streets."}
+,{TR: "Ben önce bir esnaf olmaya karar verdim.", EN:"I first decided to become a tradesman."}
+,{TR: "Çikolata da ondan sonra bir yöntem olarak geldi.", EN:"Chocolate came as a method after that."}
+,{TR: "Bir yöntem olarak doğdu.", EN:"It was born as a method."}
+,{TR: "Dolayısıyla aşımalığım çok daha fazlaydı.", EN:"Therefore, my immunization rate was much higher."}
+,{TR: "Bir Almanya'dan Türkiye'ye çikolata getiren aileydik.", EN:"We were a family that brought chocolate to Turkey from Germany."}
+,{TR: "Kaliteli çikolatayla ilgili bir hassasiyetim vardı.", EN:"I was sensitive about quality chocolate."}
+,{TR: "Yaptığım işlerden ötürü de çikolata pazarına hakim oldum.", EN:"Because of the work I did, I became familiar with the chocolate market."}
+,{TR: "Çünkü piyasada ne kadar bildiğimiz büyük çikolata firması varsa bir şekilde benim müşterim oldu.", EN:"Because all the big chocolate companies we know in the market somehow became my customers."}
+,{TR: "Onlara pazarını anlatırken ben de pazarı öğrenmiş oldum.", EN:"While I was telling them about the market, I also learned about the market."}
+]},
 {title: "Serge Gainsbourg - Laetitia",
  sentences: [{TR: "Sur ma Remington portative j'ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
 ,{TR: "Lætitia les jours qui se suivent hélas ne se ressemblent pas", EN: "Laetitia, recent days are not the same"}
