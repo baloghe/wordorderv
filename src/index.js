@@ -63,60 +63,6 @@ const mockTests = [
 ,{TR: "Yani böyle çok güzel kafası.", EN:"She's absolutely hilarious."}
 ,{TR: "Tebrikler bu arada.", EN:"Congrats, by the way."}
  ]},
-{title: "Yedi kocalı Hürmüz açılış sahnesi",
-sentences: [{TR: "Koca dediğiniz nedir ki, kızlar?", EN:"What's a husband, girls?"}
-,{TR: "Evin geçimini yapan, sonra geceleri sırtını dönüp kıçında pireleri uçustura uçustura uyuyan adama koca denir.", EN:"A husband is a man who provides for the household, then turns his back at night and sleeps with fleas flying up his arse."}
-,{TR: "Koca sedir gibi, mangal gibi, evin demirbaşıdır.", EN:"The husband is a fixture of the house, like a big cedar, like a brazier."}
-,{TR: "Ah, kızlar, devir eski devir değil.", EN:"Ah, girls, it ain't the old days."}
-,{TR: "Eski zamanın adamları deve benzerdi.", EN:"The men of the old days were like giants."}
-,{TR: "Yaşadıkları yer eve benzerdi.", EN:"The place they lived in looked like a house."}
-,{TR: "Yanına yatınca bir şeye benzerdi.", EN:"Lying next to him looked like something."}
-,{TR: "Bir herif dört karıyla yetinmez fazlasını da ipe dizerdi.", EN:"A guy would not be content with four wives, would string on more."}
-,{TR: "Ne oldu? Zaman değıştır.", EN:"What happened? Time changes."}
-,{TR: "Herifleri küçüldü, karılara bir heybet geldi.", EN:"The blokes got smaller, the wives got bigger."}
-,{TR: "Haliyle bir karının işini dört herif göremez hale geldi.", EN:"As it stands, four guys can't do the work of a wife."}
-,{TR: "Şimdiki zamanın kocaları etliye sütlüye karışmaz, alacağını alır vereceğini verir erkenden ölür gölge etmez.", EN:"Today's husbands keep their nose clean, they take what they get and give what they give, they die early and do not cast a shadow."}
-,{TR: "Bakın bu Hürmüz'ün rahmetlik kocası, bu koskoca konağın sahibi Fettah Paşa.", EN:"Look, this is Hürmüz's late husband, Fettah Pasha, the owner of this huge mansion."}
-,{TR: "'Hürmüüüz' diye bağırır.", EN:"He shouts 'Hürmüüüz'."}
-,{TR: "Hürmüz yanına gidince de 'Bak bakalım vaziyet nedir' derdi.", EN:"When Hürmüz went to him, he said, 'See what the situation is'."}
-,{TR: "Hürmüz bunun üzerine adamın sağını solunu yoklar, 'Ay Paşa hazretleri zümrüdü anka kuşunuz bugün de görünürlerde yok' deyince.", EN:"Hürmüz then looked around the man and said, 'Your Highness, your Emerald Phoenix is nowhere to be seen today either'."}
-,{TR: "Herif dediğiniz ilk fırsatta seni bırakıp gidecek bir kuştur.", EN:"A guy is a bird that will leave you the first chance it gets."}
-,{TR: "Sen onu yakalıp yuvaya bağlayacaksın.", EN:"You're going to catch him and tie him to the nest."}
-,{TR: "Nasıl? Şefkat göstereceksın ya: fazla sıkarsan - hop - kaçar.", EN:"How? You have to show affection: if you squeeze it too tightly - hop - it runs away."}
-,{TR: "Sırtını sıvazlarsan 'İyidin, aslanım' dersen, aynı yapar...", EN:"If you pat his back and say 'You were fine, my lion', they'll do the same."}
-,{TR: "Şimdi artık tavuklar eşelenir ibikler neşelenir.", EN:"Now the chickens are paired and the crests are cheering."}
-,{TR: "Ne o öyle ikide bir harezlenmeler hışıl demeler bilmem neler.", EN:"What's all this harping and huffing and puffing and whatnot?"}
-,{TR: "Allah allah! Boş olun lan eski herifler. Bize yeni herifler!", EN:"Oh my god! Fuck off, you old bastards. New blokes to us!"}
-]},
-{title: "Özdemir Erdoğan: Gurbet",
-sentences: [{TR: "Kime desem derdimi ben, bulutlar", EN:"To whom should I tell my sorrow, clouds?"}
-,{TR: "Bizi dost bildiklerimiz vurdular", EN:"Those regarded as friends hurt us"}
-,{TR: "Bir de gurbet yarası var hepsinden derin", EN:"And then there is homesickness, which hurts the most"}
-,{TR: "Söyleyin memleketten bir haber mi var?", EN:"Tell me, are there news from the homeland?"}
-,{TR: "Yoksa yârin gözyaşları mı bu yağmurlar?", EN:"Are these rains perhaps the tears of my beloved?"}
-,{TR: "İçerim yanıyor yar yar", EN:"I am burning inside"}
-,{TR: "Yaram pek derin", EN:"My wound is deep"}
-,{TR: "Bana nazlı yardan aman bir haber verin", EN:"Bring me somе good news from my delicate beloved"}
-,{TR: "Bulutlar yârime selam söyleyin", EN:"Clouds, say hello to my love"}
-,{TR: "Kavuşma günümüz yakınmış deyin", EN:"Tell her that the day of reunion is near"}
-,{TR: "Felek yardan ırak koyduysa bizi", EN:"If fate set me far away from my love"}
-,{TR: "Gurbet elde bir başıma neyleyim?", EN:"What can I do abroad all alone?"}
-,{TR: "Yârdan ırak yaşanır mı söyleyin", EN:"Tell me, is it possible to live far away from love?"}
-]},
-{title: "Esmeray Diriker: Unutama beni",
-sentences: [{TR: "Boğazında düğümlenen hıçkırık olayım", EN:"Let me be the sob which is stuck in your troat"}
-,{TR: "Gözünden damlayamayan gözyaşın olayım", EN:"Let me be the tear which can't weep from your eyes"}
-,{TR: "Unutma beni", EN:"Don't forget me"}
-,{TR: "Gölgen gibi adım adım", EN:"Like your shadow step step"}
-,{TR: "Her solukta benim adım", EN:"In every breath always my name"}
-,{TR: "Ben nasıl ki unutmadım", EN:"I didn't forget you"}
-,{TR: "Bitmek bilmez kapkaranlık geceler boyunca", EN:"During the endless, dark nights"}
-,{TR: "Ayrılığın acısını kalbinde duyunca", EN:"When you feel the bitter grief in your heart"}
-,{TR: "Sevişirken, Öpüşürken", EN:"While making love, while kissing"}
-,{TR: "Yapayalnız dolaşırken", EN:"While walking alone"}
-,{TR: "Unutmaya çalışırken", EN:"While trying to forget"}
-,{TR: "Sen de unutma beni", EN:"You also don't forget me"}
-]},
 {title: "Ajda Pekkan - Boşvermişim Dünyaya",
  sentences: [{TR: "Temmuz, Ağustos, Eylül her mevsimde durma gül", EN: "July, August, September, keep laughing in all seasons"}
 ,{TR: "Hayat inan çok kısa belki çıkmayız yaza", EN: "Remember, life is short, we may not leave summer"}
@@ -129,30 +75,31 @@ sentences: [{TR: "Boğazında düğümlenen hıçkırık olayım", EN:"Let me be
 ,{TR: "Boşvermişim, boşvermişim dünyaya ben boşvermiş", EN: "I don't care about the world"}
 ,{TR: "Vallahi aldırmıyorum elalem ne söylermiş", EN: "I swear I ignore what people say"}
 ]},
-{title: "Meyhanenin Sesi - Kalamar",
-sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of the Tavern."}
-,{TR: "Bugün sizlere, kalabalık bir masaya en son gelmenin bedeli isimli prezentasyonun yapacak.", EN:"Today, he will make a presentation called the price of being the last to come to a crowded table."}
-,{TR: "Mesela bu arkadaş. Kendisi geç geldiği için kolonun altına oturmak durumunda kaldı.", EN:"For instance, this guy. He had to sit under the column because he was late."}
-,{TR: "Masanın en soğuk noktasından ara sıcaklara doğru hamle yapmakta.", EN:"He moves from the coldest point of the table to the warmer temperatures."}
-,{TR: "Sürekli duymadığı şakalara sanki anlıyormuş gibi kafa sallamakta.", EN:"He constantly nods to jokes he hasn't heard, as if he understands them."}
-,{TR: "Biz sorun bakalım neye gülmekten...", EN:"Let's see what we're laughing at..."}
-,{TR: "Toplumda kabul görmeye çalışmakta toplum onu görememekte.", EN:"He is trying to be accepted in the community, but the community cannot see him."}
-,{TR: "Bireyin yalnızlığını iliklerinde hissetmekte.", EN:"He feels the loneliness of the individual in his bones."}
-,{TR: "Ahmet bey, ben bu çocuk burda verimsiz bir gece geçirsin istememekte.", EN:"Ahmet Bey, I do not want this child to spend an unproductive night here."}
-,{TR: "Herhalde, sen de istememekte.", EN:"Probably you don't want it either."}
-,{TR: "Hatırla bakalım sabah ne aldırdım sana.", EN:"Remember what I bought you in the morning."}
-,{TR: "Akşama lazım olacak.", EN:"Will need it tonight."}
-,{TR: "Abim, ben sana ızgara bebek kalamar vereyim.", EN:"Brother, I'll give you grilled baby squid."}
-,{TR: "Taptaze, parmaklarını yersin.", EN:"Fresh, you'll lick your fingers."}
-,{TR: "Ustam bir ızgara bebek kalamar çek!", EN:"Master make a grilled baby squid!"}
-,{TR: "Sıparış üç güzel adımla şefe iletilde.", EN:"The order is forwarded to the chef in three beautiful steps."}
-,{TR: "Biz buna kendi aramızda siparişin üç tonu diyoruz.", EN:"We call it three tones of order among ourselves."}
-,{TR: "Şimdi koyalım arkadaşımın önüne, ve...", EN:"Now let's put it in front of my friend and..."}
-,{TR: "Ali görüldü.", EN:"Ali was seen."}
-,{TR: "Şakacı jonglörler Ali kabullendi.", EN:"Playful jugglers accept Ali."}
-,{TR: "Kolonlar görünmez olduğu, masa bütünleşti.", EN:"Columns are invisible, the table is unified."}
-,{TR: "Böylece kodadı baby operasyonumuz başarıyla tamamlanmış oldu.", EN:"Thus, our codename 'Baby Operation' was successfully completed."}
-,{TR: "Ahmetciğim bu ikimizin başarısı. Bu hepimizin başarısı.", EN:"Ahmet, this is the success of both of us. This is our success."}
+{title: "Doğu - Betül Eczanesi",
+ sentences: [{TR: "Buna ne kadardı?", EN:"How much does this cost?"}
+,{TR: "Fiyatlar üstünde yazıyor.", EN:"The price is written on."}
+,{TR: "Prezervatif. Aynı şekilde burada.", EN:"Condom. Something alike."}
+,{TR: "Prezervatif demeye neden utandın?", EN:"Why were you embarrassed to say condom?"}
+,{TR: "Tesettürlüyüm diye mi?", EN:"Because of my hijab?"}
+,{TR: "Ayıp olmasın diye.", EN:"Just to avoid shame."}
+,{TR: "Bıktım artık sizin şu ataerkil sığ zihniyetinizden ya.", EN:"I'm fed up with your shallow patriarchal mentality."}
+,{TR: "Temassız var mıydı?", EN:"Contactless (payment) is available?"}
+,{TR: "Vardı temassız vardı.", EN:"Sure, there is contactless."}
+,{TR: "Öyle tercih edersiniz daha da az günah olur.", EN:"If you prefer that way, it will be even less of a sin."}
+,{TR: "Ne diyorsun ya?", EN:"What are you saying?"}
+,{TR: "Ne diyorum ya?", EN:"What am I saying?"}
+,{TR: "Anlamadım hayırdır? Niye yükleniyorsun bana?", EN:"I don't get it, what's the problem? Why are you so hard on me?"}
+,{TR: "Acaba ne yaptın?", EN:"I wonder what you did."}
+,{TR: "Acaba niye? Almıyorum ya.", EN:"I wonder why. I don't take it."}
+,{TR: "Gerçekten vazgeçtim almayacağım.", EN:"Really, I give up, I don't take it."}
+,{TR: "Sen bilirsin alma.", EN:"Your choice, leave it."}
+,{TR: "Bakın duydunuz. Alma diyor bana.", EN:"Could you hear it? She says me not to take it."}
+,{TR: "Ben almıyorum diyorum alma diyor bana. Bu çalışanınızın yüzünden.", EN:"I say I won't buy it and she says I shouldn't. Because of this employee of yours."}
+,{TR: "Kimi arıyorsun? Kime bakıyorsun? Yetkili mi arıyorsun?", EN:"Who are you looking for? Who are you looking at? Are you looking for authority?"}
+,{TR: "Hesap verirsin.", EN:"You will pay for it."}
+,{TR: "Dışarıdan gördün tabii tesettürlü başörtülü.", EN:"You peeked in from outside (and said, of course) hijab, headscarf."}
+,{TR: "Anca dedin kalfadır çıraktır burada.", EN:"You just said it's a journeyman, an apprentice here."}
+,{TR: "Senin problemini ben çözemem ya.", EN:"I can't solve your problems."}
 ]},
 {title: "Özel ders - 01",
  sentences: [{TR: "Hepimiz sürekli bir şeylere yetişmeye çalışıyoruz.", EN: "We're always trying to keep up with stuff."}
@@ -201,38 +148,6 @@ sentences: [{TR: "Merhaba. Ben Meyhanenin Sesi.", EN:"Hello. I am the Voice of t
 ,{TR: "Bunlar kadınsa ben... başka bir cinsim.", EN: "If these are women, I am... another breed."}
 ,{TR: "Yok, sen sadece cinssin.", EN: "No, you're just the breed."}
 ,{TR: "O ayrı konuda gördüğünü de anlamıyorsun belli ki.", EN: "Regarding the other issue, you obviously don't understand what you see."}
- ]},
- {title: "Özel ders - 04",
- sentences: [{TR: "Kahve sade mi olsun sütlü mü? Komşuluk ölmemiş.", EN: "You want milk in your coffee? Neighborhood is not dead."}
-,{TR: "Katiyen olmaz! Eve erkek alamam.", EN: "Absolutely not, I say! I cannot let men in."}
-,{TR: "Çok rica ediyorum, bari bir buse kondurmama müsaade buyurunuz.", EN: "I implore you, milady, please allow me to steal all but one kiss."}
-,{TR: "Taş devrinde değiliz artık küçük bey.", EN: "We're not cavemen, mister."}
-,{TR: "Niyetiniz ciddiyse ailenizle gelir, ister, öpersiniz.", EN: "If you do mean it, bring your family, get mine's blessing, and then kiss me."}
-,{TR: "1800'lü yıllarda böyle şeyler hoş karşılanmaz.", EN: "Such shenanigans are frowned upon in the 19th century."}
-,{TR: "Gel. Ya bunlar sanıyor ki kadın erkek bir eve girdiği anda sevişmeye başlıyor.", EN: "Come here. I swear they think men and women start having sex the minute they're alone."}
-,{TR: "Seninle ben arkadaş olamaz mıyız?", EN: "Maybe we're just friends?"}
-,{TR: "Değil mi? Ayrıca komşuyuz kardeş.", EN: "Aren't we? Plus, we're neighbors, bro."}
-,{TR: "Geç istersen. Daha rahat.", EN: "Make yourself comfortable."}
-,{TR: "Salonun falan bayağı ferahmış. Duvarı yıkmışsınız.", EN: "Your living room is spacious. You tore down the wall."}
-,{TR: "Yani mesela… Lütfen sakın yanlış anlama.", EN: "I mean, for instance... Please don't get me wrong."}
-,{TR: "Neyi yanlış anlamayayım?", EN: "Why would I?"}
-,{TR: "Yani mesela geçen gün senin eve gelen misafirlerle alakalı öyle düşünse hadi neyse, ama…", EN: "For instance, I'd get it if she thought that way about your guests the other day, but..."}
-,{TR: "Tamam tamam. Sen orada kalmışsın hâlâ.", EN: " I see. You're still hung up on that."}
-,{TR: "Bence içinde bastırılmış bir Makbule var.", EN: "You're repressing your inner Makbule."}
-,{TR: "Niye öyle dedin ki şimdi?", EN: "Why would you say that?"}
-,{TR: "Seviştiğimizi düşünmüşsün.", EN: "You assumed I had sex with them."}
-,{TR: "Ha yok, ben öyle düşünmedim.", EN: "No, I didn't. Not me."}
-,{TR: "Yani Makbule öyle düşünür diye düşündüm.", EN: "I just thought Makbule would think that."}
-,{TR: "Yoksa ben niye öyle düşüneyim?", EN: "Why would I think that?"}
-,{TR: "Saçma bir yere gidiyor konu.", EN: "This is getting ridiculous."}
-,{TR: "Ben de artık konunun devamını Makbule'nin kendisine anlatırım.", EN: "Now I will tell the rest of the matter to Makbule herself."}
-,{TR: "Ha, bir cevabı var yani?", EN: "So there is an explanation?"}
-,{TR: "Sen kostümleri o gece merak etmişsin.", EN: "So, you were curious about the costumes."}
-,{TR: "Yani merak etmemişsin, merakından çatlamışsın da yine de sormamışsın.", EN: "Not just curious, you were dying to know, yet you didn't ask."}
-,{TR: "Nasıl bir kadınsın sen?", EN: "What kind of woman are you?"}
-,{TR: "Madem anladın merak ettiğimi, niye söylemedin?", EN: "If you knew, why didn't you explain?"}
-,{TR: "Çünkü sormadın.", EN: "Because you didn't ask."}
-,{TR: "Çünkü senin özel hayatın. Fantezi dünyan beni ilgilendirmez.", EN: "Because it's your private life. It's your fantasy, after all."}
  ]},
  {title: "Özel ders - 05",
  sentences: [{TR: "Bir eşeklik ettim. Beni affeder misin?", EN: "I was an ass. Will you forgive me?"}
