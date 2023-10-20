@@ -8,44 +8,51 @@ import App from "./component/App";
 -------------------------------*/
 
 const mockTests = [
-{title: "Terzi - Otoparkta",
- sentences: [{TR: "Biraz daha uzağa park etseydin keşke.", EN:"I wish you parked a little further away."}
-,{TR: "Bir an tanıyamıyordum seni.", EN:"I didn't recognize you for a moment."}
-,{TR: "Dün bayağı sarhoştun.", EN:"You were pretty drunk yesterday."}
-,{TR: "Şimdi ayık kafayla görünce normal.", EN:"Now you're sober, it's understandable."}
-,{TR: "Ayık kafa olduğumu kim söylüyor?", EN:"Who says I'm sober?"}
-,{TR: "Burada mı kalıyorsun?", EN:"Are you staying here?"}
-,{TR: "Evet, şimdilik öyle.", EN:"Yes, for now."}
-,{TR: "Oteller güzel ya.", EN:"Hotels are nice."}
-,{TR: "Hiç sessiz olmuyor.", EN:"It never gets quiet."}
-,{TR: "Sürekli insanlar geliyor. Giriyorlar, çıkıyorlar.", EN:"People arrive all the time. They come in, they go out."}
-,{TR: "Beyaz giymen gerekli demiştim.", EN:"I told you to wear white."}
-,{TR: "Evet, doğru. O konuyla ilgili şöyle bir şey var.", EN:"Right, you did. The thing about that..."}
-,{TR: "Beyaz hiç benim olayım değil. İçimi karartıyor.", EN:"White isn't for me. I find it depressing."}
-,{TR: "Ya, nedir beyaz giyinmek ya?", EN:"Why would anyone wear white?"}
-,{TR: "Ölünce filan giyiyor insanlar.", EN:"People wear it when they're dead."}
-,{TR: "Hiç hoşlanmıyorum.", EN:"I hate it."}
-,{TR: "Al, kötü mü olmuş bu?", EN:"Is this so bad?"}
-,{TR: "Ama şöyle bir şey yapabiliriz.", EN:"Here's what we can do."}
-,{TR: "Çünkü seni kırmak hiç istemiyorum.", EN:"Because I don't want to disappoint you."}
-,{TR: "Şöyle ufak, beyaz bir detay.", EN:"A small white detail."}
-,{TR: "Oldu mu? Tamam mıyız? Gidelim mi?", EN:"Is this okay? All good now? Should we go?"}
-,{TR: "Nereye gidiyoruz diye sormayacak mısın?", EN:"You don't even ask where we go?"}
-,{TR: "Açıkçası... sikimde değil.", EN:"Frankly, I don't fucking care."}
-,{TR: "Nereye götürürsen oraya.", EN:"I'll go wherever you take me."}
+{title: "Sen hep gülümse",
+sentences: [{TR: "Gülmeyeceksin!", EN:"You won't laugh!"}
+,{TR: "Gülerim", EN:"I laugh."}
+,{TR: "Gülmeyeceksin işte!", EN:"Well you won't laugh!"}
+,{TR: "Ya ne olmuş ya güldüysek?", EN:"So what if we laughed?"}
+,{TR: "Arkadaşlar ne oluyor?", EN:"What's happening, guys?"}
+,{TR: "Ne olacak, durduk yere her şeye gülüyor işte!", EN:"What will happen? He laughs at everything for no reason!"}
+,{TR: "Öyle mi? Bak sen!", EN:"Really? Watch!"}
+,{TR: "Ya, sanki sen hiç gülmüyorsun?", EN:"Oh, it's like you never laugh?"}
+,{TR: "Hiç de bile gülmüyorum.", EN:"I don't even laugh at all."}
+,{TR: "Kendi kendine gülene ne derler biliyor musun?", EN:"Do you know what they say about someone who laughs at himself?"}
+,{TR: "Bilmem, ne derler?", EN:"I don't know, what do they say?"}
+,{TR: "Sen de yerli yersiz gülenlerdensin galiba amca!", EN:"I guess you're one of those who laugh all the time, uncle!"}
+,{TR: "Gülmek fena mi ya?", EN:"Is it bad to laugh?"}
+,{TR: "Ben mümkünse hep gülerim.", EN:"I always laugh if possible."}
+,{TR: "Kemal Sunal değil mi o?", EN:"He's Kemal Sunal, isn't he?"}
+,{TR: "Evet! Kemal Sunal yaşiyor mu?", EN:"Yes! Is Kemal Sunal alive?"}
+,{TR: "Evet, ayıptır söylemesi o benim.", EN:"Yes, it's a shame for me to say that."}
+,{TR: "Bakma sen bunlara Kemal abi.", EN:"Don't look at these, Kemal bro."}
+,{TR: "Gülmek hiç fena olur mu?", EN:"Is it ever bad to laugh?"}
+,{TR: "Hem zaten sen gülünce herkes gülüyor.", EN:"Besides, when you laugh, everyone laughs."}
+,{TR: "Ama herkes derken herkes!", EN:"I do mean everyone!"}
+,{TR: "Evet! Ailem, mahallem, yurdum, milletim...", EN:"Yes! My family, my neighborhood, my country, my nation..."}
+,{TR: "Hatta bütün dünya!", EN:"Even the whole world!"}
+,{TR: "Ve sen öyle güzel gülüyorsun ki Kemal abi, gülüşün unutulmuyor.", EN:"And you smile so beautifully, Kemal bro, your smile is unforgettable."}
+,{TR: "Ah canım benim, sağ olasin...", EN:"Oh my dear, thank you..."}
+,{TR: "Bizim için gülmeye devam et, tamam mı?", EN:"Keep smiling for us, okay?"}
+,{TR: "Merak etme sen, o iş bende.", EN:"Don't worry, that's my job."}
 ]},
-{title: "Terzi - Düğüne varış",
- sentences: [{TR: "Hayda! Şaka yapıyorsun herhâlde!", EN:"Come on! You've got to be kidding me!"}
-,{TR: "Seni bir konuda uyarmam gerekiyor.", EN:"I have to warn you about something."}
-,{TR: "Ben düğünlere çağrılmaması istenen o kızımdır.", EN:"I'm the girl people don't want at their wedding."}
-,{TR: "Rolüm ne peki?", EN:"What's my role, then?"}
-,{TR: "Yani beni buraya çağırdığına göre birilerine bir şey anlatmaya çalışıyorsun.", EN:"Since you invited me here, you must be trying to make a statement."}
-,{TR: "Ne diye tanıtacaksın beni?", EN:"What are you introducing me as?"}
-,{TR: "Hayır, yani sevgilin olabilirim, uzaktan bir kuzenin olabilirim, bir çalışanın olabilirim.", EN:"I mean, I could be your girlfriend, a distant cousin, or an employee."}
-,{TR: "Ne istiyorsun?", EN:"What will it be?"}
-,{TR: "Kendin ol yeter.", EN:"Just be yourself."}
-,{TR: "Emin misin?", EN:"Are you sure?"}
- ]},
+{title: "Gözde Karakaya - Doğum Hikayesi",
+sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist epidural."}
+,{TR: "Böyle alttan ritmik bir şekilde ittiriliyorum.", EN:"I am being pushed rhythmically from below."}
+,{TR: "Yatay pozisyondayım.", EN:"I am in a horizontal position."}
+,{TR: "Demek ki, dedim, ben sevişiyorum.", EN:"So, I said, I am making love."}
+,{TR: "Yine daha önceki tecrübelerime dayanarak dedim ki sevişiyorum.", EN:"Again, based on my previous experiences, I said, I am making love."}
+,{TR: "Bir de malak gibi yatıyorum!", EN:"And I'm lying like a buffalo!"}
+,{TR: "Sonra sola baktım, kocam.", EN:"Then I looked to the left, to my husband."}
+,{TR: "Dedim ki, ben aldatıyorum.", EN:"I said, I am cheating him."}
+,{TR: "Ama kocam çok mutlu. Daha önce hiç görmediğim kadar mutlu.", EN:"But my husband is happy. Happier than ever."}
+,{TR: "Yani... ben sevişiyorum, kocam mutlu.", EN:"Well, I'm making love, my husband is happy."}
+,{TR: "Demek ki dedim ben, swinger'dayım.", EN:"Which means, I said, I'm at a swinger party."}
+,{TR: "Tecrübe değil bu arada. Tamamen hayal gücü. Yanlış anlamayında.", EN:"This is not experience, by the way. Full imagination. Don't get me wrong."}
+,{TR: "Sonra dedim ki kocam niye boşta?", EN:"Then I said, why is my husband idle?"}
+,{TR: "O şapkayı takarsan tabii kimse seninle sevişmez.", EN:"If you wear that hat, of course no one will make love to you."}
+]},
 {title: "Terzi - Cemre ve Dimitri",
  sentences: [{TR: "Selam. Cemre ben.", EN:"Hi. I'm Cemre."}
 ,{TR: "Evet Dimitri, Cemre arkadaşım.", EN:"Yes, Dimitri. Cemre is my friend."}
