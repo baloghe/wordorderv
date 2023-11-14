@@ -57,21 +57,31 @@ export default class TestContainer extends React.Component {
       let tstResult = (strAns.trim() == expAns.trim());
 	  
     this.showExpectedResult(tstResult);
+
+    //shifted here from setTimeout(.) in order to take account of wrong answers before Retry pressed
+    let tstSecSpent = (new Date() - this.state.tests[this.state.actTestNum].tsActStart)/1000;
+    let ans = {
+      secSpent: tstSecSpent,
+      result: tstResult
+      };
+    //add answer
+    this.state.aAnswers = [...this.state.aAnswers, ans];        
 	
     this.st1 = setTimeout(() => {
-    	
+    	/* shifted before setTimeout(.)
       let tstSecSpent = (new Date() - this.state.tests[this.state.actTestNum].tsActStart)/1000;
       
       let ans = {
               secSpent: tstSecSpent,
               result: tstResult
               };
-        //show next test
-        this.state.tests[this.state.actTestNum].tsActStart = new Date();
         this.state.aAnswers = [...this.state.aAnswers, ans]
         
         //console.log(`containerNextTest :: ans=${JSON.stringify(this.state.aAnswers)}`);
-    
+    	*/
+	//show next test
+	this.state.tests[this.state.actTestNum].tsActStart = new Date();
+	    
       if(this.state.actTestNum < this.state.totTestNum-1){
         //save completion time and answer
         this.setState({
