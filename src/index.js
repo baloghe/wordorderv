@@ -69,18 +69,6 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Yürü çık gidiyoruz. Çıkalım.", EN:"Go ahead, we're going. Let's go out."}
 ,{TR: "Bu çocuğun engelli raporu var. Özür dilerim.", EN:"This child has a disability report. I apologize."}
  ]},
-{title: "Ajda Pekkan - Boşvermişim Dünyaya",
- sentences: [{TR: "Temmuz, Ağustos, Eylül her mevsimde durma gül", EN: "July, August, September, keep laughing in all seasons"}
-,{TR: "Hayat inan çok kısa belki çıkmayız yaza", EN: "Remember, life is short, we may not leave summer"}
-,{TR: "Boşvermişim, boşvermişim, boşvermişim dünyaya", EN: "I don't care about the world"}
-,{TR: "Ağlamak istemiyorsan sen de boşver dünyaya", EN: "If you don't want to cry, take no care either"}
-,{TR: "Ahmet, Mehmet, Süreyya hepsi boş hepsi hülya", EN: "Ahmet, Mehmet, Süreyya - all empty dreams"}
-,{TR: "Bir gün hayat bitecek dersin görmüşüm rüya", EN: "One day life is over, I've only seen a dream"}
-,{TR: "Aldatırlar aç gözünü unut artık geçmiş dünü", EN: "They cheat, open your eyes, forget the past"}
-,{TR: "Her akşam ayrı güzelle sen de geçir her gününü", EN: "A different beaty every night, spend the days like that"}
-,{TR: "Boşvermişim, boşvermişim dünyaya ben boşvermiş", EN: "I don't care about the world"}
-,{TR: "Vallahi aldırmıyorum elalem ne söylermiş", EN: "I swear I ignore what people say"}
-]},
 {title: "Doğu - Betül Eczanesi",
  sentences: [{TR: "Buna ne kadardı?", EN:"How much does this cost?"}
 ,{TR: "Fiyatlar üstünde yazıyor.", EN:"The price is written on."}
@@ -108,92 +96,6 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Anca dedin kalfadır çıraktır burada.", EN:"You just said it's a journeyman, an apprentice here."}
 ,{TR: "Senin problemini ben çözemem ya.", EN:"I can't solve your problems."}
 ]},
-{title: "Özel ders - 01",
- sentences: [{TR: "Hepimiz sürekli bir şeylere yetişmeye çalışıyoruz.", EN: "We're always trying to keep up with stuff."}
-,{TR: "Okul, aşk, arkadaşlar, aile, dersler…", EN: "Studies, love, friends, family, classes..."}
-,{TR: "Liste uzun, hayat kısa.", EN: "The list is long, life is short."}
-,{TR: "Yetişkin olmak, yetişmekten geliyordur belki.", EN: "Being an adult may be all about development."}
-,{TR: "Peki ya hayat dersleri?", EN: "What about life lessons?"}
-,{TR: "İşte bu kısımda devreye ben giriyorum ve öğrencilerin en ihtiyaç duydukları kişi oluyorum.", EN: "That's where I step in and become the person the clients need the most."}
- ]},
- {title: "Özel ders - 02",
- sentences: [{TR: "Bir de sen vardın, doğru ya.", EN: "There was also you, right."}
-,{TR: "Ne Merkür retrosuymuş arkadaş!", EN: "What a Mercury retrograde!"}
-,{TR: "Daha çok göktaşı sanki!", EN: "More like a meteorite!"}
-,{TR: "Efendim? Düştün resme.", EN: "Sorry? You crashed into my life."}
-,{TR: "Anlamıyorum dediklerini.", EN: "I don't get it."}
-,{TR: "Ben de onu diyorum. Bir de özel ders istiyorsun.", EN: "That's what I'm talking about. Yet you want tutoring."}
-,{TR: "Ha yok, ben derslerde çok iyiyimdir.", EN: "I excel at classes, though."}
-,{TR: "Hatta şöyle gelmeden önce ufak da bir araştırma yaptım.", EN: "I even did a little research before I came here."}
-,{TR: "Bayağı ufak olmuş.", EN: "A little, sure."}
-,{TR: "Gerçi tabii çok da değişip değişmemekle ilgili değil olay…", EN: "Although, of course, changing is not the key…"}
-,{TR: "Yavaş. Sakin. Kahve? Yok, ben kahve içemem.", EN: "Easy. Calm down. Coffee? I don't take coffee."}
-,{TR: "Kahve içersem hareketlenirim, çok konuşurum.", EN: "Coffee makes me all energetic and talkative."}
-,{TR: "Stimülatörler bende öyle… Tamam. Papatya çayı.", EN: "Stimulants have the same effect on me… OK. Chamomile tea."}
- ]},
-{title: "Özel ders - 03",
- sentences: [{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. And remove that bullshit."}
-,{TR: "Teyzen eve gelmez, değil mi?", EN: "Your aunt won't come home, will she?"}
-,{TR: "Yakalanmayalım. Bu saatte hayatta gelmez.", EN: "Let's not get caught. He won't come alive at this hour."}
-,{TR: "Ay Burak, bütün gece beni yordun. Mahvoldum.", EN: "Ay Burak, you exhausted me all night. I'm ruined."}
-,{TR: "Olur mu öyle şey canım?", EN: "Is such a thing possible, dear?"}
-,{TR: "Bana haftaya programını söyle. Ona göre randevulaşırız.", EN: "Tell me your schedule for next week. We make an appointment accordingly."}
-,{TR: "Yalnız bu dolap hâlâ burada!", EN: "Only this closet is still here!"}
-,{TR: "Oo, Üç Numara. Günaydın. Ben unutmuşum dolabı tamamen. Kusura bakma.", EN: "Oh, Number Three. Good morning. I forgot the closet completely. Sorry."}
-,{TR: "Apartmandan birileri bıt bıt bıt kamyonla alakalı söylenmişler.", EN: "Someone from the apartment said blah blah blah about the truck."}
-,{TR: "Ben de erken yolladım arkadaşları.", EN: "I also sent them early."}
-,{TR: "Ha, özrün kabahatinden büyük yani.", EN: "Oh, that's your big apology for your fault."}
-,{TR: "Bak, görüyorsun, çok fazla işim var.", EN: "Look, you see, I have a lot of work."}
-,{TR: "İşim bitsin aldırırım ben. Görüşürüz.", EN: "I'll take care of it when I'm done. See you later."}
-,{TR: "İş diyor ya! Yok artık!", EN: "Work, he says! No way!"}
-,{TR: "Sanat eseri bence.", EN: "I think it's a work of art."}
-,{TR: "Evet, aynı sen.", EN: "Yes, like you."}
-,{TR: "Sabah sabah da insanın bu kadar üstüne gelinmez ki!", EN: "In the morning, you can't come over a person like that!"}
-,{TR: "Sana ne oluyor ya?", EN: "What's happening to you?"}
-,{TR: "Ya iki gram umudum vardı, o da bitti gitti.", EN: "I had two grams of hope, and it's gone."}
-,{TR: "Utku niye beni beğensin ki?", EN: "Why would Utku like me?"}
-,{TR: "Bunlar kadınsa ben... başka bir cinsim.", EN: "If these are women, I am... another breed."}
-,{TR: "Yok, sen sadece cinssin.", EN: "No, you're just the breed."}
-,{TR: "O ayrı konuda gördüğünü de anlamıyorsun belli ki.", EN: "Regarding the other issue, you obviously don't understand what you see."}
- ]},
- {title: "Özel ders - 05",
- sentences: [{TR: "Bir eşeklik ettim. Beni affeder misin?", EN: "I was an ass. Will you forgive me?"}
-,{TR: "Çok komik görünüyorsun. Çıkar şunu, gerek yok.", EN: "You look hilarious. Just take it off. It's fine."}
-,{TR: "Ayrıca bunları ne ara yaptın ya?", EN: "When did you do all this?"}
-,{TR: "Bu kadar şeye gerek yoktu.", EN: "You shouldn't have."}
-,{TR: "Azra, ben seni sonradan anladım.", EN: "Azra, I didn't get it at first."}
-,{TR: "Hiçbir şey bilmiyormuşum ki seninle alakalı.", EN: "I didn't know anything about you."}
-,{TR: "Bundan sonra da sonuna kadar yanındayım.", EN: "I'll be on your side forever."}
-,{TR: "Ya Burak, ne olur kusura bakma.", EN: "Burak, I'm so sorry."}
-,{TR: "Ama çok önemli, bunu açmam gerekiyor.", EN: "But I really have to take this."}
- ]},
-{title: "Özel Ders - 06 Hande ve Azra",
- sentences: [{TR: "Vay be, gerçekten çalışıyormuş.", EN: "Wow, she does work a lot."}
-,{TR: "Bu mesleğin bir adı falan var mı?", EN: "Does this profession have a name?"}
-,{TR: "İyi para vardır bu işte.", EN: "I bet you make a lot."}
-,{TR: "Hande! Seni hiç ilgilendirmez.", EN: "Hande! It's none of your business."}
-,{TR: "Niye böyle bir meslek yapar ki insan?", EN: "Why would one choose such a career?"}
-,{TR: "Senin travman falan mı var?", EN: "Are you traumatized or something?"}
-,{TR: "Sana müşteri geldi Azra!", EN: "You have a customer, Azra!"}
-,{TR: "Ya sınır nedir bilmez misin sen?", EN: "Don't you know what the limit is?"}
-,{TR: "Demek böyle buluyorlar seni.", EN: "So that's how they find you."}
-,{TR: "Söyleseydin ben de mesaj atardım ya.", EN: "I could've sent a message if I'd known."}
-,{TR: "Amma tantana yaptın yani.", EN: "You made such a fuss."}
-,{TR: "Öyle kolay zannediyorsun tabii.", EN: "You think it's so easy."}
-,{TR: "Referans nereden bulacaktın?", EN: "How would you find a reference?"}
-,{TR: "Teyzem referans olurdu bence bana.", EN: "I think my aunt would vouch for me."}
-,{TR: "Hatta… Neydi, dur, kızın adı? Dur. Sakın söyleme.", EN: "Or even… What was her name? Don't tell me."}
-,{TR: "Melisa da referans olurdu bence.", EN: "Melisa would vouch for me too."}
-,{TR: "Hani velisi gibi aradığın var ya?", EN: "You pretended to be her parent, remember?"}
-,{TR: "Tamam, anlaşıldı. Senden kurtuluş yok.", EN: "OK, got it. There is no escape from you."}
-,{TR: "Bu akşam Utku'nun evinde bir parti var.", EN: "Utku's having a party tonight."}
-,{TR: "Bilmiyorum haberin var mı.", EN: "I'm not sure if you're aware."}
-,{TR: "Onunla başlayım bakalım.", EN: "Let's start with that."}
-,{TR: "Kural bir. Söylediklerime harfiyen uyacaksın.", EN: "Rule number one. You're going to do what I tell you."}
-,{TR: "Tamam, söz.", EN: "Okay, I promise."}
-,{TR: "Hayatı kitaplardan öğrenemezsin.", EN: "You can't learn life from books."}
-,{TR: "Pratik lazım sana. Şu saçmalıkları da kaldır.", EN: "You need practice. Remove that bullshit."}
-]},
 {title: "Karakomik - Lokantada",
  sentences: [{TR: "Taksi sizin mi, dışarıdaki?", EN: "Is it your taxi outside?"}
 ,{TR: "Çalışmıyorum abi ben.", EN: "I don't work."}
@@ -216,6 +118,18 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Çayı şuradan alıver yavrum.", EN: "Take the tea from there, son."}
 ,{TR: "Abi, çorbaların parası?", EN: "The money for the soups?"}
 ,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
+ ]},
+{title: "Kefir mi Yoğurt mu",
+ sentences: [{TR: "Aralarında birçok fark vardır.", EN: "There are many differences between them."}
+,{TR: "Kefir ve yoğurt her ikisi ekşi bir tada sahiptirler.", EN: "Kefir and yoghurt both have a sour taste."}
+,{TR: "Yüzyıllar boyunca insanlar kefir taneleri ve inek sütü kullanarak kefir yapmıştır.", EN: "For centuries, people have made kefir using kefir grains and cow's milk."}
+,{TR: "Keçi veya koyun sütü ile yapmak da mümkündür.", EN: "It is also possible to make it with goat or sheep milk."}
+,{TR: "Kefir taneleri küçük karnabahar çiçeklerine benzemektedir.", EN: "Kefir grains look like small cauliflower flowers."}
+,{TR: "Üreticiler fermente etmek için kefir tanelerini süte ekler, sonra onları çıkarırlar.", EN: "Manufacturers add kefir grains to milk to ferment it, then remove them."}
+,{TR: "Geri kalan ürün kefirdir.", EN: "The remaining product is kefir."}
+,{TR: "Taneler bir sonraki mayalama işleminde tekrar kullanılabilir.", EN: "The grains can be reused in the next brewing process."}
+,{TR: "Hem kefir hem de yoğurt bağırsakları iyi bakterilerle doldurmaya yardımcı olabilir.", EN: "Both kefir and yogurt can help populate the intestines with good bacteria."}
+,{TR: "Araştırmalara göre kefir bağışıklık sistemini desteklemekte.", EN: "According to research, kefir supports the immune system."}
  ]},
 {title: "Asuman Tatlısının Hikayesi",
 sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I was born in Çorum in 1985."}
