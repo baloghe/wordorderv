@@ -168,6 +168,43 @@ sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I
 ,{TR: "Ama Ozan benim nişanlım, hayatım.", EN:"But Ozan is my fiancee, my dear."}
 ,{TR: "Ehh, işte babam haklıymış.", EN:"Ehh, my father was right."}
 ]},
+	{title: "Gestion projet 1",
+ sentences: [{TR: "ils avaient réussi à faire adopter la leur, avec des postérités diverses", EN:"they managed to create their own, with various results"}
+,{TR: "vous gagnez du temps et vous vous épargnez de nombreux problèmes par la suite", EN:"you save time and spare yourself many problems afterwards"}
+,{TR: "Comment se fixer des objectifs et réussir à les atteindre?", EN:"How to set goals and achieve them afterwards?"}
+,{TR: "l’objectif concerné doit être conforme à la portée du projet", EN:"the goal concerned must be in line with the scope of the project"}
+,{TR: "tout le monde doit s’entendre sur les tâches à faire par chacun et leurs échéances", EN:"everybody must agree an the task of everyone along with their schedule"}
+,{TR: "les objectifs représentent les résultats escomptés", EN:"the goals represent the expected results"}
+,{TR: "cela lève le voile sur le pourquoi du projet", EN:"this unveils the WHY of the project"}
+,{TR: "cela permet à tous les acteurs de rester sur la même longueur d’onde", EN:"this enables all participants to stay tuned"}
+,{TR: "focaliser sur les résultats à atteindre", EN:"focus on the goals to achieve"}
+,{TR: "déploiement de nouveaux équipements", EN:"deployment of new equipment"}
+]},
+{title: "Gestion projet 2",
+ sentences: [{TR: "indicateurs de réussite", EN:"performance indicators"}
+,{TR: "transformer des visions en résultats tangibles", EN:"transform visions into tangible assets"}
+,{TR: "cette méthode polyvalente vous guide dans la définition d'objectifs spécifiques", EN:"this versatile method helps you to define specific objectivrs"}
+,{TR: "la méthode SMART préconise de ne pas se fixer d’objectifs totalement irréalisables", EN:"the method SMART advises you not to set unattainable goals"}
+,{TR: "pendant six semaines d'affilée", EN:"for six weeks in a row"}
+,{TR: "vous risquez de voir votre projet s'éterniser", EN:"you risk seeing your project drag on"}
+,{TR: "le jeu en vaut la chandelle", EN:"it’s worth it"}
+,{TR: "les objectifs doivent faire partie intégrante du processus de planification", EN:"the goals must form an integrant part of the planning process"}
+,{TR: "voici les avantages que tirera votre équipe des objectifs SMART", EN:"here are the advantages your team would benefit"}
+,{TR: "ne vous en faites pas si vous n’avez pas atteint tous vos objectifs", EN:"don’t worry if you haven’t achieved all your goals"}
+]},
+{title: "Gestion projet 3",
+ sentences: [{TR: "nous partons du principe que", EN:"we assume that"}
+,{TR: "en prenant sous mon aile au moins deux mentorés", EN:"taking at least two mentees under my wings"}
+,{TR: "l'objectif est pertinent pour votre contexte", EN:"the objective is relevant to your context"}
+,{TR: "dans le temps imparti", EN:"within the allotted time"}
+,{TR: "un puissant besoin de prendre ses désirs pour des réalités", EN:"a powerful need to take one’s desires for realities"}
+,{TR: "faire dresser les cheveux sur la tête", EN:"hair-raising"}
+,{TR: "concentrer sur la réalisation de l'objectif dans un délai précis", EN:"focus on achieving the goal within a specified time"}
+,{TR: "ils font l'impossible pour leur venir en aide", EN:"they do their best to help them"}
+,{TR: "je te laisse la parole", EN:"you have the floor"}
+,{TR: "une tâche doit compter un seul et unique responsable", EN:"a task must have a single responsible"}
+,{TR: "veiller à ce que chacun connaisse ses responsabilités", EN:"ensure everyone knows their responsibilities"}
+]},
 {title: "Serge Gainsbourg - Laetitia",
  sentences: [{TR: "Sur ma Remington portative j'ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
 ,{TR: "Lætitia les jours qui se suivent hélas ne se ressemblent pas", EN: "Laetitia, recent days are not the same"}
