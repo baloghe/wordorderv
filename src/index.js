@@ -179,38 +179,40 @@ sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I
 ,{TR: "cela permet à tous les acteurs de rester sur la même longueur d’onde", EN:"this enables all participants to stay tuned"}
 ,{TR: "focaliser sur les résultats à atteindre", EN:"focus on the goals to achieve"}
 ,{TR: "déploiement de nouveaux équipements", EN:"deployment of new equipment"}
+,{TR: "afin d’y parvenir sans accroc", EN:"in order to deliver without difficulties"}
 ]},
 {title: "Gestion projet 2",
  sentences: [{TR: "indicateurs de réussite", EN:"performance indicators"}
 ,{TR: "transformer des visions en résultats tangibles", EN:"transform visions into tangible assets"}
-,{TR: "cette méthode polyvalente vous guide dans la définition d'objectifs spécifiques", EN:"this versatile method helps you to define specific objectivrs"}
+,{TR: "cette méthode polyvalente vous guide dans la définition d’objectifs spécifiques", EN:"this versatile method helps you to define specific objectivrs"}
 ,{TR: "la méthode SMART préconise de ne pas se fixer d’objectifs totalement irréalisables", EN:"the method SMART advises you not to set unattainable goals"}
 ,{TR: "pendant six semaines d'affilée", EN:"for six weeks in a row"}
-,{TR: "vous risquez de voir votre projet s'éterniser", EN:"you risk seeing your project drag on"}
+,{TR: "vous risquez de voir votre projet s’éterniser", EN:"you risk seeing your project drag on"}
 ,{TR: "le jeu en vaut la chandelle", EN:"it’s worth it"}
 ,{TR: "les objectifs doivent faire partie intégrante du processus de planification", EN:"the goals must form an integrant part of the planning process"}
 ,{TR: "voici les avantages que tirera votre équipe des objectifs SMART", EN:"here are the advantages your team would benefit"}
 ,{TR: "ne vous en faites pas si vous n’avez pas atteint tous vos objectifs", EN:"don’t worry if you haven’t achieved all your goals"}
+,{TR: "pour n’en nommer que quelques-uns", EN:"only to name a few"}
 ]},
 {title: "Gestion projet 3",
  sentences: [{TR: "nous partons du principe que", EN:"we assume that"}
 ,{TR: "en prenant sous mon aile au moins deux mentorés", EN:"taking at least two mentees under my wings"}
-,{TR: "l'objectif est pertinent pour votre contexte", EN:"the objective is relevant to your context"}
+,{TR: "l’objectif est pertinent pour votre contexte", EN:"the objective is relevant to your context"}
 ,{TR: "dans le temps imparti", EN:"within the allotted time"}
 ,{TR: "un puissant besoin de prendre ses désirs pour des réalités", EN:"a powerful need to take one’s desires for realities"}
 ,{TR: "faire dresser les cheveux sur la tête", EN:"hair-raising"}
-,{TR: "concentrer sur la réalisation de l'objectif dans un délai précis", EN:"focus on achieving the goal within a specified time"}
-,{TR: "ils font l'impossible pour leur venir en aide", EN:"they do their best to help them"}
+,{TR: "concentrer sur la réalisation de l’objectif dans un délai précis", EN:"focus on achieving the goal within a specified time"}
+,{TR: "ils font l’impossible pour leur venir en aide", EN:"they do their best to help them"}
 ,{TR: "je te laisse la parole", EN:"you have the floor"}
 ,{TR: "une tâche doit compter un seul et unique responsable", EN:"a task must have a single responsible"}
 ,{TR: "veiller à ce que chacun connaisse ses responsabilités", EN:"ensure everyone knows their responsibilities"}
 ]},
 {title: "Serge Gainsbourg - Laetitia",
- sentences: [{TR: "Sur ma Remington portative j'ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
+ sentences: [{TR: "Sur ma Remington portative j’ai écrit ton nom Lætitia", EN: "On my portable Remington I wrote your name Laetitia"}
 ,{TR: "Lætitia les jours qui se suivent hélas ne se ressemblent pas", EN: "Laetitia, recent days are not the same"}
-,{TR: "C'est ma douleur que je cultive en frappant ces huit lettres-là", EN: "That's my pain I develop while I'm typing those eight very letters"}
-,{TR: "C'est une fleur bien maladive je la touche du bout des doigts", EN: "This is a quite sickly flower I touch her with my fingertips"}
-,{TR: "S'il faut aller à la dérive je veux bien y aller pour toi", EN: "If it must be going to drift, I am glad to go for you"}
+,{TR: "C’est ma douleur que je cultive en frappant ces huit lettres-là", EN: "That's my pain I develop while I'm typing those eight very letters"}
+,{TR: "C’est une fleur bien maladive je la touche du bout des doigts", EN: "This is a quite sickly flower I touch her with my fingertips"}
+,{TR: "S’il faut aller à la dérive je veux bien y aller pour toi", EN: "If it must be going to drift, I am glad to go for you"}
 ,{TR: "Ma raison en définitive se perd dans ces huit lettres-là", EN: "My reason ultimately loses itself in those eight very letters"}
  ]}
 ];
