@@ -105,8 +105,8 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "İyi nöbetler efendim.", EN: "Good watch sir."}
 ,{TR: "Taksici bir esnafımız burada yol beğenmiyor, müşteri seçiyor.", EN: "The taxi driver doesn't like the road here, cherry-picks his customers."}
 ,{TR: "Nasıl yardımcı olabilirsiniz?", EN: "How can you help?"}
-,{TR: "Ben Tuncay Uğurlu, Dışişleri'nden.", EN: "I'm Tuncay Uğurlu from the Foreign Office."}
-,{TR: "Paris Büyükelçisi Fuat Uğurlu'nun kardeşiyim. Ortanca, evet.", EN: "I am the brother of Paris Ambassador Fuat Uğurlu. The middle one, yes."}
+,{TR: "Ben Tuncay Uğurlu, Dışişleri’nden.", EN: "I'm Tuncay Uğurlu from the Foreign Office."}
+,{TR: "Paris Büyükelçisi Fuat Uğurlu’nun kardeşiyim. Ortanca, evet.", EN: "I am the brother of Paris Ambassador Fuat Uğurlu. The middle one, yes."}
 ,{TR: "Tamam, siz memur gönderin ben bekliyorum.", EN: "Okay, send some officers, I'm waiting."}
 ,{TR: "Adresi verseydim.", EN: "I could have given the address."}
 ,{TR: "Uydudan bulurlar. Sen dalga mı geçiyorsun yavrum?", EN: "They find it by satellite. Are you kidding my dear?"}
@@ -119,7 +119,7 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Abi, çorbaların parası?", EN: "The money for the soups?"}
 ,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
  ]},
-{title: "Kefir mi Yoğurt mu",
+{title: "Kefir mi Yoğurt mu - 1",
  sentences: [{TR: "Aralarında birçok fark vardır.", EN: "There are many differences between them."}
 ,{TR: "Kefir ve yoğurt her ikisi ekşi bir tada sahiptirler.", EN: "Kefir and yoghurt both have a sour taste."}
 ,{TR: "Yüzyıllar boyunca insanlar kefir taneleri ve inek sütü kullanarak kefir yapmıştır.", EN: "For centuries, people have made kefir using kefir grains and cow's milk."}
@@ -131,6 +131,19 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Hem kefir hem de yoğurt bağırsakları iyi bakterilerle doldurmaya yardımcı olabilir.", EN: "Both kefir and yogurt can help populate the intestines with good bacteria."}
 ,{TR: "Araştırmalara göre kefir bağışıklık sistemini desteklemekte.", EN: "According to research, kefir supports the immune system."}
  ]},
+{title: "Kefir mi Yoğurt mu - 2",
+ sentences: [{TR: "İnsanlar kefir ve yoğurdu olduğu gibi yiyebilir veya içebilirler.", EN: "People can eat or drink kefir and yogurt as they are."}
+,{TR: "İnsanlar fermente süt ürünlerini her zaman buzdolabında tutmalıdır.", EN: "People should always keep fermented milk products in the refrigerator."}
+,{TR: "İnsanlar genellikle fermente süt ürünlerini güvenle tüketebilir.", EN: "People can generally consume fermented milk products safely."}
+,{TR: "Bunun nedeni fermantasyon sürecinin laktoz içeriğini azaltmasıdır.", EN: "This is because the fermentation process reduces the lactose content."}
+,{TR: "Fermente gıdalar histamin adı verilen yüksek miktarda madde içerir.", EN: "Fermented foods contain high amounts of a substance called histamine."}
+,{TR: "Bazı insanlar yoğurdu ilk kez tükettiklerinde şişkinlik yaşayabilirler.", EN: "Some people may experience swelling when they consume yogurt for the first time."}
+,{TR: "Kişinin bağırsağı yeni gıdalara alıştığında bunlar azalır.", EN: "These decrease as the person's intestine gets used to new foods."}
+,{TR: "İlaçlar alan kişiler yeni ürünler denemeden önce bir doktora danışmalıdır.", EN: "People taking medications should consult a doctor before trying new products."}
+,{TR: "Kefirin sağlık açısından yoğurttan daha fazla faydası olabilir.", EN: "Kefir may have more benefits for the health than yogurt."}
+,{TR: "İnsanlar marketlerden uygun fermente ürünleri satın alabilirler.", EN: "People can buy suitable fermented products from markets."}
+,{TR: "İnsanlar evde kendi kefir veya yoğurt yapma seçeneklerine sahiptir.", EN: "People have the option of making their own kefir or yogurt at home."}
+]},
 {title: "Asuman Tatlısının Hikayesi",
 sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I was born in Çorum in 1985."}
 ,{TR: "Ya üniversite için geldim ben İstanbul'la ama cocukluğumun önemli bir kısmı da Almanya'da geçti.", EN:"Well, I came to Istanbul for university, but I spent a significant part of my childhood in Germany."}
@@ -186,7 +199,7 @@ sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I
 ,{TR: "transformer des visions en résultats tangibles", EN:"transform visions into tangible assets"}
 ,{TR: "cette méthode polyvalente vous guide dans la définition d’objectifs spécifiques", EN:"this versatile method helps you to define specific objectivrs"}
 ,{TR: "la méthode SMART préconise de ne pas se fixer d’objectifs totalement irréalisables", EN:"the method SMART advises you not to set unattainable goals"}
-,{TR: "pendant six semaines d'affilée", EN:"for six weeks in a row"}
+,{TR: "pendant six semaines d’affilée", EN:"for six weeks in a row"}
 ,{TR: "vous risquez de voir votre projet s’éterniser", EN:"you risk seeing your project drag on"}
 ,{TR: "le jeu en vaut la chandelle", EN:"it’s worth it"}
 ,{TR: "les objectifs doivent faire partie intégrante du processus de planification", EN:"the goals must form an integrant part of the planning process"}
