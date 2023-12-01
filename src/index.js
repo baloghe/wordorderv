@@ -134,7 +134,8 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Araştırmalara göre kefir bağışıklık sistemini desteklemekte.", EN: "According to research, kefir supports the immune system."}
  ]},
 {title: "Kefir mi Yoğurt mu - 2",
- sentences: [{TR: "İnsanlar kefir ve yoğurdu olduğu gibi yiyebilir veya içebilirler.", EN: "People can eat or drink kefir and yogurt as they are."}
+ sentences: [{TR: "Probiyotikler, bir kişinin sağlığına yararlı olabilecek bakterilerdir.", EN: "Probiotics are bacteria that may benefit a person's health."}
+,{TR: "İnsanlar kefir ve yoğurdu olduğu gibi yiyebilir veya içebilirler.", EN: "People can eat or drink kefir and yogurt as they are."}
 ,{TR: "İnsanlar fermente süt ürünlerini her zaman buzdolabında tutmalıdır.", EN: "People should always keep fermented milk products in the refrigerator."}
 ,{TR: "İnsanlar genellikle fermente süt ürünlerini güvenle tüketebilir.", EN: "People can generally consume fermented milk products safely."}
 ,{TR: "Bunun nedeni fermantasyon sürecinin laktoz içeriğini azaltmasıdır.", EN: "This is because the fermentation process reduces the lactose content."}
