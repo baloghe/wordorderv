@@ -120,7 +120,9 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
  ]},
 {title: "Kefir mi Yoğurt mu - 1",
- sentences: [{TR: "Aralarında birçok fark vardır.", EN: "There are many differences between them."}
+ sentences: [{TR: "Kefir ve yoğurt, içerdikleri faydalı bakteriler nedeniyle oldukça sağlıklıdırlar.", EN: "Kefir and yoghurt are very healthy due to the beneficial bacteria they contain."}
+,{TR: "Kefir daha iyi bir seçim olabilir.", EN: "Kefir may be a better choice."}
+,{TR: "Aralarında birçok fark vardır.", EN: "There are many differences between them."}
 ,{TR: "Kefir ve yoğurt her ikisi ekşi bir tada sahiptirler.", EN: "Kefir and yoghurt both have a sour taste."}
 ,{TR: "Yüzyıllar boyunca insanlar kefir taneleri ve inek sütü kullanarak kefir yapmıştır.", EN: "For centuries, people have made kefir using kefir grains and cow's milk."}
 ,{TR: "Keçi veya koyun sütü ile yapmak da mümkündür.", EN: "It is also possible to make it with goat or sheep milk."}
