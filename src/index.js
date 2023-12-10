@@ -141,7 +141,7 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Ah bak, geçen gün de lokantada gördük. Bizi fark etmedi bile.", EN: "Oh look, we saw it at the restaurant the other day. He didn't even notice us."}
 ,{TR: "Ee tabii insan İnci´nin yanındayken başkasını zor fark eder doğrusu.", EN: "Well, of course, when you're next to İnci, you can barely notice anyone else."}
 ]},
-{title: "Uğurlugiller 2,
+{title: "Uğurlugiller 2",
 sentences: [{TR: "Anne sen bu akşam iyice neşesiz sin.", EN: "Mom, you are looking very unhappy this evening."}
 ,{TR: "Biraz başım ağrıyor kızım. Hiç iyi değilim.", EN: "I have a little headache, girl. I'm not okay at all."}
 ,{TR: "Karıcığım yoksa gümüşlere mi üzüldün?", EN: "Wife, are you upset about the silver?"}
@@ -157,7 +157,7 @@ sentences: [{TR: "Anne sen bu akşam iyice neşesiz sin.", EN: "Mom, you are loo
 ,{TR: "Olmaz olur muyum.", EN: "No way can I?"}
 ,{TR: "Şimdi üstüne varsak, saklar. Ben gece anlarım.", EN: "Now if we get to it, she will hide it. I find it out tonight."}
 ]},
-{title: "Uğurlugiller 3,
+{title: "Uğurlugiller 3",
 sentences: [{TR: "Niye öksürdün?", EN: "Why did you cough?"}
 ,{TR: "Bana bak diye.", EN: "Just to look at me."}
 ,{TR: "Baktım. Ne olmuş?", EN: "I looked. So what?"}
