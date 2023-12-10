@@ -96,29 +96,6 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "Anca dedin kalfadır çıraktır burada.", EN:"You just said it's a journeyman, an apprentice here."}
 ,{TR: "Senin problemini ben çözemem ya.", EN:"I can't solve your problems."}
 ]},
-{title: "Karakomik - Lokantada",
- sentences: [{TR: "Taksi sizin mi, dışarıdaki?", EN: "Is it your taxi outside?"}
-,{TR: "Çalışmıyorum abi ben.", EN: "I don't work."}
-,{TR: "Öyle mi? Böyle durumlarda hemen güvenlik birimlerine haber vermek lazım.", EN: "Really? In such cases, it is necessary to notify the security units immediately."}
-,{TR: "Alo, 155 mi? Bir saniye Memur Bey.", EN: "Hello, 155? Wait a second, Officer."}
-,{TR: "Neresi oğlum burası?", EN: "Where are we, my son?"}
-,{TR: "İyi nöbetler efendim.", EN: "Good watch sir."}
-,{TR: "Taksici bir esnafımız burada yol beğenmiyor, müşteri seçiyor.", EN: "The taxi driver doesn't like the road here, cherry-picks his customers."}
-,{TR: "Nasıl yardımcı olabilirsiniz?", EN: "How can you help?"}
-,{TR: "Ben Tuncay Uğurlu, Dışişleri’nden.", EN: "I'm Tuncay Uğurlu from the Foreign Office."}
-,{TR: "Paris Büyükelçisi Fuat Uğurlu’nun kardeşiyim. Ortanca, evet.", EN: "I am the brother of Paris Ambassador Fuat Uğurlu. The middle one, yes."}
-,{TR: "Tamam, siz memur gönderin ben bekliyorum.", EN: "Okay, send some officers, I'm waiting."}
-,{TR: "Adresi verseydim.", EN: "I could have given the address."}
-,{TR: "Uydudan bulurlar. Sen dalga mı geçiyorsun yavrum?", EN: "They find it by satellite. Are you kidding my dear?"}
-,{TR: "Şu aleti her yerden okuyorlar. Tuncay Uğurlu, tak bitti.", EN: "They read this instrument from everywhere. Tuncay Uğurlu, the plug is over."}
-,{TR: "Polisi karıştırmak istemezdim ama gelsinler işlem yapılsın, her şey ortaya çıksın.", EN: "I wouldn't want to mix the police in, but let them come and take action, let everything come out."}
-,{TR: "Siz nereye gideceksiniz abi?", EN: "Where will you go, man?"}
-,{TR: "Hah, şöyle ya.", EN: "Oh, that's it."}
-,{TR: "Valla nereye gideceğiz yavrum, tek yön var, aşağıya doğru gideceğiz işte.", EN: "Well, where are we going, boy? there is only one way, we will go down."}
-,{TR: "Çayı şuradan alıver yavrum.", EN: "Take the tea from there, son."}
-,{TR: "Abi, çorbaların parası?", EN: "The money for the soups?"}
-,{TR: "Rica edeceğim, sizden para mı alacağız?", EN: "I beg you, will we take money from you?"}
- ]},
 {title: "Kefir mi Yoğurt mu - 1",
  sentences: [{TR: "Kefir ve yoğurt, içerdikleri faydalı bakteriler nedeniyle oldukça sağlıklıdırlar.", EN: "Kefir and yoghurt are very healthy due to the beneficial bacteria they contain."}
 ,{TR: "Kefir daha iyi bir seçim olabilir.", EN: "Kefir may be a better choice."}
@@ -147,29 +124,53 @@ sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist ep
 ,{TR: "İnsanlar marketlerden uygun fermente ürünleri satın alabilirler.", EN: "People can buy suitable fermented products from markets."}
 ,{TR: "İnsanlar evde kendi kefir veya yoğurt yapma seçeneklerine sahiptir.", EN: "People have the option of making their own kefir or yogurt at home."}
 ]},
-{title: "Asuman Tatlısının Hikayesi",
-sentences: [{TR: "Yılmaz Cihan, 1985 Çorum doğumluyum.", EN:"Yılmaz Cihan, I was born in Çorum in 1985."}
-,{TR: "Ya üniversite için geldim ben İstanbul'la ama cocukluğumun önemli bir kısmı da Almanya'da geçti.", EN:"Well, I came to Istanbul for university, but I spent a significant part of my childhood in Germany."}
-,{TR: "Marmara Üniversitesi'nde İşletme bölümünü okudum.", EN:"I studied Business Administration at Marmara University."}
-,{TR: "Bilgi Üniversitesi'nde pazarlama iletişimi master'ı yaptım.", EN:"I completed my master's degree in marketing communications at Bilgi University."}
-,{TR: "Ondan sonra da pazar araştırmacılığı ve reklamcılık yaptım.", EN:"After that, I did market research and advertising."}
-,{TR: "En son da cıkolatacı oldum.", EN:"Finally, I became a chocolate maker."}
-,{TR: "Aslında keyifli işlerdi ama çok da benlik değildi.", EN:"Actually, it was fun work, but it wasn't very personal."}
-,{TR: "Çok bana gerçek gibi gelmiyordu.", EN:"It didn't seem real to me."}
-,{TR: "Daha gerçek bir dünyanın işini yapıyormuşum gibi gelmiyordu.", EN:"It didn't feel like I was doing the work of a real world yet."}
-,{TR: "Hafta sonunu finanse etmek için sabah 9'dan akşam 6'ya kadar çalışma fikri benim çok barışabileceğim bir fikri değildi.", EN:"The idea of working from 9 a.m. to 6 p.m. to fund the weekend was not something I could quite reconcile with."}
-,{TR: "Biraz daha gerçek bir hayat istedim.", EN:"I wanted a more real life."}
-,{TR: "Biraz daha sokakta bir hayat istedim.", EN:"I wanted a little more life on the streets."}
-,{TR: "Ben önce bir esnaf olmaya karar verdim.", EN:"I first decided to become a tradesman."}
-,{TR: "Çikolata da ondan sonra bir yöntem olarak geldi.", EN:"Chocolate came as a method after that."}
-,{TR: "Bir yöntem olarak doğdu.", EN:"It was born as a method."}
-,{TR: "Dolayısıyla aşımalığım çok daha fazlaydı.", EN:"Therefore, my immunization rate was much higher."}
-,{TR: "Bir Almanya'dan Türkiye'ye çikolata getiren aileydik.", EN:"We were a family that brought chocolate to Turkey from Germany."}
-,{TR: "Kaliteli çikolatayla ilgili bir hassasiyetim vardı.", EN:"I was sensitive about quality chocolate."}
-,{TR: "Yaptığım işlerden ötürü de çikolata pazarına hakim oldum.", EN:"Because of the work I did, I became familiar with the chocolate market."}
-,{TR: "Çünkü piyasada ne kadar bildiğimiz büyük çikolata firması varsa bir şekilde benim müşterim oldu.", EN:"Because all the big chocolate companies we know in the market somehow became my customers."}
-,{TR: "Onlara pazarını anlatırken ben de pazarı öğrenmiş oldum.", EN:"While I was telling them about the market, I also learned about the market."}
+{title: "Uğurlugiller 1",
+ sentences: [{TR: "Bakar mısınız, hesabı rica edebilir miyim?", EN: "Excuse me, may I ask for the bill?"}
+,{TR: "Yemekler de nefisti çok teşekkür ederim Leylacım.", EN: "The food was delicious too, thank you very much, Leyla."}
+,{TR: "Asıl ben teşekkür ederim Nebahat abla!", EN: "I really thank you, sister Nebahat!"}
+,{TR: "Derdimle biraz başınızı ağrıttım ama ben de ferahladı.", EN: "I gave you a little headache with my trouble, but I was relieved too."}
+,{TR: "Telefonda bayağı merak etmiştim.", EN: "I was quite curious on the phone."}
+,{TR: "Üzme böyle şeylere canını Leylacım.", EN: "Don't worry about such things, my dear Leyla."}
+,{TR: "Bunlar gelip geçici problemler.", EN: "These are temporary problems."}
+,{TR: "Bak sağlıklıyız, yaşıyoruz.", EN: "Look, we are healthy, we are alive."}
+,{TR: "Benim için ne öyle güzel bir değişiklik oldu ki bu çok teşekkür ederim, sağ ol.", EN: "It was such a nice change for me, thank you very much, thank you."}
+,{TR: "Bu seni kaçıncı davet edişim Nebahat abla, hep bir bahane buluyorsun.", EN: "This is the first time I've invited you, sister Nebahat, you always find an excuse."}
+,{TR: "Salim akşamları çok yorgun dönüyor oluyor işte.", EN: "Salim usually comes back very tired in the evenings."}
+,{TR: "Türken bildiğin gibi çalışıp duruyor sözüm ona çalışmak denirse.", EN: "As you know, Turks work hard, so to speak."}
+,{TR: "Doğan´ı görüyorum arasıra bizim tarafta, bir defasında İnci´nin arabasında eden.", EN: "I see Doğan from time to time on our side, once in İnci's car."}
+,{TR: "Ah bak, geçen gün de lokantada gördük. Bizi fark etmedi bile.", EN: "Oh look, we saw it at the restaurant the other day. He didn't even notice us."}
+,{TR: "Ee tabii insan İnci´nin yanındayken başkasını zor fark eder doğrusu.", EN: "Well, of course, when you're next to İnci, you can barely notice anyone else."}
 ]},
+{title: "Uğurlugiller 2,
+sentences: [{TR: "Anne sen bu akşam iyice neşesiz sin.", EN: "Mom, you are looking very unhappy this evening."}
+,{TR: "Biraz başım ağrıyor kızım. Hiç iyi değilim.", EN: "I have a little headache, girl. I'm not okay at all."}
+,{TR: "Karıcığım yoksa gümüşlere mi üzüldün?", EN: "Wife, are you upset about the silver?"}
+,{TR: "Ama Salim rica ederim Allah aşkına!", EN: "But Salim, please, for God's sake!"}
+,{TR: "Yoksa senin de derdin bacım gibi inciler mi?", EN: "Or are you also worried about pearls like my sister?"}
+,{TR: "Evet kızım. Benim derdim de inciler. Vallah, hem Vallaha hem billaha inciler.", EN: "Yes my daughter. My problem is pearls. I swear, I swear, pearls."}
+,{TR: "Hoppala! Anlayan biri gelsin.", EN: "Whoops! Let someone who understands come."}
+,{TR: "Abim bu akşam yine dışarıda yemek zorundaymış, yemeğe gelemeyecek.", EN: "My brother has to eat out again tonight, he can't come for dinner."}
+,{TR: "Özür diliyor, hepimizi öpüyor.", EN: "He apologizes and kisses us all."}
+,{TR: "Çocuklar ben de özür diliyorum. Yemek yiyemeyeceğim.", EN: "Guys, I apologize too. I won't be able to eat."}
+,{TR: "Hiç canım istemiyor. Allah rahatlık versin, başım çok ağrıyor.", EN: "I don't feel like it at all. May God give me comfort, my head hurts so much."}
+,{TR: "Baba! Annemin bir derdi var, farkında mısın?", EN: "Father! My mother has a problem, are yu aware?"}
+,{TR: "Olmaz olur muyum.", EN: "No way can I?"}
+,{TR: "Şimdi üstüne varsak, saklar. Ben gece anlarım.", EN: "Now if we get to it, she will hide it. I find it out tonight."}
+]},
+{title: "Uğurlugiller 3,
+sentences: [{TR: "Niye öksürdün?", EN: "Why did you cough?"}
+,{TR: "Bana bak diye.", EN: "Just to look at me."}
+,{TR: "Baktım. Ne olmuş?", EN: "I looked. So what?"}
+,{TR: "Bir derdin var bana söylemiyorsun.", EN: "You have a problem, you don't tell me."}
+,{TR: "İyi işte ben de deminden beri ne diye sormuyorsun diye şaşıp duruyordum.", EN: "Well, I've been wondering why you didn't ask since."}
+,{TR: "Diye sordum işte. Demek ki mesele yok.", EN: "That's what I asked. So there is no issue."}
+,{TR: "Mesele var.", EN: "There is an issue."}
+,{TR: "Doğan mesele olmaz karıcım, aklı başında çocuktur.", EN: "Doğan is not an issue, my wife, he is a sensible child."}
+,{TR: "Mutlaka boşuna üzüyorsun gene kendini. Hadi yat artık.", EN: "You're definitely making yourself sad for nothing. Go to bed now."}
+,{TR: "Dün öğle yemeğine götürdüm İnciyi, ağzından girdim, burnundan çıktım, şaklabanlıklar yaptım, sonunda razı ettim.", EN: "I took İnci to lunch yesterday, I twisted her arm, I played jokes, and finally I got her to agree."}
+,{TR: "Bir dakika! Bu Ekrem Bey nişanlısının adı ne dedin?", EN: "One minute! What did you say, the name of this Ekrem Bey's fiancée?"}
+,{TR: "Onun da adı İnci. Sakın benim İnciyle karıştırmayın!", EN: "Her name is İnci too. Don't confuse with my İnci!"}
+]},	
 {title: "1 kadın 1 erkek - Babalar haklı cıkmalı",
  sentences: [{TR: "Eğer soracak bir şeyiniz yoksa o zaman dersimize geçelim.", EN:"If you have nothing to ask, then let's move on to our lesson."}
 ,{TR: "Evli misiniz?", EN:"Are you married?"}
