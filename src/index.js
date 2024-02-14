@@ -37,38 +37,51 @@ sentences: [{TR: "Gülmeyeceksin!", EN:"You won't laugh!"}
 ,{TR: "Bizim için gülmeye devam et, tamam mı?", EN:"Keep smiling for us, okay?"}
 ,{TR: "Merak etme sen, o iş bende.", EN:"Don't worry, that's my job."}
 ]},
-{title: "Gözde Karakaya - Doğum Hikayesi",
-sentences: [{TR: "Bana verdiler belden epidürali.", EN:"They gave me a waist epidural."}
-,{TR: "Böyle alttan ritmik bir şekilde ittiriliyorum.", EN:"I am being pushed rhythmically from below."}
-,{TR: "Yatay pozisyondayım.", EN:"I am in a horizontal position."}
-,{TR: "Demek ki, dedim, ben sevişiyorum.", EN:"So, I said, I am making love."}
-,{TR: "Yine daha önceki tecrübelerime dayanarak dedim ki sevişiyorum.", EN:"Again, based on my previous experiences, I said, I am making love."}
-,{TR: "Bir de malak gibi yatıyorum!", EN:"And I'm lying like a buffalo!"}
-,{TR: "Sonra sola baktım, kocam.", EN:"Then I looked to the left, to my husband."}
-,{TR: "Dedim ki, ben aldatıyorum.", EN:"I said, I am cheating him."}
-,{TR: "Ama kocam çok mutlu. Daha önce hiç görmediğim kadar mutlu.", EN:"But my husband is happy. Happier than ever."}
-,{TR: "Yani... ben sevişiyorum, kocam mutlu.", EN:"Well, I'm making love, my husband is happy."}
-,{TR: "Demek ki dedim ben, swinger'dayım.", EN:"Which means, I said, I'm at a swinger party."}
-,{TR: "Tecrübe değil bu arada. Tamamen hayal gücü. Yanlış anlamayında.", EN:"This is not experience, by the way. Full imagination. Don't get me wrong."}
-,{TR: "Sonra dedim ki kocam niye boşta?", EN:"Then I said, why is my husband idle?"}
-,{TR: "O şapkayı takarsan tabii kimse seninle sevişmez.", EN:"If you wear that hat, of course no one will make love to you."}
+{title: "Tuğçe Tenbel - 1",
+sentences: [{TR: "En başta her şey çok zordu.", EN: "Everything was very difficult at first."}
+,{TR: "İlk başta bulunan işler Türkiye'de burun kıvıracağınız işler oluyor.", EN: "The first jobs you find are the ones you would turn your nose up at in Turkey."}
+,{TR: "Ben ilk olarak okul temizliğine gittim.", EN: "First, I went to school cleaning."}
+,{TR: "Elime 600 euro civarı geçiyordu.", EN: "I received around 600 euros."}
+,{TR: "Sonrasında Burger King'te çalıştım.", EN: "Afterwards, I worked at Burger King."}
+,{TR: "Orası benim için çok zordu.", EN: "It was very difficult for me there."}
+,{TR: "Hayatım boyunca beni o kadar tüketen bir işte çalışmadım.", EN: "I have never in my life worked in a job that drained me so much."}
+,{TR: "Şu an büyük bir market zincirinde çalışıyorum.", EN: "I currently work in a large grocery chain."}
+,{TR: "Elime haftalık 400 euro kadar bir para geçiyor, bu da beni rahat geçindiriyor.", EN: "I get about 400 euros a week, which allows me to live comfortably."}
+,{TR: "Şu an Cork şehrindeyim.", EN: "I'm currently in Cork city."}
+,{TR: "O röportajın yapıldığı sırada Dublin'de bisiklet ile yemek dağıtıyordum.", EN: "At the time of that interview, I was delivering food on a bicycle in Dublin."}
+,{TR: "Yağmurun altında çalıştığım da oldu, kaza da geçirdim.", EN: "I sometimes worked in the rain and had an accident."}
+,{TR: "Irkçılar tarafından saldırıya uğradığım da oldu.", EN: "I have also been attacked by racists."}
+,{TR: "Burada bisiklet ile yemek dağıtanlar dışarıdan gelen öğrenciler olur.", EN: "Here, those who deliver food on bicycles are foreign students."}
+,{TR: "Irkçı gruplar en çok onları hedef alıyor.", EN: "Racist groups target them the most."}
 ]},
-{title: "Doğu - Zeka geriliği",
- sentences: [{TR: "Kaç yaşına gelmiş adamsın yani? Belanı benden bulma tamam mı?", EN:"So, how old are you? Don't take trouble from me, okay?"}
-,{TR: "Sen ne biçim konuşuyorsun lan?", EN:"What the hell are you talking about?"}
-,{TR: "Pezevenge bak ya. Kızı yaşındaki insanlar.", EN:"Look at the pimp. People his daughter's age."}
-,{TR: "Allah allah kardeşim, ne oldu, hayırdır?", EN:"Oh my God, brother, what happened, what's wrong?"}
-,{TR: "Kardeşim ne oluyor burada, ben anlamadığım şey o.", EN:"What's going on here brother? I don't get it."}
-,{TR: "Ne oluyor burada ya? Bir dakika!", EN:"What's going on here? Wait a minute!"}
-,{TR: "Abi iki dakika şurada ben gittim, şurada iki dakika neler olmuş ya?", EN:"Bro, I was there for 2 minutes, what happened there for 2 minutes?"}
-,{TR: "Sanat. Burası sanat. Burası asla kavga değil.", EN:"Art. This is art. This is never a fight."}
-,{TR: "Yavşak! Sen de onunla aynı konuşmuyor muydun.", EN:"Arsehole! Weren't you talking the same way to him?"}
-,{TR: "Abi hayır vallahi ben bir şey demedim.", EN:"Brother, no, I swear I didn't say anything."}
-,{TR: "Bende kalp pili var abi. Ben ameliyatlıyım.", EN:"I have a pacemaker, brother. I have surgery."}
-,{TR: "Kardeş bu çocuğun bir hatası varsa ben özür dilerim abi.", EN:"Brother, if this child made a mistake, I apologize."}
-,{TR: "Yürü çık gidiyoruz. Çıkalım.", EN:"Go ahead, we're going. Let's go out."}
-,{TR: "Bu çocuğun engelli raporu var. Özür dilerim.", EN:"This child has a disability report. I apologize."}
- ]},
+{title: "Tuğçe Tenbel - 2",
+sentences: [{TR: "Burada öğrenciler yüksek lisans eğitim için gereken parayı bu tip işlerle çıkarır.", EN: "Here, students earn the money needed for graduate education through such jobs."}
+,{TR: "O yüzden de çalışmak istedim, bisiklet sürmeyi de zaten seviyordum. ", EN: "That's why I wanted to work, and I loved cycling anyway."}
+,{TR: "Sonra arkadaşım böyle bir video çekmek istedi.", EN: "Then my friend wanted to shoot such a video."}
+,{TR: "O zaman bu kadar yayılacağını düşünmedim.", EN: "At that time I didn't think it would spread this much."}
+,{TR: "Geçenlerde arkadaşım videonun o kısmını tekrar paylaştı.", EN: "Recently, my friend shared that part of the video again."}
+,{TR: "Marmara Hukuk mezunu avukat kuryelik yapıyor, şeklinde yayıldı.", EN: "It was spread that the Marmara Law graduate lawyer is working as a courier."}
+,{TR: "Tepkiler daha çok olumlu yönde miydi yoksa olumsuz mu?", EN: "Were the reactions mostly positive or negative?"}
+,{TR: "Üzülerek söylüyorum genelde olumlu tepkiler geldi.", EN: "I'm sorry to say that the reactions were generally positive."}
+,{TR: "Tek tek yorumlara baktım.", EN: "I looked at the comments one by one."}
+,{TR: "Herkes ne demek istediğimi açmaya çalışmış.", EN: "Everyone tried to explain what I meant."}
+,{TR: "Kimse mutlu değil, insanlar bana hak vermiş.", EN: "Nobody is happy, people agreed with me."}
+,{TR: "Ülkemiz aslında güzel, şöyle fırsatlar var.", EN: "Our country is actually beautiful, there are such opportunities."}
+]},
+{title: "Tuğçe Tenbel - 3",
+sentences: [{TR: "Geceleri arkama bakmadan yürüyorum, bunun parasal bir karşılığı yok.", EN: "I walk at night without looking back, there is no financial reward for this."}
+,{TR: "Ben herhangi bir para karşılığı Türkiye'ye dönmem.", EN: "I would not return to Turkey for any money."}
+,{TR: "İçimi rahatlatacak bir noktaya gelmem lazım.", EN: "I need to get to a point where I feel comfortable."}
+,{TR: "O kadar emek verdim, burada yüksek lisans yapmam lazım.", EN: "I worked so hard, I need to get a master's degree here."}
+,{TR: "Ayrıca buranın da kendine göre sorunları var.", EN: "Also, this place has its own problems."}
+,{TR: "Henüz İngilizceyi tam olarak öğrenemedim.", EN: "I haven't learned English fully yet."}
+,{TR: "Şu an daha yeni yüksek lisans başvurumu yaptım.", EN: "I've just applied for a master's degree."}
+,{TR: "Bana yazanlardan nasıl gelebileceğini soranlardan bile bunu fark ediyorum.", EN: "I notice this even from those who write to me and ask how they can come."}
+,{TR: "Tekrardan burada okul okumam ve ruhsat almam gerekiyor.", EN: "I need to study here again and get a license."}
+,{TR: "Tabii ki zoruma gidiyor.", EN: "Of course it bothers me."}
+,{TR: "Ama Türkiye'de hayalini bile kuramayacağım şeyleri burada yapabileceğimi gördüm.", EN: "But I saw that I could do things here that I could not even dream of in Turkey."}
+,{TR: "O çatışmayı yaşadığım oluyor.", EN: "I sometimes experience that conflict."}
+]},
 {title: "Doğu - Betül Eczanesi",
  sentences: [{TR: "Buna ne kadardı?", EN:"How much does this cost?"}
 ,{TR: "Fiyatlar üstünde yazıyor.", EN:"The price is written on."}
@@ -185,7 +198,7 @@ sentences: [{TR: "Niye öksürdün?", EN: "Why did you cough?"}
 ,{TR: "Ama Ozan benim nişanlım, hayatım.", EN:"But Ozan is my fiancee, my dear."}
 ,{TR: "Ehh, işte babam haklıymış.", EN:"Ehh, my father was right."}
 ]},
-	{title: "Gestion projet 1",
+{title: "Gestion projet 1",
  sentences: [{TR: "ils avaient réussi à faire adopter la leur, avec des postérités diverses", EN:"they managed to create their own, with various results"}
 ,{TR: "vous gagnez du temps et vous vous épargnez de nombreux problèmes par la suite", EN:"you save time and spare yourself many problems afterwards"}
 ,{TR: "Comment se fixer des objectifs et réussir à les atteindre?", EN:"How to set goals and achieve them afterwards?"}
