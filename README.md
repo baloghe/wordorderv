@@ -1,6 +1,6 @@
 # Word Order (Vercel + MongoDB)
 
-Grammar excercises of type _'Find the correct word order'_. Available with a collection of translated Turkish excerpts collected mostly from Youtube. Nevertheless anyone can practice with his or her own sets in XML.
+Grammar excercises of type _'Find the correct word order'_. Available with a collection of translated Turkish excerpts collected mostly from Youtube and Netflix. Nevertheless, anyone can practice with his or her own sets in XML.
 
 ## App deployed on Vercel, quizzes fetched from MongoDB
 
