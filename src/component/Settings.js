@@ -1,5 +1,6 @@
 import React from "react";
-import TopicPane from './TopicPane.js';
+//import TopicPane from './TopicPane.js';
+import TopicSelect from './TopicSelect.js';
 import './Settings.css';
 
 export default class Settings extends React.Component {
@@ -16,7 +17,7 @@ export default class Settings extends React.Component {
     
   getTitlesFromProps = () => {
   	return this.props.topics.map(e => 
-    					{return {title: e.title, cnt: e.cnt};});
+    					{return {title: e.title};});
   }
   
   loadFile = (e) => {
@@ -138,7 +139,7 @@ export default class Settings extends React.Component {
   	return (
     	<div className="settings">
         <h3>Choose a topic!</h3>
-        <TopicPane
+        <TopicSelect
           topics={this.props.topics}
           activeTitle={this.state.activeTitle}
           selectedTitleChanged={this.selectedTitleChanged}

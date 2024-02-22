@@ -1,4 +1,6 @@
 import React from "react";
+import axios from "axios";
+
 import TestContainer from './TestContainer.js';
 import Settings from './Settings.js';
 import shuffleArray from '../logic/shuffleArray.js';
@@ -8,26 +10,27 @@ export default class App extends React.Component {
 	constructor(props){
   	super(props);
     this.state = {
-    	topics: this.getTopics(props.tests),
-		tests: this.props.tests,
+      topics: this.getTopics(props.tests),
+	  tests: this.props.tests,
       actTopic: 0,
       actRandom: false,
       actPhase: "settings",
       results: [],
       qLang: props.qLang,
-      aLang: props.aLang
+      aLang: props.aLang,
+	  dbAvailable: props.dbAvailable
     };
   }
   
   getTopics = (inp) => {
-  	return inp.map(e=>{
-    	return {title: e.title, cnt: (e.sentences ? e.sentences.length : 0)};
+  	return inp.map((e,i)=>{
+    	return {title: e.title, cnt: (e.sentences ? e.sentences.length : 0), _id: (e._id ? e._id : i)};
     })
   }
   
   setLang = ([inQLang, inALang]) => {
   	this.setState({
-    	qLang: inQLang,
+      qLang: inQLang,
       aLang: inALang
     });
   }
@@ -47,13 +50,12 @@ export default class App extends React.Component {
     });
     
     this.setState({
-    	topics: loadedTopics,
+      topics: loadedTopics,
       tests:  loadedTests
     });
   }
   
   showResults = (res) => {
-  	//console.log(`App: Test finished: ${JSON.stringify(res)}`);
     this.state.results.unshift(res);
     this.setState({
     	results: this.state.results.filter((e,i)=>i<5),
@@ -79,11 +81,30 @@ export default class App extends React.Component {
   }
   
   startTest = (inTopic, inRandom) => {
-  	this.setState({
-    	actTopic: inTopic,
-      actRandom: inRandom,
-      actPhase: "test"
-    });
+	if(this.state.dbAvailable){
+		//we have no tests, only their titles
+		const request = {id: this.state.topics[inTopic]._id};
+		//console.log(`App.startTest :: request=${JSON.stringify(request)}`);
+		
+		axios
+		.post(`/api/getquiz`, request)
+		.then((data) => {
+			this.setState({
+			  tests: [data.data],	//we retrieve one test at a time
+			  actTopic: 0, 			//and it will be the only element in the array
+			  actRandom: inRandom,
+			  actPhase: "test"
+			});
+		});
+		
+		
+	} else {
+		this.setState({
+		  actTopic: inTopic,
+		  actRandom: inRandom,
+		  actPhase: "test"
+		});
+	}
   }
     
   renderSettings = () => {
@@ -97,12 +118,12 @@ export default class App extends React.Component {
         qLang={this.state.qLang}
         aLang={this.state.aLang}
         setLang={this.setLang}
+		dbAvailable={this.state.dbAvailable}
         />
     );
   }
     
   renderTestContainer = () => {
-	//console.log(`App :: actRandom=${this.state.actRandom}`);
     let actSentences =(
       this.state.actRandom
       ? this.getRandomizedSentences(this.state.actTopic)
@@ -162,11 +183,11 @@ export default class App extends React.Component {
   
   render() {
 		if(this.state.actPhase == "settings") {
-      return this.renderSettings();
-    } else if(this.state.actPhase == "test") {
-      return this.renderTestContainer();
-  	} else if(this.state.actPhase == "results") {
-      return this.renderResults();
-  	}
+		  return this.renderSettings();
+		} else if(this.state.actPhase == "test") {
+		  return this.renderTestContainer();
+		} else if(this.state.actPhase == "results") {
+		  return this.renderResults();
+		}
 	}
 }
