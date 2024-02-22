@@ -2,7 +2,7 @@
 
 Grammar excercises of type _'Find the correct word order'_. Available with a collection of translated Turkish excerpts collected mostly from Youtube. Nevertheless anyone can practice with his or her own sets in XML.
 
-## App deployed on Vercel, quizzez fetched from MongoDB
+## App deployed on Vercel, quizzes fetched from MongoDB
 
 I created the application by copying and modifying the 'Create React App project' on Vercel. Quizzes now reside in MongoDB.
 
