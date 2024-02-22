@@ -1,10 +1,10 @@
-# Word Order (Vercel)
+# Word Order (Vercel + MongoDB)
 
-Grammar excercises of type _'Find the correct word order'_. Available with a collection of translated Turkish excerpts collected mostly from Youtube. Nevertheless anyone can upload his or her own sets in XML.
+Grammar excercises of type _'Find the correct word order'_. Available with a collection of translated Turkish excerpts collected mostly from Youtube. Nevertheless anyone can practice with his or her own sets in XML.
 
-## Deployed on Vercel
+## App deployed on Vercel, quizzez fetched from MongoDB
 
-Created by copying and modifying the 'Create React App project' on Vercel.
+I created the application by copying and modifying the 'Create React App project' on Vercel. Quizzes now reside in MongoDB.
 
 Also deployed on Vercel: [https://wordorderv.vercel.app/](https://wordorderv.vercel.app/)
 
@@ -14,11 +14,11 @@ Simply hit START. Mixed-up sentences (along with their English translation) are 
 
 Swap two words by simply clicking on them one after the other.
 
-Hit Next when you think the word order is correct.
+Hit Next when you think the word order is correct. A green checker means you were right, a red cross indicates an error. No problem, you can _RETRY_ by pushing the button.
 
-## Upload your own test set
+## Practice with your own test set
 
-Upload on the 'Settings' page. A valid XML document is required:
+Upload them on the 'Settings' page. A valid XML document is required:
 ```
 <test>
 <languages>
