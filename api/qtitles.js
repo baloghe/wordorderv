@@ -9,9 +9,16 @@ async function getTitles(){
   await mongoClient.connect()
     .then(connection=>connection.db(process.env.MONGODB_DB))
 	.then(db=>db.collection('quiz'))
-	.then(q=>q.find( {} ,  {projection: { title: 1} } ))
-	.then(cursor=>cursor.toArray())
-    .then(listing=>{ result = listing.map(a=>{return {_id: a._id , title: a.title} } )})
+	//.then(q=>q.find( {} ,  {projection: { title: 1} } ))
+	.then(q=>q.aggregate(
+				[
+					{ $unwind : "$sentences" } ,
+					{ $group : { _id : "$_id" , title: { $first : "$title" } , cnt : { $count : {} } } }
+				]
+			)
+		)
+    .then(cursor=>cursor.toArray())
+    .then(listing=>{ result = listing.map(a=>{return {_id: a._id , title: a.title , cnt: a.cnt} } )})
     .catch(error => console.log(error))
 	;
   return result;

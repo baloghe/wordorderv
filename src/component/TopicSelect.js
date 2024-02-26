@@ -4,7 +4,7 @@ import "./TopicSelect.css";
 export default class TopicSelect extends React.Component{
 	
 	constructor(props) {
-		super(props); //{topics :: Array{title}, activeTitle :: int, selectedTitleChanged()}
+		super(props); //{topics :: Array{title, cnt}, activeTitle :: int, selectedTitleChanged()}
 		
 		this.state = {
 			activeTitle: this.props.activeTitle
@@ -27,7 +27,7 @@ export default class TopicSelect extends React.Component{
 						<option key={i}
 							className="topic-title"
 							value={i}
-						>{e.title}</option>
+						>{e.title} ({e.cnt})</option>
 					))}
 				</select>
 			</div>

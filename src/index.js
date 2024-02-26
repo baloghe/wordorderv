@@ -4,6 +4,7 @@ import axios from "axios";
 
 import "./index.css";
 import App from "./component/App";
+import Spinner from "./component/Spinner";
 
 /*-------------------------------
    Actual inputs and root rendering
@@ -57,6 +58,12 @@ sentences: [{TR: "En başta her şey çok zordu.", EN: "Everything was very diff
 ,{TR: "Irkçı gruplar en çok onları hedef alıyor.", EN: "Racist groups target them the most."}
 ]}
 ];
+
+ReactDOM.createRoot( 
+	  document.querySelector('#root')
+	).render(
+		<Spinner />
+);
 
 axios
 .post(`/api/qtitles`, null)

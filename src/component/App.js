@@ -3,6 +3,7 @@ import axios from "axios";
 
 import TestContainer from './TestContainer.js';
 import Settings from './Settings.js';
+import Spinner from './Spinner.js';
 import shuffleArray from '../logic/shuffleArray.js';
 import './App.css';
 
@@ -23,9 +24,11 @@ export default class App extends React.Component {
   }
   
   getTopics = (inp) => {
-  	return inp.map((e,i)=>{
-    	return {title: e.title, cnt: (e.sentences ? e.sentences.length : 0), _id: (e._id ? e._id : i)};
+  	return inp
+	.map((e,i)=>{
+    	return {title: e.title, cnt: (e.sentences ? e.sentences.length : (e.cnt ? e.cnt : 0)), _id: (e._id ? e._id : i)};
     })
+	.sort((a, b) => a.title.localeCompare(b.title));
   }
   
   setLang = ([inQLang, inALang]) => {
@@ -86,6 +89,8 @@ export default class App extends React.Component {
 		const request = {id: this.state.topics[inTopic]._id};
 		//console.log(`App.startTest :: request=${JSON.stringify(request)}`);
 		
+		this.setState({actPhase: "loading"});
+		
 		axios
 		.post(`/api/getquiz`, request)
 		.then((data) => {
@@ -105,6 +110,10 @@ export default class App extends React.Component {
 		  actPhase: "test"
 		});
 	}
+  }
+  
+  renderSpinner = () => {
+    return (<Spinner />);
   }
     
   renderSettings = () => {
@@ -182,7 +191,9 @@ export default class App extends React.Component {
   }
   
   render() {
-		if(this.state.actPhase == "settings") {
+		if(this.state.actPhase == "loading") {
+		  return this.renderSpinner();
+		} else if(this.state.actPhase == "settings") {
 		  return this.renderSettings();
 		} else if(this.state.actPhase == "test") {
 		  return this.renderTestContainer();
