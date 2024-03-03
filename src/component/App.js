@@ -160,7 +160,6 @@ export default class App extends React.Component {
       ? this.getRandomizedSentences(this.state.actTopic)
       : this.state.tests[this.state.actTopic].sentences
     ).map(e => {
-		let actQ = 'L1';
     	return {
       	qSentence: e[actQL],
         aSentence: e[actAL]
