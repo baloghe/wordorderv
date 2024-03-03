@@ -8,12 +8,13 @@ import './TestContainer.css';
 export default class TestContainer extends React.Component {
 	constructor(props) {
     super(props);
+	//console.log(`TestContainer :: qLang=${props.qLang} , aLang=${props.aLang}`);
     this.state = {
       tests: this.extractTests(props.tests),
       totTestNum: props.tests.length,
       qLang: props.qLang,
       aLang: props.aLang,
-    	actTestNum: 0,
+      actTestNum: 0,
       tsContainerStart: new Date(),
       dragEnabled: true,
       aAnswers: [] //Array of {answer: |-sep String, tsSubmit: timestamp}

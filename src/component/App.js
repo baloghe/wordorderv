@@ -26,7 +26,11 @@ export default class App extends React.Component {
   getTopics = (inp) => {
   	return inp
 	.map((e,i)=>{
-    	return {title: e.title, cnt: (e.sentences ? e.sentences.length : (e.cnt ? e.cnt : 0)), _id: (e._id ? e._id : i)};
+    	return {title: e.title,
+		        cnt: (e.sentences ? e.sentences.length : (e.cnt ? e.cnt : 0)),
+				_id: (e._id ? e._id : i),
+				langs: (e.langs ? e.langs : null)
+				};
     })
 	.sort((a, b) => a.title.localeCompare(b.title));
   }
@@ -36,6 +40,7 @@ export default class App extends React.Component {
       qLang: inQLang,
       aLang: inALang
     });
+	//console.log(`App.setLang :: ${inQLang} , ${inALang}`);
   }
   
   fileLoaded = (inFileData) => {
@@ -133,14 +138,32 @@ export default class App extends React.Component {
   }
     
   renderTestContainer = () => {
+	//which language...?
+	let actQL = null;
+	let actAL = null;
+	if(this.state.tests[this.state.actTopic].langs){
+		if(this.state.tests[this.state.actTopic].langs.L1 == this.state.qLang){
+			actQL = 'L1';
+			actAL = 'L2';
+		} else {
+			actQL = 'L2';
+			actAL = 'L1';
+		}
+	} else {
+		actQL = this.state.qLang;
+		actAL = this.state.aLang;
+	}
+	  
+	//generate sentences
     let actSentences =(
       this.state.actRandom
       ? this.getRandomizedSentences(this.state.actTopic)
       : this.state.tests[this.state.actTopic].sentences
     ).map(e => {
+		let actQ = 'L1';
     	return {
-      	qSentence: e[this.state.qLang],
-        aSentence: e[this.state.aLang]
+      	qSentence: e[actQL],
+        aSentence: e[actAL]
       };
     });
     return (
@@ -196,6 +219,7 @@ export default class App extends React.Component {
 		} else if(this.state.actPhase == "settings") {
 		  return this.renderSettings();
 		} else if(this.state.actPhase == "test") {
+		  //console.log(`before render TestContainer: qLang=${this.state.qLang} , aLang=${this.state.aLang}`);
 		  return this.renderTestContainer();
 		} else if(this.state.actPhase == "results") {
 		  return this.renderResults();

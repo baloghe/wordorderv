@@ -8,13 +8,28 @@ export default class Settings extends React.Component {
 		super(props);
 		this.state = {
 			titles: this.getTitlesFromProps(),
-			activeTitle:this.props.activeTitle == null ? 0 : this.props.activeTitle,
+			activeTitle: this.props.activeTitle == null ? 0 : this.props.activeTitle,
 			isRandOrder: this.props.isRandOrder || false,
-			qLang: props.qLang,
-			aLang: props.aLang
+			qLang: this.getLang('L2' , this.props.activeTitle == null ? 0 : this.props.activeTitle ),
+			aLang: this.getLang('L1' , this.props.activeTitle == null ? 0 : this.props.activeTitle ) 
 		};
     }   
     
+  getLang = (Lx, ii) => {
+	  let ret = null;
+	  if(this.props.topics[ii].langs){
+		  if( Lx in this.props.topics[ii].langs ){
+			  return this.props.topics[ii].langs[Lx];
+		  }
+	  }
+	  //console.log(`Lx=${Lx} , ${this.props.topics[ii].langs.L1} -> ret=${ret}`);
+	  if(ret==null) {
+		  if(Lx=='L1') return 'TR';
+		  else return 'EN';
+	  }
+	  return ret;
+  }
+	
   getTitlesFromProps = () => {
   	return this.props.topics.map(e => 
     					{return {title: e.title};});
@@ -107,9 +122,15 @@ export default class Settings extends React.Component {
   
   selectedTitleChanged = (newIdx) => {
   	//console.log(`newIdx=${newIdx}`);
+	let newQ = this.getLang('L2' , newIdx );
+	let newA = this.getLang('L1' , newIdx );
   	this.setState({
-    	activeTitle: newIdx
+    	activeTitle: newIdx,
+		qLang: newQ,
+		aLang: newA
     });
+	//inform App
+	this.props.setLang([newQ, newA]);
   }
   
   setRandOrder = () => {
@@ -122,9 +143,9 @@ export default class Settings extends React.Component {
   	let [newQLang, newALang] = [this.state.aLang, this.state.qLang];
     this.setState({
     	qLang: newQLang,
-      aLang: newALang
+		aLang: newALang
     });
-    
+	//inform App
     this.props.setLang([newQLang, newALang]);
   }
   
