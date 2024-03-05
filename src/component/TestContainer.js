@@ -33,7 +33,7 @@ export default class TestContainer extends React.Component {
 	//preload mp3
 	if(props.audio) {
 		const request = {audio: props.audio};
-		this.setState({tcState: "loading"});
+		//this.setState({tcState: "loading"});
 		axios
 		.post(`/api/mp3`, request,  {responseType: 'blob' } ) //unless correct responseType set, string is returned
 		.then( ( response ) => {
@@ -44,10 +44,13 @@ export default class TestContainer extends React.Component {
 		 } )
 		.catch(error => {
 			console.log(`Error at loading audio file: ${props.tests.audio} :: ${error}`);
-			this.setState({tcState: "ready"});
+			//this.setState({tcState: "ready"});
+			this.state.tcState = "ready";
 		});
 	} else {
-		this.setState({tcState: "ready"});
+		//console.log('no audio found for this test');
+		//this.setState({tcState: "ready"});
+		this.state.tcState = "ready";
 	}
 	
   } //constructor

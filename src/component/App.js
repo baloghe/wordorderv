@@ -118,7 +118,10 @@ export default class App extends React.Component {
   }
   
   renderSpinner = () => {
-    return (<Spinner />);
+    return (<div>
+				<p>Loading quiz data</p>
+				<Spinner />
+			</div>);
   }
     
   renderSettings = () => {

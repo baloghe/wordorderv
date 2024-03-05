@@ -57,7 +57,10 @@ const reactRoot = ReactDOM.createRoot(
 	);
 
 reactRoot.render(
+	<div>
+		<p>Loading available titles...</p>
 		<Spinner />
+	</div>
 );
 /*
 	reactRoot.render(
