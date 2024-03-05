@@ -160,9 +160,10 @@ export default class App extends React.Component {
       ? this.getRandomizedSentences(this.state.actTopic)
       : this.state.tests[this.state.actTopic].sentences
     ).map(e => {
-    	return {
+		return {
       	qSentence: e[actQL],
-        aSentence: e[actAL]
+        aSentence: e[actAL],
+		audio: e.audio
       };
     });
     return (
@@ -172,6 +173,7 @@ export default class App extends React.Component {
         tests={actSentences}
         wait={this.props.wait}
         dispatchResults={this.showResults}
+		audio={this.state.tests[this.state.actTopic].audio}
         />
     );
   }

@@ -1,9 +1,17 @@
 import React from "react";
+import axios from "axios";
+
 import Test from './Test.js';
 import TestButton from './TestButton.js';
+import Spinner from './Spinner.js';
+
 import tokenize from '../logic/tokenize.js';
 import shuffleArray from '../logic/shuffleArray.js';
+
 import './TestContainer.css';
+
+import megaphone from '../img/megaphone.png';
+
 
 export default class TestContainer extends React.Component {
 	constructor(props) {
@@ -15,10 +23,33 @@ export default class TestContainer extends React.Component {
       qLang: props.qLang,
       aLang: props.aLang,
       actTestNum: 0,
+	  tcState: "loading",
+	  audioSrc: null,
       tsContainerStart: new Date(),
       dragEnabled: true,
       aAnswers: [] //Array of {answer: |-sep String, tsSubmit: timestamp}
     };
+	
+	//preload mp3
+	if(props.audio) {
+		const request = {audio: props.audio};
+		this.setState({tcState: "loading"});
+		axios
+		.post(`/api/mp3`, request,  {responseType: 'blob' } ) //unless correct responseType set, string is returned
+		.then( ( response ) => {
+			let url      = URL.createObjectURL( new Blob( [response.data] ) );
+			//console.log(`url: ${url}`);
+			this.setState({audioSrc: url});
+			this.setState({tcState: "ready"});
+		 } )
+		.catch(error => {
+			console.log(`Error at loading audio file: ${props.tests.audio} :: ${error}`);
+			this.setState({tcState: "ready"});
+		});
+	} else {
+		this.setState({tcState: "ready"});
+	}
+	
   } //constructor
   
   extractTests = (testArr) => {
@@ -29,7 +60,8 @@ export default class TestContainer extends React.Component {
       	qSentence: e.qSentence,
         aSentence: shuffleArray( aSent.map(x=>x) ),
         expResult: aSent,
-        tsActStart: (i==0 ? new Date() : null)
+        tsActStart: (i==0 ? new Date() : null),
+		audio: (e.audio ? e.audio : null)
       };
       //console.log(`${i}: ${ret.qSentence} = ${ret.aSentence}`);
       return ret;
@@ -125,13 +157,44 @@ export default class TestContainer extends React.Component {
     this.props.dispatchResults(res);
   };
   
+  hasAudio = () => {
+	if(   this.state.audioSrc != null
+	   && this.state.tests[this.state.actTestNum].audio){
+		return true;
+	} else return false;
+  };
+  
+  playSound = () => {
+	  //Play section needed
+		if(this.state.audioSrc != null){
+			let idx = this.state.actTestNum;
+			//console.log(`play section ${this.state.tests[idx].audio.start} - ${this.state.tests[idx].audio.end}`);
+			const atg = new Audio(this.state.audioSrc);
+			atg.currentTime = this.state.tests[idx].audio.start / 1000.0; //position needed as seconds
+			atg.load();
+			atg.play();
+			let playlen = this.state.tests[idx].audio.end - this.state.tests[idx].audio.start; //length needed as millisec
+			const i = setInterval(()=>atg.pause(), playlen);
+		} else {
+			console.log('audio not ready!');
+		}
+
+  };
+  
   renderButtons(){
   	return (
     <table><tbody>
-      <tr>
+      <tr key="exit-next">
       <td className="exitTest"><TestButton callBack={this.exitTest} caption="Exit" /></td>
       <td className="nextTest"><TestButton callBack={this.containerNextTest} caption="Next" /></td>
       </tr>
+	  {this.hasAudio() ? <tr key="listen" colSpan="2">
+						<div key="aux" className="audio" onClick={this.playSound}>
+							<img src={megaphone} alt="Play" />
+						</div>
+					</tr>
+					: <div />
+	  }
       </tbody></table>
     );
   }
@@ -146,6 +209,14 @@ export default class TestContainer extends React.Component {
   }
   
   render() {
+	  
+	if(this.state.tcState=='loading'){
+		return (<div>
+					<p>Loading audio...</p>
+					<Spinner />
+				</div>
+				);
+	}
     
     let tid = (this.state.dragEnabled ? 't' : 'tr') + this.state.actTestNum;
     //console.log(`TestContainer.render() :: actTestNum: ${this.state.actTestNum}, aArr.length=${this.state.tests[this.state.actTestNum].aSentence.length}, tid=${tid}`);

@@ -19,7 +19,7 @@ async function streamMp3(fname){
 }
 
 async function playMp3 (req, res) {
-	console.log('playMp3 called');
+	//console.log(`playMp3 called :: ${req.body.audio}`);
 	try {
 		res.setHeader('Content-Type', 'audio/mp3');
 		res.setHeader('Accept-Ranges', 'bytes');
