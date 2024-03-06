@@ -1,9 +1,11 @@
 td.exitTest {
   display: inline-block;
+  padding-right: 40px;
 }
 
 td.nextTest {
   display: inline-block;
+  padding-left: 40px;
 }
 
 span.actres-ok {

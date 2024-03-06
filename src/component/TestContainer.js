@@ -193,11 +193,11 @@ export default class TestContainer extends React.Component {
       <td className="nextTest"><TestButton callBack={this.containerNextTest} caption="Next" /></td>
       </tr>
 	  {this.hasAudio() ? <tr key="listen" colSpan="2">
-						<div key="aux" className="audio" onClick={this.playSound}>
+						<button type="button" key="aux" className="audio" onClick={this.playSound}>
 							<img src={megaphone} alt="Play" />
-						</div>
+						</button>
 					</tr>
-					: <div />
+					: <p />
 	  }
       </tbody></table>
     );
