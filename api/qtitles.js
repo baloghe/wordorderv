@@ -13,12 +13,17 @@ async function getTitles(){
 	.then(q=>q.aggregate(
 				[
 					{ $unwind : "$sentences" } ,
-					{ $group : { _id : "$_id" , title: { $first : "$title" } , langs: { $first : "$langs" } , cnt : { $count : {} } } }
+					{ $group : { 
+						_id : "$_id" , 
+						title: { $first : "$title" } , 
+						langs: { $first : "$langs" } , 
+						cnt : { $count : {} } , 
+						audio: { $first : "$audio" } } }
 				]
 			)
 		)
     .then(cursor=>cursor.toArray())
-    .then(listing=>{ result = listing.map(a=>{return {_id: a._id , title: a.title , langs: a.langs , cnt: a.cnt} } )})
+    .then(listing=>{ result = listing.map(a=>{return {_id: a._id , title: a.title , langs: a.langs , cnt: a.cnt , hasAudio: (a.audio != null) } } )})
     .catch(error => console.log(error))
 	;
   return result;

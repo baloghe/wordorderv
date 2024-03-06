@@ -27,7 +27,7 @@ export default class TopicSelect extends React.Component{
 						<option key={i}
 							className="topic-title"
 							value={i}
-						>{e.title} ({e.cnt}) {e.langs ? `${e.langs.L1}-${e.langs.L2}` : 'TR-EN'}</option>
+						>{e.title} ({e.cnt}) {e.langs ? `${e.langs.L1}-${e.langs.L2}` : 'TR-EN'} {e.hasAudio ? '\u266B' : ""} </option>
 					))}
 				</select>
 			</div>

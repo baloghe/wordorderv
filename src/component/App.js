@@ -29,7 +29,8 @@ export default class App extends React.Component {
     	return {title: e.title,
 		        cnt: (e.sentences ? e.sentences.length : (e.cnt ? e.cnt : 0)),
 				_id: (e._id ? e._id : i),
-				langs: (e.langs ? e.langs : null)
+				langs: (e.langs ? e.langs : null),
+				hasAudio: e.hasAudio
 				};
     })
 	.sort((a, b) => a.title.localeCompare(b.title));
