@@ -172,7 +172,7 @@ export default class TestContainer extends React.Component {
 		if(this.state.audioSrc != null){
 			let idx = this.state.actTestNum;
 			//console.log(`play section ${this.state.tests[idx].audio.start} - ${this.state.tests[idx].audio.end}`);
-			const atg = document.getElementById('audio'); //new Audio(this.state.audioSrc);
+			const atg = new Audio(this.state.audioSrc);
 			atg.src = this.state.audioSrc;
 			atg.currentTime = this.state.tests[idx].audio.start / 1000.0; //position needed as seconds
 			atg.muted = false;
