@@ -133,14 +133,12 @@ export default function AdminPane({aState}){
 		.then((data) => {
 			//setQuiz(data.data);
 			console.log(data.data);
-			setActState('CHOOSEACTION');
+			resetState();
 		})
 		.catch(error => {
 			setActState('DBERROR');
 			console.log(`DBERROR: ${error}`);
 		});
-		  
-		  setActState ('RESULT');
 	  }
   };
   
@@ -157,14 +155,12 @@ export default function AdminPane({aState}){
 		.then((data) => {
 			//setQuiz(data.data);
 			console.log(data.data);
-			setActState('CHOOSEACTION');
+			resetState();
 		})
 		.catch(error => {
 			setActState('DBERROR');
 			console.log(`DBERROR: ${error}`);
 		});
-	  
-	  setActState ('RESULT');
   };
   
   if(!loggedIn){
