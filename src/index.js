@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import axios from "axios";
 
 import "./index.css";
+import AppRouter from "./AppRouter";
 import App from "./component/App";
 import Spinner from "./component/Spinner";
-
+//import AppTst from "./AppTst";
 /*-------------------------------
    Actual inputs and root rendering
 -------------------------------*/
@@ -55,6 +57,13 @@ const mockTests = [
 const reactRoot = ReactDOM.createRoot( 
 	  document.querySelector('#root')
 	);
+/*
+reactRoot.render(
+<BrowserRouter>
+         <AppTst />
+</BrowserRouter>
+);
+*/
 
 reactRoot.render(
 	<div>
@@ -62,44 +71,35 @@ reactRoot.render(
 		<Spinner />
 	</div>
 );
-/*
-	reactRoot.render(
-		<App 
-			qLang="EN" 
-			aLang="TR" 
-			tests={mockTests}
-			dbAvailable={false}
-			wait={3000}
-		/>
-);
-*/
+
 
 axios
 .post(`/api/qtitles`, null)
 .then((data) => {
 	reactRoot.render(
-		<App 
-			qLang="EN" 
-			aLang="TR" 
-			tests={data.data.titles}
-			dbAvailable={true}
-			wait={3000}
-		/>
+		<BrowserRouter>
+			<AppRouter 
+				qLang="EN" 
+				aLang="TR" 
+				tests={data.data.titles}
+				wait={3000}
+			/>
+		</BrowserRouter>
 	);
 	
 })
 .catch(error => {
 	reactRoot.render(
-		<App 
-			qLang="EN" 
-			aLang="TR" 
-			tests={mockTests}
-			dbAvailable={false}
-			wait={3000}
-		/>
+		<BrowserRouter>
+			<App 
+				qLang="EN" 
+				aLang="TR" 
+				tests={mockTests}
+				dbAvailable={false}
+				wait={3000}
+			/>
+		</BrowserRouter>
 );
 });
 
-/*
 
-*/
