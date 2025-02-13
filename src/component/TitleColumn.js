@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import TitleCard from './TitleCard.js';
 
+import './admin.css';
+
 export default function TitleColumn({columnTitle, titles, columnID, moveItem}){
 
   const [dragging, setDragging] = useState(null);
@@ -36,7 +38,7 @@ export default function TitleColumn({columnTitle, titles, columnID, moveItem}){
 	  onDragOver={handleDragOver}
 	>
       <h3>{columnTitle}</h3>
-      <div>
+      <div className="scrollable">
         {titles.map((e,i) => (
 				<TitleCard key={i} title={e} titleDragged={titleDragged} /> 
 			) )

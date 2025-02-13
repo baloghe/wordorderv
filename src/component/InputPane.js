@@ -1,10 +1,13 @@
 import React, {useState} from 'react';
+
 import InputErrorPane from './InputErrorPane.js';
 import InputSubmitPane from './InputSubmitPane.js';
 
+import './admin.css';
+
 const txt2stc = (t) => t.split('\n').map(e => e.split('\t'));
 
-export default function InputPane({submitQuiz}){
+export default function InputPane({submitQuiz, cancelAction}){
   const [state, setState] = useState(false);
   const [errors, setErrors] = useState('');
   const [title, setTitle] = useState('');
@@ -12,6 +15,18 @@ export default function InputPane({submitQuiz}){
   const [langTo, setLangTo] = useState('EN');
   const [qtext, setQtext] = useState('');
   const [list, setList] = useState([]);
+
+	const cancel = (e) => {
+	  e.preventDefault();
+	  cancelAction();
+	};
+
+	const quizChanged = (e) => {
+		//e => setQtext(e.currentTarget.value)
+		let t = e.currentTarget.value;
+		setQtext(t);
+		setList(txt2stc(t));
+	};
 
   const submit = (e) => {
 	  e.preventDefault();
@@ -82,11 +97,12 @@ export default function InputPane({submitQuiz}){
           <input name="lto" value="EN" onChange={e => setLangTo(e.currentTarget.value)} required />
 		  <br/>
           <label htmlFor="txt">Sentences: </label>
-          <textarea name="txt" onChange={e => setQtext(e.currentTarget.value)} required />
+          <textarea name="txt" onChange={e => quizChanged(e)} required />
         <button onClick={submit}>Check it!</button>
+		<button onClick={cancel}>Cancel</button>
       </form>
 	  {!state && <InputErrorPane state={state} errors={errors} />}
-	  {state && <InputSubmitPane state={state} title={title} langFrom={langFrom} langTo={langTo} listLen={list.length} loadQuiz={loadQuiz} />}
+	  {state && <InputSubmitPane state={state} title={title} langFrom={langFrom} langTo={langTo} listLen={list.length} loadQuiz={loadQuiz} cancelSubmission={cancelAction} />}
     </div>
   );
 }

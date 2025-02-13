@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import './admin.css';
+
 export default function TitleCard({title, titleDragged, columnID}){
   const [dragEnabled, setDragEnabled] = useState(true);
 

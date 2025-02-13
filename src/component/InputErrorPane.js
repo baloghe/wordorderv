@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import './admin.css';
+
 
 export default function InputErrorPane({state, errors}){
 	
@@ -14,7 +16,7 @@ export default function InputErrorPane({state, errors}){
 		return (
 			<div key="iep0">
 				<h3 key="iep1">Error!</h3>
-				<p key="iep2">{errors}</p>
+				<p key="iep2" className="error">{errors}</p>
 			</div>
 			);
 	} else return (

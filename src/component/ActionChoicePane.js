@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import './admin.css';
+
 
 export default function ActionChoicePane({returnTo}){
 	
@@ -9,15 +11,18 @@ export default function ActionChoicePane({returnTo}){
 	
 	return(
   	<div>
-		<form onSubmit={delAction}>
-			<button onClick={delAction}>Delete quizzes</button>
-		</form>
-		<form onSubmit={addAction}>
-			<button onClick={addAction}>Add new quiz</button>
-		</form>
-		<form onSubmit={listAction}>
-			<button onClick={listAction}>List a quiz</button>
-		</form>
+		<h2>Admin functions</h2>
+		<div>
+			<form onSubmit={delAction}>
+				<button className="actionchoice" onClick={delAction}>Delete quizzes</button>
+			</form>
+			<form onSubmit={addAction}>
+				<button className="actionchoice" onClick={addAction}>Add new quiz</button>
+			</form>
+			<form onSubmit={listAction}>
+				<button className="actionchoice" onClick={listAction}>List a quiz</button>
+			</form>
+		</div>
     </div>
   );
 }

@@ -85,11 +85,15 @@ export default function AdminPane({aState}){
 	  setActState(s);
   };
   
+  const cancel = () => {
+	  setActState('CHOOSEACTION');
+  };
+  
   const listQuiz = (title) => {
-	  let newState;
+	  
 	  if(title===null){
 		  console.log(`Listing cancelled`);
-		  newState = 'CHOOSEACTION';
+		  setActState('CHOOSEACTION');
 	  } else {
 		  console.log(`Quiz to be listed: ${title}`);
 		  
@@ -168,7 +172,7 @@ export default function AdminPane({aState}){
     return <LoginPane loginSuccess={loginDone} />;
   } else {
 	if(actState==='INPUT'){
-		return (<InputPane submitQuiz={submitQuiz}/>);
+		return (<InputPane submitQuiz={submitQuiz} cancelAction={cancel}/>);
 	} else if(actState==='RESULT'){
 		return (<ResultPane returnTo={resetState} titles={titles.map(e=>(e.title + ' (' + e.cnt + ')'))}/>);
 	} else if(actState==='LISTQUIZ'){
@@ -176,9 +180,9 @@ export default function AdminPane({aState}){
 	} else if(actState==='CHOOSEACTION'){
 		return (<ActionChoicePane returnTo={chooseAction}/>);
 	} else if(actState==='CHOOSETODEL'){
-		return (<TitleChoicePane multiChoice={true} titles={titles.map(e=>e.title)} action={deleteQuiz}/>);
+		return (<TitleChoicePane multiChoice={true} titles={titles.map(e=>e.title)} action={deleteQuiz} />);
 	} else if(actState==='CHOOSETOLIST'){
-		return (<TitleChoicePane multiChoice={false} titles={titles.map(e=>e.title)} action={listQuiz}/>);
+		return (<TitleChoicePane multiChoice={false} titles={titles.map(e=>e.title)} action={listQuiz} />);
 	} else if(actState==='REFRESHING'){
 		return (<div>
 					<p>Refreshing...</p>

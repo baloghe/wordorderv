@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import sha256 from 'sha256';
 
+import Spinner from './Spinner.js';
+
+import './admin.css';
+
 export default function LoginPane({loginSuccess}){
 	const [state, setState] = useState('ENTER');
 	const [user, setUser] = useState('');
@@ -11,6 +15,8 @@ export default function LoginPane({loginSuccess}){
 		e.preventDefault();
 		
 		const request = {encUser: sha256(user), encPw: sha256(pw)};
+		
+		setState('AUTHING');
 		
 		axios
 		.post("api/auth", request)
@@ -26,7 +32,38 @@ export default function LoginPane({loginSuccess}){
 		});
 	};
 
-	return (
+	if(state==='ENTER' || state==='ERROR'){
+		return (
+			<div>
+				<h2>Log in</h2>
+				<form onSubmit={login}>
+					<label htmlFor="user">User: </label>
+					<input type="text" name="user" onChange={e => setUser(e.currentTarget.value)} required />
+					<label htmlFor="pw">Password: </label>
+					<input name="pw" type="password" onChange={e => setPW(e.currentTarget.value)} required />
+					<button onClick={login}>Submit</button>
+				</form>
+				{state==='ERROR'
+					? <p className="error">Wrong user or password!</p>
+					: <p></p>
+				}
+			</div>
+		);
+	} else if(state==='AUTHING') {
+		return (
+			<div>
+				<p>Authenticating...</p>
+				<Spinner />
+			</div>
+		);
+	} else if(state==='OK') {
+		return (
+			<div>
+				<p>Login successful!</p>
+			</div>
+		);
+	}
+	/*	
   	<div>
     <h2>Log in</h2>
 	<form onSubmit={login}>
@@ -43,5 +80,5 @@ export default function LoginPane({loginSuccess}){
 			: <p>Login successful</p>
 	}
     </div>
-  );
+  );*/
 }

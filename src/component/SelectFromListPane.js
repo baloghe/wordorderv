@@ -22,7 +22,7 @@ export default function SelectFromListPane({multiChoice, titles, selConfirmed, s
 		//console.log(`origFrom: ${origFrom} , origTo: ${origTo}`);
 		//console.log(`multiChoice=${multiChoice} , origTo.length = ${origTo.length}`);
 		
-		if(multiChoice && origTo.length > 1){
+		if( (!multiChoice) && origTo.length > 1){
 			//new item placed at index 0
 			let excess = origTo[1];
 			origFrom = [...origFrom, excess];
