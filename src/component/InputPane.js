@@ -92,9 +92,9 @@ export default function InputPane({submitQuiz, cancelAction}){
           <label htmlFor="title">Title: </label>
           <input type="text" name="title" onChange={e => setTitle(e.currentTarget.value)} required />
           <label htmlFor="lfrom">L1: </label>
-          <input name="lfrom" value="TR" onChange={e => setLangFrom(e.currentTarget.value)} required />
+          <input name="lfrom" placeholder="TR" onChange={e => setLangFrom(e.currentTarget.value)} required />
           <label htmlFor="lto">L2: </label>
-          <input name="lto" value="EN" onChange={e => setLangTo(e.currentTarget.value)} required />
+          <input name="lto" placeholder="EN" onChange={e => setLangTo(e.currentTarget.value)} required />
 		  <br/>
           <label htmlFor="txt">Sentences: </label>
           <textarea name="txt" onChange={e => quizChanged(e)} required />
