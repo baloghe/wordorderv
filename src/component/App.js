@@ -46,9 +46,14 @@ export default class App extends React.Component {
   
   fileLoaded = (inFileData) => {
   	let loadedTopics = inFileData.topics.map(e => {return {title: e.title, cnt: e.cnt};});
-    
+    /*
     this.state.qLang = inFileData.languages[0];
     this.state.aLang = inFileData.languages[1];
+	*/
+	this.setState({
+      qLang: inFileData.languages[0],
+      aLang: inFileData.languages[1]
+    });
     
     let loadedTests = inFileData.topics.map(e => {
     	let ret = [];
@@ -146,7 +151,7 @@ export default class App extends React.Component {
 	let actQL = null;
 	let actAL = null;
 	if(this.state.tests[this.state.actTopic].langs){
-		if(this.state.tests[this.state.actTopic].langs.L1 == this.state.qLang){
+		if(this.state.tests[this.state.actTopic].langs.L1 === this.state.qLang){
 			actQL = 'L1';
 			actAL = 'L2';
 		} else {
@@ -219,14 +224,14 @@ export default class App extends React.Component {
   }
   
   render() {
-		if(this.state.actPhase == "loading") {
+		if(this.state.actPhase === "loading") {
 		  return this.renderSpinner();
-		} else if(this.state.actPhase == "settings") {
+		} else if(this.state.actPhase === "settings") {
 		  return this.renderSettings();
-		} else if(this.state.actPhase == "test") {
+		} else if(this.state.actPhase === "test") {
 		  //console.log(`before render TestContainer: qLang=${this.state.qLang} , aLang=${this.state.aLang}`);
 		  return this.renderTestContainer();
-		} else if(this.state.actPhase == "results") {
+		} else if(this.state.actPhase === "results") {
 		  return this.renderResults();
 		}
 	}

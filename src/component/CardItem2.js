@@ -5,9 +5,9 @@ import "./CardItem.css";
   Clickable version (fits better handheld devices)
 */
 export default class CardItem2 extends React.Component {
-	constructor(props){
+	/*constructor(props){
   	super(props);
-  }
+  }*/
   
   cardClicked = e => {
   	if(!this.props.clickEnabled)
@@ -18,7 +18,7 @@ export default class CardItem2 extends React.Component {
   
 	render() {
 	let actClasses = this.props.wordClasses;
-	if(this.props.word.length==1){
+	if(this.props.word.length === 1){
 		actClasses = actClasses + " card-padded";
 	}
   	return (

@@ -1,9 +1,9 @@
 import React from "react";
 
 export default class TestButton extends React.Component {
-  constructor(props){
+  /*constructor(props){
   	super(props);
-  }
+  }*/
   
   handleClick = (e) => {
     this.props.callBack(e);

@@ -24,7 +24,7 @@ export default class Settings extends React.Component {
 	  }
 	  //console.log(`Lx=${Lx} , ${this.props.topics[ii].langs.L1} -> ret=${ret}`);
 	  if(ret==null) {
-		  if(Lx=='L1') return 'TR';
+		  if(Lx==='L1') return 'TR';
 		  else return 'EN';
 	  }
 	  return ret;
@@ -37,8 +37,11 @@ export default class Settings extends React.Component {
   
   loadFile = (e) => {
   	let selectedFile = e.target.files[0];
+	// eslint-disable-next-line
     this.state.reader = new FileReader();
+	// eslint-disable-next-line
     this.state.reader.readAsText(selectedFile);
+	// eslint-disable-next-line
     this.state.reader.onloadend = this.parseXml;
   }
   
@@ -79,8 +82,8 @@ export default class Settings extends React.Component {
                    });
     }
     ret.topics.forEach(x => {
-      x.cnt = subcnt.filter(y => y.id==x.id)[0].cnt;
-      x.sentences = subcnt.filter(y => y.id==x.id)[0].sentences;
+      x.cnt = subcnt.filter(y => y.id===x.id)[0].cnt;
+      x.sentences = subcnt.filter(y => y.id===x.id)[0].sentences;
     });
     
     //console.log(JSON.stringify(ret));
@@ -94,9 +97,9 @@ export default class Settings extends React.Component {
 	try {
 		let ret = true;
 		//exactly 2 languages
-		ret = ret && s.languages.length == 2;
+		ret = ret && s.languages.length === 2;
 		for(let x of s.languages){
-			ret = ret && x!= undefined && x!= null && x.trim().length > 0;
+			ret = ret && (x!== undefined) && (x!== null) && (x.trim().length > 0);
 		}
 		
 		//at least one topic is present
@@ -105,13 +108,13 @@ export default class Settings extends React.Component {
 		//each topic has a name
 		//each topic has at least one sentence
 		for(let x of s.topics){
-			ret = ret && x.title != undefined && x.title != null && x.title.trim().length > 0
-				&& x.sentences != undefined && x.sentences.length > 0
+			ret = ret && x.title !== undefined && x.title != null && x.title.trim().length > 0
+				&& x.sentences !== undefined && x.sentences.length > 0
 				;
 			//each sentence has two variants corresponding to the language codes
 			for(let y of x.sentences){
-				ret = ret && y[s.languages[0]] != undefined;
-				ret = ret && y[s.languages[1]] != undefined;
+				ret = ret && y[s.languages[0]] !== undefined;
+				ret = ret && y[s.languages[1]] !== undefined;
 			}
 		}
 		return ret;

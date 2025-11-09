@@ -41,26 +41,26 @@ export default function InputPane({submitQuiz, cancelAction}){
   };
 
   const check = () => {
-    let ret = true;
+    //let ret = true;
     let errtxt=[];
 
     //title
     if(title.trim().length===0){
-      ret = false;
+      //ret = false;
       errtxt = [...errtxt , "missing TITLE"];
     }
     //languages
     if(langFrom.trim().length===0){
-      ret = false;
+      //ret = false;
       errtxt = [...errtxt , "missing L1"];
     }
     if(langTo.trim().length===0){
-      ret = false;
+      //ret = false;
       errtxt = [...errtxt , "missing L2"];
     }
     //content
     if(list.length===0){
-      ret = false;
+      //ret = false;
       errtxt = [...errtxt , "missing sentences"];
     } else {
       let err_sents = [];

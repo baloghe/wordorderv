@@ -2,9 +2,9 @@ import React from "react";
 import "./QuestionNumber.css";
 
 export default class QuestionNumber extends React.Component {
-	constructor(props){
+	/*constructor(props){
 		super(props);
-	}
+	}*/
 	
 	render() {
 		  return (

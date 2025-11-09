@@ -1,11 +1,11 @@
 
-import React, {useState} from 'react';
+import React/*, {useState}*/ from 'react';
 
 export default function ListQuizPane({returnTo, quiz}){
-	
+	/*
   const [langFrom, setLangFrom] = useState(quiz.langs['L1']);
   const [langTo, setLangTo] = useState(quiz.langs['L2']);
-	
+	*/
 	const submit = (e) => {
 	  e.preventDefault();
 	  returnTo();

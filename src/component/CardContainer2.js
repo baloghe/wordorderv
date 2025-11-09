@@ -25,7 +25,7 @@ export default function CardContainer2({arr, handleWordDrag, wordClasses, modify
   }
   
   const swapWords = (from, to) => {
-  	if(from != to){
+  	if(from !== to){
     	let newArr = wordarr.map(e=>e);
       [ newArr[from] , newArr[to] ] = [ newArr[to] , newArr[from] ];
       //refresh state
@@ -42,7 +42,7 @@ export default function CardContainer2({arr, handleWordDrag, wordClasses, modify
             //if this particular word is selected, we should highlight it
             let actWordClasses = wordClasses;
             if(i===selectedWord){
-            	actWordClasses = actWordClasses + ' ' + 'word-answer-selected';
+            	actWordClasses = actWordClasses + ' word-answer-selected';
             }
             return (
         		<CardItem2

@@ -8,9 +8,9 @@ import "./Question.css";
   switch back: revert to CardContainer and comment out dragEnabled
 */
 export default class Question extends React.Component{
-  constructor(props){
+  /*constructor(props){
   	super(props);
-  }
+  }*/
   
   renderUserAnswerContainer = (inModifiable) => {
   	return (

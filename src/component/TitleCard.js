@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import React /*, {useState}*/ from 'react';
 
 import './admin.css';
 
 export default function TitleCard({title, titleDragged, columnID}){
-  const [dragEnabled, setDragEnabled] = useState(true);
-
+  //const [dragEnabled, setDragEnabled] = useState(true);
+/*
   const doNothing = (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -13,7 +13,7 @@ export default function TitleCard({title, titleDragged, columnID}){
   const handleDrop = (e) => {
     e.preventDefault();
   };
-
+*/
   const handleDragStart = (e) => {
     e.dataTransfer.setData("text/plain", title);
 	titleDragged(title);

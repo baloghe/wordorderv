@@ -63,7 +63,7 @@ export default class TestContainer extends React.Component {
       	qSentence: e.qSentence,
         aSentence: shuffleArray( aSent.map(x=>x) ),
         expResult: aSent,
-        tsActStart: (i==0 ? new Date() : null),
+        tsActStart: (i===0 ? new Date() : null),
 		audio: (e.audio ? e.audio : null)
       };
       //console.log(`${i}: ${ret.qSentence} = ${ret.aSentence}`);
@@ -79,6 +79,7 @@ export default class TestContainer extends React.Component {
   }
   
   updateUserAnswer = (ansArr) => {
+	// eslint-disable-next-line
   	this.state.tests[this.state.actTestNum].aSentence = ansArr;
     //console.log(`updateUserAnswer: ${this.state.tests[this.state.actTestNum].aSentence.join('|')}`);
   }
@@ -90,7 +91,7 @@ export default class TestContainer extends React.Component {
     
 	let strAns = this.state.tests[this.state.actTestNum].aSentence.join('|');
       let expAns = this.state.tests[this.state.actTestNum].expResult.join('|');
-      let tstResult = (strAns.trim() == expAns.trim());
+      let tstResult = (strAns.trim() === expAns.trim());
 	  
     this.showExpectedResult(tstResult);
 
@@ -101,6 +102,7 @@ export default class TestContainer extends React.Component {
       result: tstResult
       };
     //add answer
+	// eslint-disable-next-line
     this.state.aAnswers = [...this.state.aAnswers, ans];        
 	
     this.st1 = setTimeout(() => {
@@ -116,6 +118,7 @@ export default class TestContainer extends React.Component {
         //console.log(`containerNextTest :: ans=${JSON.stringify(this.state.aAnswers)}`);
     	*/
 	//show next test
+	// eslint-disable-next-line
 	this.state.tests[this.state.actTestNum].tsActStart = new Date();
 	    
       if(this.state.actTestNum < this.state.totTestNum-1){
@@ -179,7 +182,7 @@ export default class TestContainer extends React.Component {
 			atg.load();
 			atg.play();
 			let playlen = this.state.tests[idx].audio.end - this.state.tests[idx].audio.start; //length needed as millisec
-			const i = setInterval(()=>atg.pause(), playlen);
+			/*const i = */setInterval(()=>atg.pause(), playlen);
 		} else {
 			console.log('audio not ready!');
 		}
@@ -215,7 +218,7 @@ export default class TestContainer extends React.Component {
   
   render() {
 	  
-	if(this.state.tcState=='loading'){
+	if(this.state.tcState==='loading'){
 		return (<div>
 					<p>Loading audio...</p>
 					<Spinner />
